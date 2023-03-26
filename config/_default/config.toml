@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-#baseurl = "https://myblog-2h3.pages.dev/"  # Include trailing slash here
+baseurl = "https://myblog-2h3.pages.dev/"  # Include trailing slash here
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "Copyright © 2020-2022 Tech Relay and Lamda Inc."
 # canonifyurls = true
