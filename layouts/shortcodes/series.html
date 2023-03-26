@@ -1,0 +1,15 @@
+{{ if .Page.Params.series }}
+    {{ $name := .Page.Params.series }}
+    <hr/>
+	<p><a href="{{ `series/` | relLangURL }}{{ $name | urlize | lower }}" id="series">This is a post in the 
+	<b>{{$name}}</b></a> series.<br/>
+    Other posts in this series:
+    {{ $name := $name | urlize }}{{ $series := index .Site.Taxonomies.series $name }}
+    <ul class="series">
+    {{ range $series.Pages }}
+    <li class="list"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{end}}
+    </ul>
+{{ else }}
+    Warning - check your series - as none found
+{{ end }}
