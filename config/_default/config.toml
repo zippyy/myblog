@@ -11,7 +11,7 @@ disqusShortname = ""
 DefaultContentLanguage = "en"
 # [languages]
 #config/_default/languages.toml
-disableLanguages = ['pt']
+#disableLanguages = ['pt']
 
 # [menus]
 # config/_default/menus/menu.xx.toml
