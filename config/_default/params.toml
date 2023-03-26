@@ -18,7 +18,7 @@ ga_analytics = "G-RX28V8GFLD"
 google_tag_manager_id = ""
 
 # Baidu analytics Id
-# baidu_analytics = ""
+# baidu_analytics = "XXXXXXXX"
 
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
@@ -83,8 +83,8 @@ mobileNavigation = "left" # if you prefer right change to 'right'
 
 # please also not that mode toggle UI will remain in place. That way, if a user prefers darkmode, they can have their way.
 
-# enforceLightMode = false
-enforceDarkMode = true
+enforceLightMode = false
+# enforceDarkMode = false
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
 # footerLogo = "icons/copy.svg"
@@ -134,8 +134,8 @@ languageMenuName = "🌐"
 
 # website author
 [author]
-name = "Nicholas Bennett"
-photo = "images/nick.png" #include this if you would like to show the author photo on the sidebar
+name = "Jane Doe"
+# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
