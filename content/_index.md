@@ -9,4 +9,3 @@ usePageBundles = false
 <div style="text-align: center;">
 <p>This will eventually be a static homepage but for now just click the links in the menu above.</p>
 </div>
-{{< featured count=3 >}}
