@@ -10,7 +10,3 @@ title = "New Endeavors"
 After spending the 2 years in a luxury resort environment, I moved on to take a Systems Engineer position for a small MSP based in Phoenix, AZ. I spent about 6 months in this position before finally taking a Systems Administrator position for a Growing MSP/MSSP which I started today. I am excited for the new endeavors that this position will bring.
 
 **"The path to greatness consists of having a strong and genuine desire, a good purpose, and good company along the way."  - Unknown**
-
-<br>
-<br>
-{{< chat techrelay >}}
