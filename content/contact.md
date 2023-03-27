@@ -4,7 +4,7 @@ date = 1942-04-02T22:20:47Z
 description = ""
 slug = "contact"
 title = "Contact"
-disable_comments = "true"
+comments = false
 +++
 
 Personal Email: nick@nbennett.xyz
