@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.111.3"
+
+[context.production]
+  command = "hugo"
+
+[context.branch-deploy]
+  command = "hugo --environment staging"
+
