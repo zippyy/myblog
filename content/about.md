@@ -4,6 +4,7 @@ description = "About Tech Relay"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Zippy"
+comments = false
 +++
 
 So where to start....
