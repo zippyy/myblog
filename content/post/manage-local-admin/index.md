@@ -23,3 +23,5 @@ This has made my life so much easier and actually has increased productivity of 
 
 
 I will say that it is not as great as [AutoElevate](https://www.autoelevate.com/) due to the fact that you must trust the users in the escalation group to be weary of threats when they are elevating themselves but it will cut down on attack vector because the elevated vector is only available for a short duration when requested so something like a malicious email attachment or link will only have effect if clicked while elevated. I will do another post on AutoElevate as it is an incredibly useful tool which provides way more security while also increasing productivity in a similar metric.
+
+So long and Thanks for all the fish!

@@ -17,3 +17,5 @@ I have been in IT for roughly 16 years, Everything from System Administrator to 
 I have a large home lab infrastructure consisting of a 24u rack with several Hypervisors (Proxmox and vmWare), Network Attached Storage (Synology or bust for anyone wondering), a couple of Docker hosts, Several Layer-3 Managed Switches, a Sonic wall Next Gen Firewall, and Unifi, Fortinet, and Ruckus Access Points along with an array of Personal and Enterprise grade Workstations, Mobile Devices and other Electronics.
 
 So the vibe I will be going with on this blog is a spot to share cool IT related things I come across, Scripts & Automation's, and other generally useful tips and tricks.
+
+So long and Thanks for all the fish!

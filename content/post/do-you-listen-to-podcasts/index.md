@@ -23,3 +23,5 @@ Last but not least the Third one is [Darknet Diaries](https://darknetdiaries.com
 
 
 as always thanks for reading and if you enjoy my content check out the contribute link in the footer!
+
+So long and Thanks for all the fish!

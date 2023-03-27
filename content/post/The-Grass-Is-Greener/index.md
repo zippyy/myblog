@@ -12,3 +12,5 @@ So I came across a blog post at [Virtually Potato](https://www.virtuallypotato.c
 I only recently got the itch to start a blog so I didnt have much in the way of posts or content to transfer over but even if I had a large blog with hundreds or even thousands of posts, Hugo makes it easy to convert, you can be up and running in no time flat!
 
 Check out the link above to get started with hugo yourself and Drop a comment below with your experience with hugo!
+
+So long and Thanks for all the fish!

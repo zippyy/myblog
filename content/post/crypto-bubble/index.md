@@ -19,3 +19,5 @@ I do not think I will get rich from crypto by investing but I strongly think tha
 
 
 So where do you buy your cypto? I seem to bounce between Exchange's and DEX plaforms. I have been using coinbase recently and although they are not my favorite (insert customer service compaint here) they are very easy to get into and offer on average $30~ in free crypto just for signing up and watching some videos plus additional free bitcoin if you use an affiliate link ([queue affiliate link here](https://coinbase.com/join/bennet_bfw?src=ios-link)) and deposit fiat to purchase bitcoin with.
+
+So long and Thanks for all the fish!

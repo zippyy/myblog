@@ -17,3 +17,4 @@ Okay so this is where this series will split, I will cover both how to setup fro
 
 check out insert post link here for the one-click style ready to go template from netlify or instert post link here for the local git route which will allow you to choose whatever theme you want right out of the gate instead of having to make changes right away with the netlify one-click way if you dont care for the template theme they provide you with. 
 
+So long and Thanks for all the fish!

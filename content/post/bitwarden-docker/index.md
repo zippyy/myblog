@@ -25,4 +25,5 @@ docker run -d --name vaultwarden -v /path-to-vw-data-here/:/data/ -p 80:80 vault
 
 it will pull the image and set everything up, at which point you should now be able to visit ip or fqdn in a browser and you should be presented with bitwarden page. 
 
+So long and Thanks for all the fish!
 

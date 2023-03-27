@@ -32,3 +32,4 @@ Once you install via one of the above methods you should have an application in 
 
 I dropped a link to the github repo for this software and want to give a shout to the user who created it @geardog on github, Thank you for creating this wonderful software to fill a gap that should be built into CMD and PWSH.
 
+So long and Thanks for all the fish!

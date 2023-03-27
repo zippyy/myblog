@@ -20,4 +20,6 @@ now lets change the site name and netlify url (we will cover later how to setup 
 
 In the next post we will cover how to do this the more manual route and pick a custom theme to start from!
 
+So long and Thanks for all the fish!
+
 
