@@ -6,7 +6,7 @@ copyright = "Tech Relay "
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
-disqusShortname = ""
+#disqusShortname = ""
 
 DefaultContentLanguage = "en"
 # [languages]
