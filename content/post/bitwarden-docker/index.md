@@ -6,6 +6,7 @@ draft = false
 slug = "bitwarden-docker"
 title = "Bitwarden Docker"
 series = "Hosting Bitwarden"
+tags = ["featured"]
 +++
 
 

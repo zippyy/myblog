@@ -6,6 +6,7 @@ draft = false
 slug = "bitwarden-setup"
 title = "Bitwarden Setup"
 series = "Hosting Bitwarden"
+tags = ["featured"]
 +++
 
 Alright so lets get started. You will need a few prerequisites as follows:

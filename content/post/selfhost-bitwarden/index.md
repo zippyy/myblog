@@ -6,6 +6,7 @@ draft = false
 slug = "seflhost-bitwarden"
 title = "Selfhost Bitwarden"
 series = "Hosting Bitwarden"
+tags = ["featured"]
 +++
 
 Bitwarden is one of the best password managers I have come accross yet, It has a great CLI, well maintained browser extentions, native desktop applications, mobile applications and a fully featured web vault, In terms of checking the boxes vaultwarden so far checks them all!
