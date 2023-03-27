@@ -6,6 +6,7 @@ draft = false
 slug = "nomad-vpn"
 title = "Digital Nomad VPN Setup"
 series = "Digital Nomad"
+tag = "featured"
 
 +++
 
