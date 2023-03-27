@@ -1,6 +1,6 @@
 +++
 author = "Nicholas Bennett"
-date = 2023-03-2T01:58:03Z
+date = 2023-03-26T01:58:03Z
 description = ""
 draft = false
 slug = "netlify-vs-cloudflare"
