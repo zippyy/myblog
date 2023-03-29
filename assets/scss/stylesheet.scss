@@ -1,0 +1,12 @@
+/* Use the font config as variables in your SCSS */
+
+$font-heading: {{ $.Site.Params.heading_font | default "'Roboto', sans-serif" }};
+$font-body: {{ $.Site.Params.body_font | default "'Roboto', sans-serif" }};
+
+body {
+  font-family: $font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: $font-heading; 
+}
