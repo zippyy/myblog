@@ -1,10 +1,9 @@
 +++
 author = "Nicholas Bennett"
-date = 2023-03-28T01:58:03Z
+date = 2023-03-04T01:33:53Z
 description = ""
 slug = "leanlaps"
 title = "Lean LAPS"
-tags = ["featured"]
 
 +++
 
