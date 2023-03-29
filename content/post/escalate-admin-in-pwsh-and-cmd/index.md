@@ -10,7 +10,7 @@ title = "Escalate Admin in PWSH and CMD Shell"
 +++
 
 
-So as someone that spends a lot of time in a POSIX Compliant Shell (I have several Hypervisors, Docker Hosts, Web Servers, etc...) I was looking for something similar to how privilege escalation works in *nix using SUDO and after a bit of searching I found an awesome tool called GSUDO. ([https://github.com/gerardog/gsudo](https://github.com/gerardog/gsudo))
+So as someone that spends a lot of time in a POSIX Compliant Shell (I have several Hypervisors, Docker Hosts, Web Servers, etc...) I was looking for something similar to how privilege escalation works in *nix using SUDO and after a bit of searching I found an awesome tool called [gSUDO](https://github.com/gerardog/gsudo)
 
 After trying several things including a PWSH profile script called GOADMIN that worked for some computers but not others as well as some computers is worked on would display an error when PowerShell was launched but would still work.... This was not ideal as i have a range of devices that this would be useful for so I started searching further to find a real solution that was closer to or exactly the same as how I escalate the user privileges on many of my other devices and thus I found GSUDO.
 
