@@ -17,7 +17,7 @@ codeLineNumbers: false # Override global value for showing of line numbers withi
 figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Technology
-#tags:
+tags:
 #  - Tag_name1
 #  - Tag_name2
 # comment: false # Disable comment if false.

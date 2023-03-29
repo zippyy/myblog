@@ -1,6 +1,6 @@
 ---
 title: "Test" # Title of the blog post.
-date: 2023-03-29T09:52:05-06:00 # Date of post creation.
+date: 2023-03-29T09:56:23-06:00 # Date of post creation.
 description: "" # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
@@ -17,10 +17,10 @@ codeLineNumbers: false # Override global value for showing of line numbers withi
 figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Technology
-#tags:
+tags:
 #  - Tag_name1
 #  - Tag_name2
 # comment: false # Disable comment if false.
 ---
 
-this is a test of the new archetype template
+**Insert Lead paragraph here.**
