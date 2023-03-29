@@ -129,8 +129,8 @@ customFonts = true # toggle to true if you want to use custom fonts only.
 since = 2018
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
-# showRelatedInArticle = false
-# showRelatedInSidebar = false
+showRelatedInArticle = true
+showRelatedInSidebar = true
 
 # website author
 [author]
