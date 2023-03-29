@@ -18,8 +18,8 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Technology
 tags:
-  - Tag_name1
-  - Tag_name2
+#  - Tag_name1
+#  - Tag_name2
 # comment: false # Disable comment if false.
 ---
 
