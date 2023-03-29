@@ -1,12 +1,12 @@
 +++
-author = "Nicholas Bennett"
-date = 2021-10-19T00:52:10Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2021-10-19T00:52:10Z'
+description = ''
 draft = false
-image = "__GHOST_URL__/content/images/2021/10/will-francis-ZDNyhmgkZlQ-unsplash.jpg"
-slug = "do-you-listen-to-podcasts"
-title = "Do you listen to podcasts?"
-tags = ["podcast", "tech"]
+image = '__GHOST_URL__/content/images/2021/10/will-francis-ZDNyhmgkZlQ-unsplash.jpg'
+slug = 'do-you-listen-to-podcasts'
+tags = ['podcast', 'tech']
+title = 'Do you listen to podcasts?'
 +++
 
 

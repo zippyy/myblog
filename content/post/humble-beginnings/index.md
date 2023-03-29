@@ -1,11 +1,11 @@
 +++
-author = "Nicholas Bennett"
-date = 2021-09-04T01:33:53Z
-description = ""
-image = ""
-slug = "humble-beginnings"
-title = "Humble Beginnings"
-featureImage = "ian-schneider-TamMbr4okv4-unsplash.jpg"
+author = 'Nicholas Bennett'
+date = '2021-09-04T01:33:53Z'
+description = ''
+featureImage = 'ian-schneider-TamMbr4okv4-unsplash.jpg'
+image = ''
+slug = 'humble-beginnings'
+title = 'Humble Beginnings'
 +++
 
 

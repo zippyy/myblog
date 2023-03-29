@@ -1,12 +1,11 @@
 +++
-author = "Nicholas Bennett"
-date = 2021-10-19T02:31:18Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2021-10-19T02:31:18Z'
+description = ''
 draft = false
-image = "__GHOST_URL__/content/images/2021/10/yuri-bodrikhin-dXLnq8z8x4k-unsplash-1-.jpg"
-slug = "crypto-bubble"
-title = "Crypto Bubble"
-
+image = '__GHOST_URL__/content/images/2021/10/yuri-bodrikhin-dXLnq8z8x4k-unsplash-1-.jpg'
+slug = 'crypto-bubble'
+title = 'Crypto Bubble'
 +++
 
 

@@ -1,10 +1,10 @@
 +++
-author = "Nicholas Bennett"
-date = 2023-03-04T01:33:53Z
-description = ""
-slug = "leanlaps"
-title = "Lean LAPS"
-tags = ["featured"]
+author = 'Nicholas Bennett'
+date = '2023-03-04T01:33:53Z'
+description = ''
+slug = 'leanlaps'
+tags = ['featured']
+title = 'Lean LAPS'
 +++
 
 For a long time I have just used a powershell script deployed via intune to manage a local admin for emergencies, this is not the best option but I dont have that many devices to manage and honestly most of them never leave the environment, I also use powershell to rotate this password. 

@@ -1,11 +1,10 @@
 +++
-author = "Nicholas Bennett"
-date = 2022-01-11T01:58:03Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2022-01-11T01:58:03Z'
+description = ''
 draft = false
-slug = "christmas-covid"
-title = "Christmas Covid"
-
+slug = 'christmas-covid'
+title = 'Christmas Covid'
 +++
 
 

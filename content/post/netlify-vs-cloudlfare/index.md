@@ -1,11 +1,11 @@
 +++
-author = "Nicholas Bennett"
-date = 2023-03-26T01:58:03Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2023-03-26T01:58:03Z'
+description = ''
 draft = false
-slug = "netlify-vs-cloudflare"
-title = "Netlify vs Cloudflare Pages"
-tags = ["featured"]
+slug = 'netlify-vs-cloudflare'
+tags = ['featured']
+title = 'Netlify vs Cloudflare Pages'
 +++
 
 I have been using Netlify since I started using Hugo and its been a great experience so far however Cloudflare Pages has been getting a lot of attention lately as well so I decided to try it.

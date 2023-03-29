@@ -1,12 +1,12 @@
 +++
-author = "Nicholas Bennett"
-date = 2022-02-10T01:58:03Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2022-02-10T01:58:03Z'
+description = ''
 draft = false
-slug = "seflhost-bitwarden"
-title = "Selfhost Bitwarden"
-series = "Hosting Bitwarden"
-tags = ["featured"]
+series = 'Hosting Bitwarden'
+slug = 'seflhost-bitwarden'
+tags = ['featured']
+title = 'Selfhost Bitwarden'
 +++
 
 Bitwarden is one of the best password managers I have come accross yet, It has a great CLI, well maintained browser extentions, native desktop applications, mobile applications and a fully featured web vault, In terms of checking the boxes vaultwarden so far checks them all!

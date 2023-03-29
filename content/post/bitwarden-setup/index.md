@@ -1,12 +1,12 @@
 +++
-author = "Nicholas Bennett"
-date = 2022-02-10T02:58:03Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2022-02-10T02:58:03Z'
+description = ''
 draft = false
-slug = "bitwarden-setup"
-title = "Bitwarden Setup"
-series = "Hosting Bitwarden"
-tags = ["featured"]
+series = 'Hosting Bitwarden'
+slug = 'bitwarden-setup'
+tags = ['featured']
+title = 'Bitwarden Setup'
 +++
 
 Alright so lets get started. You will need a few prerequisites as follows:

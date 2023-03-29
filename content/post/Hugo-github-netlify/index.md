@@ -1,11 +1,11 @@
 +++
-author = "Nicholas Bennett"
-date = 2022-01-21T02:58:03Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2022-01-21T02:58:03Z'
+description = ''
 draft = false
-slug = "hugo-github-netlify"
-title = "Hugo With Github & Netlify"
-series = "Hugo Netlify Setup"
+series = 'Hugo Netlify Setup'
+slug = 'hugo-github-netlify'
+title = 'Hugo With Github & Netlify'
 +++
 
 

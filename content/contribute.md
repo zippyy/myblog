@@ -1,10 +1,10 @@
 +++
-author = "Zippy"
-date = 1942-04-02T10:20:49Z
-description = ""
-slug = "contribute"
-title = "Contribute"
+author = 'Zippy'
 comments = false
+date = '1942-04-02T10:20:49Z'
+description = ''
+slug = 'contribute'
+title = 'Contribute'
 +++
 If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the methods below!
 

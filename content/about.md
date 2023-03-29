@@ -1,10 +1,10 @@
 +++
-title = "About"
-description = "About Tech Relay"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Zippy"
+aliases = ['about-us', 'about-hugo', 'contact']
+author = 'Zippy'
 comments = false
+date = '2019-02-28'
+description = 'About Tech Relay'
+title = 'About'
 +++
 
 So where to start....

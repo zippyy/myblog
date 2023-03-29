@@ -1,10 +1,10 @@
 +++
-author = "Zippy"
-date = 1942-04-02T22:20:47Z
-description = ""
-slug = "contact"
-title = "Contact"
+author = 'Zippy'
 comments = false
+date = '1942-04-02T22:20:47Z'
+description = ''
+slug = 'contact'
+title = 'Contact'
 +++
 
 Personal Email: nick@nbennett.xyz

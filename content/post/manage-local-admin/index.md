@@ -1,12 +1,11 @@
 +++
-author = "Nicholas Bennett"
-date = 2021-10-13T21:48:34Z
-description = ""
+author = 'Nicholas Bennett'
+date = '2021-10-13T21:48:34Z'
+description = ''
 draft = false
-image = "__GHOST_URL__/content/images/2021/10/jason-dent-3wPJxh-piRw-unsplash.jpg"
-slug = "manage-local-admin"
-title = "Manage Local Admin"
-
+image = '__GHOST_URL__/content/images/2021/10/jason-dent-3wPJxh-piRw-unsplash.jpg'
+slug = 'manage-local-admin'
+title = 'Manage Local Admin'
 +++
 
 
