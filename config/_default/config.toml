@@ -25,12 +25,3 @@ series = "series"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
-[params]
-  google_fonts = [
-    ["Titan One", "400, 700"],
-    ["Gugi", "400, 400i, 700, 700i"]
-  ]
-
-  heading_font = "Titan One"
-  body_font = "Gugi"
-  
