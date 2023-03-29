@@ -20,6 +20,8 @@
   <head>
     {{- partial "head" . }}
     {{- partial "hooks/head-end" . }}
+    {{- partial "head_custom.html" . -}}
+    <link rel="stylesheet" href="/css/font.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body
