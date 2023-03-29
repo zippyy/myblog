@@ -14,4 +14,4 @@ Getting going was a simple as downlading the script, editing the config section 
 
 I have struggled to get the GUI app to work but its not been an issue as the password is displayed in the intune portal also. 
 
-check it out at https://www.lieben.nu/liebensraum/2021/06/lightweight-laps-solution-for-intune-mde/
+check it out at [LeanLAPS](https://www.lieben.nu/liebensraum/2021/06/lightweight-laps-solution-for-intune-mde/)
