@@ -123,7 +123,7 @@ I threw this together super fast for the folks on reddit, I will improve this gu
 
 So long and Thanks for all the fish!
 
-***If this post was helpful to you, please consider donating via the button below. Your donations allow me to purchase hardware and pay for infrastructure which provides me better ability to make content!***
+***If this post was helpful to you, please consider donating via the button below. Your donations allow me to purchase hardware and pay for infrastructure which provides me better ability to make content***
 <br>
 <a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
     Donate
