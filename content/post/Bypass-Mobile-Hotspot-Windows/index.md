@@ -25,7 +25,7 @@ TTL stands for Time To Live, and it is a setting in the IP protocol that determi
 How Does TTL-Changer Work?
 When you connect to a hotspot, your device sends packets of data to the hotspot device. The hotspot device then forwards these packets to the internet. By default, the TTL value for these packets is set to 128. This means that the packets can travel 128 hops before they are discarded. However, some mobile carriers limit the number of hops that packets can travel when using a hotspot. This is done to prevent users from using too much data.
 
-TTL-changer works by increasing the TTL value for packets sent from your Windows computer. By increasing the TTL value, your packets will be able to travel more hops before they are discarded. This allows you to bypass hotspot limits and use your hotspot data without restrictions.
+TTL-changer works by lowering the TTL value for packets sent from your Windows computer. By lowering the TTL value, your packets will be able to travel less hops (in this case between 60 and 65 TTL) before they are discarded. This allows you to bypass hotspot limits and use your hotspot data without restrictions.
 
 How to Use TTL-Changer to Bypass Hotspot Limits on Windows
 Here's a step-by-step guide to using TTL-changer to bypass hotspot limits on Windows:
