@@ -23,9 +23,9 @@ identifier = "Links"
 name = "Links"
 weight = "-105"
 [[main]]
-name = "Matrix"
+name = "Snippets & Scripts"
 parent = "Links"
-url = "https://matrix.techrelay.xyz"
+url = "https://techrelay.xyz/snippets"
 [[social]]
 name = "github"
 type = "social"
