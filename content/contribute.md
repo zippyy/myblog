@@ -6,9 +6,14 @@ description = ''
 slug = 'contribute'
 title = 'Contribute'
 +++
-If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the methods below!
+If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the Donate Button or the other methods below!
 
+<a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
+    Donate
+</a>
 
+ <!-- You only need this once per page (but it won't do any harm) -->
+ <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
 
