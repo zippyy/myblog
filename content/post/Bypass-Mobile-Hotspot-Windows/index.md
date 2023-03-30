@@ -30,14 +30,14 @@ TTL-changer works by increasing the TTL value for packets sent from your Windows
 How to Use TTL-Changer to Bypass Hotspot Limits on Windows
 Here's a step-by-step guide to using TTL-changer to bypass hotspot limits on Windows:
 
-Step 1: Download and Install TTL-Changer
-The first step is to download and install TTL-changer on your Windows computer. You can download it from [here](https://github.com/AzimsTech/TTL-Changer)
+*Step 1: Download and Install TTL-Changer
+The first step is to download and install TTL-changer on your Windows computer. You can download it from [here](https://github.com/AzimsTech/TTL-Changer)*
 
-Step 2: (optional) This step is not required but does make it easier, create a folder at the root of your C drive and call it bin or tools (whatever you want really) and put the TTL-Changer file in that folder. Now hit the windows key and type path and click the first option then click environmental variables and find path, double click that and it will pop out a window with a list of file paths, click add and add your new folder path their I.E. "C:\tools" click okay and close the windows. 
+*Step 2: (optional) This step is not required but does make it easier, create a folder at the root of your C drive and call it bin or tools (whatever you want really) and put the TTL-Changer file in that folder. Now hit the windows key and type path and click the first option then click environmental variables and find path, double click that and it will pop out a window with a list of file paths, click add and add your new folder path their I.E. "C:\tools" click okay and close the windows.*
 
-Step 3. open an elevated command prompt (check out my post on gsudo here for easy elevation of cmd and powershell prompts directly from the terminal) and run the application, If you followed the optional "Step 2" above then you can just type ttl-changer and hit enter (I renamed the file the ttl to shorten the command) and choose the option you need. There are two choices 60 (for hotspots) and 128 (for Normal Networks).
+*Step 3. open an elevated command prompt (check out my post on gsudo here for easy elevation of cmd and powershell prompts directly from the terminal) and run the application, If you followed the optional "Step 2" above then you can just type ttl-changer and hit enter (I renamed the file the ttl to shorten the command) and choose the option you need. There are two choices 60 (for hotspots) and 128 (for Normal Networks).*
 
-Step 4. After changing the TTL value, test your connection by using your hotspot and opening a cmd prompt and typing ping 127.0.0.1, You should see the TTL at the end of each ping and should be either 60 or 128 depending on the options chosen.. If everything worked correctly, you should be able to use your hotspot data without restrictions.
+*Step 4. After changing the TTL value, test your connection by using your hotspot and opening a cmd prompt and typing ping 127.0.0.1, You should see the TTL at the end of each ping and should be either 60 or 128 depending on the options chosen.. If everything worked correctly, you should be able to use your hotspot data without restrictions.*
 
 Now that you have the file in your system path you can simply switch back and forth between 60 and 128 with ease!
 
