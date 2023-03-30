@@ -26,4 +26,10 @@ below I will share the batfile as well as the powershell script I wrote to make 
 
 All in all it was a good learning experience and a reminder that sometimes you just cant use something pre-made and have to figure out a way to do what you want on your own. 
 
+here is the batfile I am using. you may need to modify it for your needs
+
+```
+@echo off
+call "C:\Users\nick\scoop\apps\git\current\bin\sh.exe" --login -i "/c/Users/nick/OneDrive - Tech Relay/Documents/GitHub/TechRelayScripts/git-auto" -p
+```
 So long and Thanks for all the Fish!
