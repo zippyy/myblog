@@ -58,6 +58,46 @@ usePageBundles = true
 & "C:\Program Files\Sublime Text\sublime_text.exe" "content\post\$path\index.md"
 ```
 
+Here is the Bash version as well
+
+```
+#!/bin/bash
+
+# Prompt the user for the path to the new post
+read -p "Enter the path to the new post (e.g. my-new-post): " path
+
+# Create the new post using a page bundle
+mkdir -p "content/post/$path"
+touch "content/post/$path/index.md"
+
+# Add front matter to the new post
+cat <<EOT >> "content/post/$path/index.md"
++++
+categories = ['Technology']
+codeLineNumbers = false
+codeMaxLines = 10
+date = "$(date +"%Y-%m-%dT%H:%M:%S%z")"
+description = ''
+draft = false
+featureImage = ''
+featureImageAlt = ''
+featureImageCap = ''
+figurePositionShow = true
+shareImage = ''
+tags = ['featured', '']
+thumbnail = ''
+title = "$(echo "$path" | sed -E 's/-/ /g' | awk '{print toupper(substr($0, 1, 1)) substr($0, 2)}')"
+toc = false
+usePageBundles = true
++++
+
+**Insert Lead paragraph here.**
+EOT
+
+# Open the new post in Sublime Text
+subl "content/post/$path/index.md"
+```
+
 The script will change directory to the hugo project (You need to edit the line 2 to the correct path to your hugo directory) create a folder with an index.md using page bundles and add the front matter to the post. (You can edit the front matter to suite your needs just make sure that the output is UTF8 encoded, I had issues with posts not publishing or them showing up with weird characters instead of my text.)
 
 Now your off to the races, This script has mad it so much easier to write content for hugo without having to remember syntax or long commands. 
