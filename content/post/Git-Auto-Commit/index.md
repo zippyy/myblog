@@ -3,8 +3,13 @@ author = 'Nicholas Bennett'
 date = '2023-01-07T20:40:46Z'
 description = ''
 draft = false
-slug = 'test-test'
-title = 'test test'
+slug = 'Win-Git-Auto-Commit'
+title = 'Git Auto-Commit'
+categories = ['Technology']
+tags = ['featured']
+codeMaxLines = 10
+codeLineNumbers = false
+usePageBundles = true
 +++
 
 I have been using hugo for over 2 years now going on 3 now, I used ghost before but its really heavy and I wanted to ditch needing to host a webserver in favor of static site hosting which I have covered in previous posts, when I moved from ghost to hugo I used a converter to convert all my posts to markdown for a seamless transition to hugo.
