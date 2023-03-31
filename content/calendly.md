@@ -7,4 +7,4 @@ slug = 'calendly'
 title = 'Book a Meeting with me!'
 +++
 
-{{< calendly calendar="janedoe" />}}
+{{< calendly calendar="techrelay" />}}
