@@ -3,8 +3,8 @@ categories = ['Technology']
 codeLineNumbers = false # Override global value for showing of line numbers within code block.
 codeMaxLines = 10 # Override global value for how many lines within a code block before auto-collapsing.
 date = {{ .Date }} # Date of post creation.
-year: {{ .Date | dateFormat "2006" }} # year for archives.
-month: {{ .Date | dateFormat "2006-01" }} # month for archives.
+year = {{ .Date | dateFormat "2006" }} # year for archives.
+month = {{ .Date | dateFormat "2006-01" }} # month for archives.
 description = '' # Description used for search engine.
 draft = false # Sets whether to render this page. Draft of true will not be rendered.
 featureImage = '' # Sets featured image on blog post.
