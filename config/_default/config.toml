@@ -5,7 +5,7 @@ baseurl = "https://techrelay.xyz/"  # Include trailing slash
 copyright = "Tech Relay "
 # canonifyurls = true
 paginate = 10
-theme = ["hugo-calendly-shortcode",hugo-embed-pdf-shortcode","hugo-theme-component-webmentions","jemsugo","hugo-notice","hugo-github-calendar","hugo-cloak-email","hugo-embed-pdf-shortcode", "hugo-clarity"]
+theme = ["hugo-calendly-shortcode","hugo-embed-pdf-shortcode","hugo-theme-component-webmentions","jemsugo","hugo-notice","hugo-github-calendar","hugo-cloak-email","hugo-embed-pdf-shortcode", "hugo-clarity"]
 #disqusShortname = ""
 enableInlineShortcodes = true
 
