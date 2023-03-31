@@ -8,7 +8,7 @@ title = 'Contribute'
 +++
 If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the Donate/Patreon/buymeacoffee Buttons or the other methods below!
 
-{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}} {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
+{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}   {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
 <br>
 <br>
 <a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
