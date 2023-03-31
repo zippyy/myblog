@@ -18,7 +18,7 @@ If you like my Content and would like to support this site or buy me a coffee/be
 <br>
 {{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}
 <br>
-{{< bmc-button slug="techrelay" >}}
+{{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
 
