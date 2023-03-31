@@ -7,7 +7,7 @@ description = ''
 draft = false
 series = 'Hosting Bitwarden'
 slug = 'seflhost-bitwarden'
-tags = ['featured']
+tags = ['Selfhost','Tech']
 title = 'Selfhost Bitwarden'
 +++
 

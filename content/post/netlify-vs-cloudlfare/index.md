@@ -6,7 +6,7 @@ month = "2023-03"
 description = ''
 draft = false
 slug = 'netlify-vs-cloudflare'
-tags = ['featured']
+tags = ['featured','Hugo','Selfhosted']
 title = 'Netlify vs Cloudflare Pages'
 +++
 

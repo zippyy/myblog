@@ -8,6 +8,7 @@ featureImage = 'wrod.jpg'
 image = ''
 slug = 'white-ribbon-of-death'
 title = 'White Ribbon Of Death'
+tags = ['Travel','Outdoors']
 +++
 Okay this is not my normal post for this blog but its a passion of mine outside of tech so here we go!
 

@@ -5,7 +5,7 @@ year = "2023"
 month = "2023-03"
 description = ''
 slug = 'leanlaps'
-tags = ['featured']
+tags = ['featured','Tech','Cloud']
 title = 'Lean LAPS'
 +++
 

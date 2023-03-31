@@ -7,7 +7,7 @@ description = ''
 draft = false
 series = 'Digital Nomad'
 slug = 'nomad-vpn'
-tags = ['featured']
+tags = ['featured','Tech','Digital Nomad']
 title = 'Digital Nomad VPN Setup'
 +++
 
