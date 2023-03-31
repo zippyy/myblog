@@ -16,6 +16,8 @@ If you like my Content and would like to support this site or buy me a coffee/be
  <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
 <br>
 {{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}
+<br>
+{{< bmc-button slug="techrelay" >}}
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
 
