@@ -1,24 +1,32 @@
-{{ $pages := .Pages }}
-{{ if .IsHome }}
-  {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ end }}
+{{ define "main" }}
+<h1>Archives</h1>
+{{ .Content }}
 
-{{ if eq site.Params.pinFeatured true }}
-  {{ $featured := default 8 site.Params.numberOfPinnedPosts }}
-  {{ $featuredPosts := first $featured (where $pages "Params.featured" true)}}
-  {{ $normalPosts := $pages | symdiff $featuredPosts }}
-  {{ $pages = $featuredPosts | append $normalPosts }}
+<h2>By Date</h2>
+<ul class="archives-list">
+  {{ range $name, $taxonomy := .Site.Taxonomies.month }} {{- $cnt := .Count -}}
+    {{- with $.Site.GetPage (printf "%s" $name) -}}
+          <li><a href="{{ .RelPermalink }}" title="All posts from {{ .Title }}">{{ .Title }}</a> ({{$cnt}})</li>
+    {{ end }}
+  {{- end -}}
+</ul>
+
+<h2>By Category</h2>
+<ul class="archives-list">
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }} {{- $cnt := .Count -}}
+    {{- with $.Site.GetPage (printf "/categories/%s" $name) -}}
+          <li><a href="{{ .RelPermalink }}" title="All posts in category &lsquo;{{ .Title }}&rsquo;">{{ .Title }}</a> ({{$cnt}})</li>
+    {{ end }}
+  {{- end -}}
+</ul>
+
+<h2>By Tag</h2>
+<ul class="archives-list">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{- $cnt := .Count -}}
+    {{- with $.Site.GetPage (printf "/tags/%s" $name) -}}
+          <li><a href="{{ .RelPermalink }}" title="All posts with tag &lsquo;{{ .Title }}&rsquo;">{{ .Title }}</a> ({{$cnt}})</li>
+    {{ end }}
+  {{- end -}}
+</ul>
+
 {{ end }}
-<div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-      {{- range (.Paginate $pages).Pages }}
-        {{ partial "excerpt" . }}
-      {{- end }}
-      <li>
-        {{- template "_internal/pagination.html" . }}
-      </li>
-    </ul>
-  </div>
-  {{- partial "sidebar" . }}
-</div>
