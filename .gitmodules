@@ -19,3 +19,6 @@
 [submodule "themes/hugo-theme-component-webmentions"]
 	path = themes/hugo-theme-component-webmentions
 	url = https://github.com/devidw/hugo-theme-component-webmentions
+[submodule "themes/hugo-calendly-shortcode"]
+	path = themes/hugo-calendly-shortcode
+	url = https://github.com/bespokesy/hugo-calendly-shortcode.git
