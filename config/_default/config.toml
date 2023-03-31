@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://techrelay.xyz/"  # Include trailing slash
+# baseurl = "https://techrelay.xyz/"  # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "Tech Relay "
 # canonifyurls = true
@@ -23,8 +23,6 @@ tag = "tags"
 series = "series"
 year = "year"
 month = "month"
-
-
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
