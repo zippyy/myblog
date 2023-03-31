@@ -6,7 +6,7 @@ description = ''
 slug = 'contribute'
 title = 'Contribute'
 +++
-If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the Donate and Patreon Buttons or the other methods below!
+If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the Donate/Patreon/buymeacoffee Buttons or the other methods below!
 
 <a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
     Donate
