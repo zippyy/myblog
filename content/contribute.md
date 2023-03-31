@@ -17,11 +17,11 @@ Last 4 of Cell needed to send on venmo: 3020
 
 CashApp Personal - [$zippy90](https://cash.app/$zippy90)
 
-Patreon - [https://www.patreon.com/nbennett](https://www.patreon.com/nbennett)
+Patreon - [https://www.patreon.com/techrelay](https://www.patreon.com/techrelay)
 
-Unstoppable Domains Address - nbennett.zil
+<!--Unstoppable Domains Address - nbennett.zil
 
-<!--
+
 #Bitcoin - bc1qzh2f5s9x282rltw0dne9s5ndpjy7pte3x98f7d
 
 #Ethereum - 0x7f05e856842B76831897f9Ff703b488FfC900cBd
