@@ -7,7 +7,7 @@ slug = 'contact'
 title = 'Contact'
 +++
 
-Personal Email: nick@nbennett.xyz
+Personal Email: {{< cloakemail "nick@nbennett.xyz" >}}
 
 Personal Telegram: @zippyy
 
