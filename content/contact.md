@@ -17,7 +17,7 @@ Battle.net: Zippy420#1359
 
 Steam: Zippyy
 
-Matrix: @nick:matrix.techrelay.xyz
+Matrix: {{< cloakemail address="@nick:matrix.techrelay.xyz" protocol="matrix" >}}
 
 Matrix Homeserver: matrix.techrelay.xyz
 
