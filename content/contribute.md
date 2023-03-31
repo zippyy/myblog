@@ -10,15 +10,6 @@ If you like my Content and would like to support this site or buy me a coffee/be
 
 {{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}   {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
 <br>
-<br>
-<a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
-    Donate
-</a>
-
- <!-- You only need this once per page (but it won't do any harm) -->
- <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
-<br>
-
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
 
@@ -44,3 +35,9 @@ Unstoppable Domains Address - nbennett.zil
 #Doge - DKTs9WU2YyJ9wKgnRQPuxp4brZU9GfHMmt
 -->
 
+<a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
+    Donate
+</a>
+
+ <!-- You only need this once per page (but it won't do any harm) -->
+ <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
