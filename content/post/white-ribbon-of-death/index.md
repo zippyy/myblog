@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-19T01:04:21Z'
+year = "2021"
+month = "2021-10"
 description = ''
 featureImage = 'wrod.jpg'
 image = ''

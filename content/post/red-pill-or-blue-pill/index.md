@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-13T01:47:36Z'
+year = "2021"
+month = "2021-10"
 description = ''
 featureimage = 'reddoorbluedoor.jpg'
 slug = 'red-pill-or-blue-pill'

@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-09-04T23:45:41Z'
+year = "2021"
+month = "2029-03"
 description = ''
 image = '__GHOST_URL__/content/images/2021/10/andrew-neel-z55CR_d0ayg-unsplash.jpg'
 slug = 'new-endeavours'

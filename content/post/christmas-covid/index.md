@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2022-01-11T01:58:03Z'
+year = "2022"
+month = "2022-01"
 description = ''
 draft = false
 slug = 'christmas-covid'

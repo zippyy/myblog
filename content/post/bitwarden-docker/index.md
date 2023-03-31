@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2022-03-21T02:58:03Z'
+year = "2022"
+month = "2022-03"
 description = ''
 draft = false
 series = 'Hosting Bitwarden'

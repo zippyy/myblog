@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2022-06-08T02:58:03Z'
+year = "2022"
+month = "2022-06"
 description = ''
 draft = false
 series = 'Digital Nomad'

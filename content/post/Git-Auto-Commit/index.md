@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2023-01-07T20:40:46Z'
+year = "2023"
+month = "2023-01"
 description = ''
 draft = false
 slug = 'Win-Git-Auto-Commit'

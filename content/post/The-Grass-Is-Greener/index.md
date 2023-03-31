@@ -1,6 +1,8 @@
 +++
 author = 'Zippy'
 date = '2022-01-25T22:20:47Z'
+year = "2022"
+month = "2022-01"
 description = ''
 slug = 'grass'
 title = 'Grass Is Greener'
