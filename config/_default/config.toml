@@ -21,6 +21,10 @@ DefaultContentLanguage = "en"
 category = "categories"
 tag = "tags"
 series = "series"
+year = "year"
+month = "month"
+
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
