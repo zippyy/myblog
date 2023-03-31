@@ -7,7 +7,7 @@ description = ''
 draft = false
 image = '__GHOST_URL__/content/images/2021/10/jason-dent-3wPJxh-piRw-unsplash.jpg'
 slug = 'manage-local-admin'
-title = 'Manage LoTechn,'Sysadmin''
+title = 'Manage Local Admin'
 tags = ['Tech','Sysadmin']
 +++
 
