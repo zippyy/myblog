@@ -34,6 +34,10 @@ url = "https://techrelay.xyz/snippets"
 name = "Trauma To Travel"
 parent = "Links"
 url = "https://traumatotravel.xyz"
+[[main]]
+name = "Build Status"
+parent = "Links"
+url = "https://techrelay.xyz/status"
 [[social]]
 name = "github"
 type = "social"
