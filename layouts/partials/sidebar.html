@@ -84,38 +84,41 @@
     <div>
       <h2 class="mt-4 taxonomy" id="{{ $key }}-section">{{ T $key }}</h2>
       <nav class="tags_nav">
-        {{- $onPageTags := $.Page.Params.tags }}
-        {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
-        {{- range $slicedTags }}
-        <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent" title="{{ .Name }}">
-          {{ upper .Name }}
-          <span class="button_tally">{{ .Count }}</span>
-        </a>
+  {{- $onPageTags := $.Page.Params.tags }}
+  {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
+  {{- range $slicedTags }}
+    {{- $cleanName := replace .Name "^[0-9]{4}/[0-9]{2}/" "" -}}
+    <a href='{{ absLangURL $key }}/{{ (replace $cleanName "#" "%23") | urlize }}/' class="post_tag button button_translucent" title="{{ $cleanName }}">
+      {{ upper $cleanName }}
+      <span class="button_tally">{{ .Count }}</span>
+    </a>
+  {{- end }}
+  {{- if gt (len $value.ByCount) $tagsLimit }}
+    <br>
+    <div class="post_tags_toggle button">{{ T (printf "all_%s" (lower $key)) }}</div>
+    {{- $tagsInfo := newScratch }}
+    <div class="post_tags">
+      <div class="tags_list">
+        {{- range $value.Alphabetical }}
+          {{- $cleanName := replace .Name "^[0-9]{4}/[0-9]{2}/" "" -}}
+          {{ $tagsInfo.Add "tagsInfo" (slice $cleanName .Count)}}
+          <a href='{{ absLangURL $key }}/{{ (replace $cleanName "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ $cleanName }}">
+            {{- upper $cleanName -}}
+            <span class="button_tally">{{ .Count }}</span>
+          </a>
         {{ end }}
-        {{ if gt (len $value.ByCount) $tagsLimit }}
-        <br>
-        <div class="post_tags_toggle button">{{ T (printf "all_%s" (lower $key)) }}</div>
-        {{- $tagsInfo := newScratch }}
-        <div class="post_tags">
-          <div class="tags_list">
-            {{- range $value.Alphabetical }}
-            {{ $tagsInfo.Add "tagsInfo" (slice .Name .Count)}}
-            <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ .Name }}">
-              {{- upper .Name -}}
-              <span class="button_tally">{{ .Count }}</span>
-            </a>
-            {{ end }}
-            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
-            </div>
-            <span class="tags_hide"><svg class="icon">
-            <use xlink:href="#closeme"></use>
-          </svg></span>
-          </div>
+        <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
         </div>
-        {{- end }}
-      </nav>
+        <span class="tags_hide"><svg class="icon">
+          <use xlink:href="#closeme"></use>
+        </svg></span>
+      </div>
     </div>
-    {{- end }}
-    {{- end }}
-  </section>
+  {{- end }}
+</nav>
+
+</div>
+{{- end }}
+{{- end }}
+</section>
 </aside>
