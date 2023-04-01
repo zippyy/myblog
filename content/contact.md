@@ -8,7 +8,7 @@ title = 'Contact'
 +++
 
 {{< calendly calendar="techrelay" />}}
-
+<br>
 <br>
 Personal Email: {{< cloakemail "nick@nbennett.xyz" >}}
 
