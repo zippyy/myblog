@@ -34,6 +34,7 @@ Patreon - [https://www.patreon.com/techrelay](https://www.patreon.com/techrelay)
 
 #Doge - DKTs9WU2YyJ9wKgnRQPuxp4brZU9GfHMmt
 -->
+<br>
 <a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
     Donate
 </a>
