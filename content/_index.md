@@ -1,6 +1,6 @@
 +++
 author = 'Nicholas'
-description = 'Homepage'
+description = 'Tech Relay Homepage: Ramblings about IT and Travel!'
 usePageBundles = false
 +++
 <br>
