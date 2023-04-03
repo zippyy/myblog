@@ -30,9 +30,8 @@ home = ["HTML", "RSS", "JSON"]
 enableRobotsTXT = true
 
 
-
 [sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
+changefreq = 'monthly'
+filename = 'sitemap.xml'
+priority = 0.5
 
