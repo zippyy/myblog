@@ -15,4 +15,4 @@ usePageBundles = false
 {{< featured count=6 >}}
 </div>
 
-![Logo](/images/Tech-Relay-3.png)
+![Logo:center](/images/Tech-Relay-3.png)
