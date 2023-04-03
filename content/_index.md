@@ -1,6 +1,6 @@
 +++
 author = 'Nicholas'
-description = 'Tech Relay Homepage: Ramblings about IT and Travel!'
+description = 'Ramblings about IT, Travel and Digital Nomad!'
 usePageBundles = false
 +++
 <br>
