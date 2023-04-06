@@ -6,7 +6,7 @@ date = "2023-04-06T12:11:07-06:00"
 year = "2023"
 month = "2023-04"
 description = ''
-draft = true
+draft = false
 featureImage = ''
 featureImageAlt = ''
 featureImageCap = ''
@@ -29,6 +29,8 @@ First and foremost let me itterate that even with the perfect setup like we talk
 Lets jump in, First we need to discuss hardware, I dont personally have one recomendation so we will cover a few different catagories starting with USFF and Micro PC's. These can be picked up for extremely cheap, often for $150 or less, from places like Ebay or Gov Auction sites. Lets start with USFF, My personal brand choice is Dell but other vendors make the same types of machines. A good choice from dell would be the Optiplex 9020 (insert image here), in this image we have from left to right the 9020 MiniTower (would be a normal size tower like ATX size), In the middle we have the 9020 SFF (This Small form factor would also be a good choice but as you can see is still a decent amount larger than the USFF size to the right), and last we have the 9020 USFF and as you can see its much smaller than both the MiniTower and the SFF size thus we would want the USFF model to take up as little space at its host location as possible. 
 
 Second we will cover NUC's, There are so many models and/or manufactureres that make the NUC's so I will just be using a generic photo here but you get the idea of the form factor/size footprint of this option, These can also be picked up for cheap albeit more than the previous option (between $200-$600 depening on new/used/generation) but they are also much more powerful and are in current production so if price is no issue you would get a current gen intel processor for a whopping $1000+. This is good option if you also want to be able to do personal stuff like remote/streaming Gaming as a lot of these support thunderbolt 3 and can facilitate an E-GPU (I will do another series covering this as well as I think its a common topic these days)
+
+![Intel Nuc](nuc.png)
 
 Lastly we will talk about MicroPC's and x86/64 Thin Clients that are more than powerfull enough for a remote work option. These are going to be about the same form factor as the NUC, maybe a little bigger but thinner, they are also going to be the cheapest option as they are plentiful used on ebay from Enterprises refreshing their tech footprint. We will use the Dell 3040 as an example here (insert picture) and can be picked up for anywhere from $20 to $100+ depening on model and specs, (like all previous options this form factor can be found by many manufacturers) these are going to be the least powerful but should still be more than enough for most work consisting of Email, Web based Applications or Fat Clients but wont be enough for things like photoshop or compiling code, so there we have all the obvious options for hardware lets move on to the "How it works" part of this post. 
 
