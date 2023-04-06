@@ -50,7 +50,7 @@ Okay so we have picked out hardware, we have put the device into production and 
 
 I suggest creating an RDP shortcut and saving it to you desktop for easy connection. Follow the steps below to setup this shortcut.
 
-To create a Remote Desktop Connection shortcut, follow these steps:
+*To create a Remote Desktop Connection shortcut, follow these steps:*
 
     1. Type remote in the Taskbar search box.
     2. Click on the individual search result.
