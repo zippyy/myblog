@@ -20,7 +20,6 @@ usePageBundles = true
 series = 'Digital Nomad'
 +++
 
-**This is a Draft/In-Progress post, Content is not complete until this notice is removed**
 
 Alright, Its been a while since I posted in the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/). Life happened, Work got busy, I got laid off and lost motivation to post here but job prospects have started to look up and that motivation has returned so here is the next in the Digital Nomad Series, How to setup an emergency or backup system for use in the event that your [Digital Nomad VPN](https://techrelay.xyz/post/digital-nomad-rdp/) doesnt work or is down. 
 
