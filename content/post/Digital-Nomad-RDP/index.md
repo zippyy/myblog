@@ -48,7 +48,7 @@ Now that we understand what we are connecting to we can talk about the networkin
 
 Okay so we have picked out hardware, we have put the device into production and allowed for remote access and either setup port forwarding or put RDP behind something like Tailscale or Cloudflare Tunnels, Now how do we connect to it? Well that depends on how you have published your machine, if you are using plain old port forwarding then you will need to setup something like [DynDNS to autoupdate the dynamic IP the ISP Modem](https://help.dyn.com/remote-access/getting-started-with-remote-access/) might have at any given time and then you just connect with the DynDNS URL which wont change. If you have setup one of the more secure method and are using Tailscale then you simply put the Tailscale IP into the RDP app on your laptop.
 
-I suggest creating an RDP shortcut and saving it to you desktop for easy connection.
+I suggest creating an RDP shortcut and saving it to you desktop for easy connection. Follow the steps below to setup this shortcut.
 
 To create a Remote Desktop Connection shortcut, follow these steps:
 
@@ -60,5 +60,4 @@ To create a Remote Desktop Connection shortcut, follow these steps:
     5. Click the Save As button.
     6. Choose a location (I.E. The Desktop) where you want to save the shortcut.
     7. Enter a name and click the Save button.
-
 ![RDP Shortcut](rdpshortcut.webp)
