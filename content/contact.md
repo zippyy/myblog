@@ -22,7 +22,7 @@ Steam: Zippyy
 
 Matrix: {{< cloakemail address="@nick:matrix.techrelay.xyz" protocol="matrix" >}}
 
-Matrix Homeserver: matrix.techrelay.xyz
+IRC: LiberaChat IRC Network on Channel #TechRelay
 
 You may also use the form below to reach out to me directly.
 

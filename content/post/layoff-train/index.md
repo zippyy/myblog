@@ -27,3 +27,5 @@ I have been working as a Systems Engineer with a focus on Virtualization (I am a
 I will update this post when I either find a job or after a few months of being laid off to give an idea of what it was like to experience the lovely  adventure of the layoff train. CHOO!...CHOO!
 
 So long and Thanks for all the fish!
+
+Check out [Layoff Update](https://techrelay.xyz/post/layoff-update/) for the current status of the first layoff in my career. 
