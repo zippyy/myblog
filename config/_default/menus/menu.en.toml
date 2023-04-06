@@ -38,6 +38,10 @@ url = "https://traumatotravel.xyz"
 name = "Build Status"
 parent = "Links"
 url = "https://techrelay.xyz/status"
+[[main]]
+name = "CV/Résumé"
+parent = "Links"
+url = "https://nbennett.pro"
 [[social]]
 name = "github"
 type = "social"
