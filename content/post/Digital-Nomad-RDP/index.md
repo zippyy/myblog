@@ -59,4 +59,4 @@ Okay so we have picked out hardware, we have put the device into production and 
     7. Enter a name and click the Save button.
 ![RDP Shortcut](rdpshortcut.webp)
 
-This is not intended to be a deep dive full blown guide to cover all the setup scenarios thus why I linked directly to the documentaion guides, This like most of my content serves as a general guide or overview to get you started. As mentioned at the start of this post, I do offer Tech Services in which you can scdule time with by going to the [Contact Page](https://techrelay.xyz/contact) or clicking the link below {{< calendly calendar="techrelay" />}}
+This is not intended to be a deep dive full blown guide to cover all the setup scenarios thus why I linked directly to the documentaion guides, This like most of my content serves as a general guide or overview to get you started. As mentioned at the start of this post, I do offer Tech Services in which you can scdule time with by going to the [Contact Page](https://techrelay.xyz/contact) or clicking {{< calendly calendar="techrelay" />}}
