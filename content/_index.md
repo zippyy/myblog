@@ -2,6 +2,7 @@
 author = 'Nicholas'
 description = 'Ramblings about IT, Travel and Digital Nomad!'
 usePageBundles = false
+title = 'Tech Relay - Tech & Travel'
 +++
 <br>
 <br>
