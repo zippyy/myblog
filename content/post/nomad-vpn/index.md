@@ -11,11 +11,14 @@ tags = ['featured','Tech','Digital Nomad','Pinned']
 title = 'Digital Nomad VPN Setup'
 weight = '10'
 categories = ['Digital Nomad','Pinned']
+toc = true
 +++
-
+## Preface
 Alright so I was browsing Reddit and came across a post in the digital nomad sub asking about covering up your location when working abroad and thus I was compelled to do this write up and actually ended up deciding to do a whole series on DNing, Starting with how to setup your travel router, vpn, kill switch, etc... 
 
 So lets get started. 
+
+## Introduction
 
 First of all lets discuss some pre-reqs that you must have or before you start this guide 
 
@@ -120,10 +123,11 @@ In the Travel Router Gui navigate to Admin Panel -> VPN -> Internet Kill Switch.
 
 Congrats you have now setup your Wireguard Server on the HomeRouter, Connected the TravelRouter to the VPN and enabled the KILL Switch, Connected a device to the TravelRouter Either via Ethernet or Wifi and you can visit https://icanhazip.com and it shows your HomeRouter's External IP address. 
 
-
+## Closing
 
 I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
 
+Check out the other posts in the [Digital Nomad Series Here](https://techrelay.xyz/series/digital-nomad/) and check back for new content!
 
 So long and Thanks for all the fish!
 
