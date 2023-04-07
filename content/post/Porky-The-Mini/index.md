@@ -2,7 +2,7 @@
 categories = ['Technology']
 codeLineNumbers = false
 codeMaxLines = 10
-date = "2023-03-22T17:20:56-06:00"
+date = "2023-04-06T17:20:56-06:00"
 year = "2023"
 month = "2023-04"
 description = ''
@@ -26,7 +26,3 @@ So fast forward about 9 months, The car has been amazing, we have taken so many 
 To be fair, insert letterkenny joke here haha, I am not upset, I got way more than is to be expected in lifespan of that clutch and its a part that is expected to wear and need replacing, however being that MINI is made by BWM everthing is expensive. So I take it to my import mechanic and they confirm that is indeed the clutch and that i need a full clutch replacement, not horrible but not ideal considering the state of my employment right now. I ask how much and to my surprise they quote me a little over $4000, Sticker shock is an understatement here, which I do not have right now so I started scrambling to find somwhere else to get a quote, I call the other highly reccomended shop for imports in town and they quote me about $3500 which is better but still not obtainable for me right now. 
 
 ![This is Fine!](this-is-fine.gif)
-
-So I thought to myself, theres got to be a shop that does only or mostly just this type of work and thus labor should be less. I found a few Transmission shops and the best rated/reviewed one in town was actually really close to me so I give them a call and they said they can do it for $1800 and get it started by the end of the week. So off Porky went to the Transmission shop today. Fingers crossed that she is done quickly and without any unforseen consequenses. [Insert Half-Life Reference here](https://www.youtube.com/watch?v=tZqBrMqZLR4)
-
-So long and Thanks for all the Fish! 
