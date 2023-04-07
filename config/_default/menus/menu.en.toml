@@ -29,7 +29,7 @@ weight = "-105"
 [[main]]
 name = "Snippets & Scripts"
 parent = "Links"
-url = "https://techrelay.xyz/snippets"
+url = "snippets/"
 [[main]]
 name = "Trauma To Travel"
 parent = "Links"
@@ -37,7 +37,7 @@ url = "https://traumatotravel.xyz"
 [[main]]
 name = "Build Status"
 parent = "Links"
-url = "https://techrelay.xyz/status"
+url = "status/"
 [[main]]
 name = "CV/Résumé"
 parent = "Links"
