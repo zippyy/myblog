@@ -18,7 +18,7 @@ title = "Digital Nomad AIRBNB"
 toc = false
 usePageBundles = true
 series = 'Digital Nomad'
-
+keywords = ['Tech', 'Digital Nomad', 'Blog', 'Travel', 'DN']
 +++
 
 AirBNB has changed the way we look for accomdations, Sometimes its cheaper, Sometimes its more expensive, Sometimes you pay more in fees than you do for the accomdation but one thing is for sure, it depends on where you are! I dont always use airbnb especially when I am in the states but when I am oversees its general my first spot to look and heres why!?
