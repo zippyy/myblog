@@ -12,3 +12,5 @@ To start off, my two biggest passions are Travel and Technology. I have been for
 As I grew older, my interest in technology only intensified. I began building websites in high school and eventually went on to repair consumer devices before transitioning into a career in IT. Currently, I work as a Virtualization and Cloud Engineer and have been in the industry for over 16 years. I am constantly learning new things, maintaining my infrastructure, and sharing my knowledge with peers. In my free time, I enjoy learning about new technology, adding to my tech stack, and pursuing my hobbies, which include anything tech-related, snow sports, hiking, camping, fishing, and playing darts.
 
 Travel remains a significant passion of mine and I am always seeking new adventures. Spending time with loved ones is also a priority for me, as is playing video games (particularly RPGs, action/adventure games, and shooters).
+
+So long and Thanks for all the Fish!
