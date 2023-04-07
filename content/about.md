@@ -17,7 +17,7 @@ Growing up all over the world and moving often it was something that I
 not only always had with me where ever I moved but also a way for me
 to keep in contact with people from travels.
 
-IRC, AIM, Jabber/XMPP, MSN, Yahoo, all of those got heave use from me
+IRC, AIM, Jabber/XMPP, MSN, Yahoo, all of those got heavy use from me
 throughout my childhood to keep in contact with friends, family,
 peers, and anyone else I found along the way worth keeping up
 correspondence with, I still actively use IRC and XMPP as well as host
