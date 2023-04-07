@@ -1,5 +1,5 @@
 ﻿+++
-categories = ['Technology']
+categories = ['Technology','Travel']
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2023-03-21T17:20:56-06:00"
