@@ -20,6 +20,7 @@ usePageBundles = true
 series = 'Digital Nomad'
 +++
 
+## Introduction
 
 Alright, Its been a while since I posted in the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/). Life happened, Work got busy, I got laid off and lost motivation to post here but job prospects have started to look up and that motivation has returned so here is the next in the Digital Nomad Series, How to setup an emergency or backup system for use in the event that your [Digital Nomad VPN](https://techrelay.xyz/post/digital-nomad-rdp/) doesnt work or is down. 
 
@@ -30,6 +31,8 @@ First and foremost let me itterate that even with the perfect setup like we talk
 At this point your fucked, your dead in the water with no paddle, your option is pretty much only one, get on a plane and go back to the states (or your home nation) ASAP! which is not really ideal nor feasible for everyone thus here is the second part of the series. 
 
 How to setup a USFF (Ultra Small Form Factor), NUC, x86 Thing client, etc... with RDP published to the internet (I will cover several ways of this, from super secure by using a cloudflare tunnel or mesh network like tailscale to just simply publishing the RDP port and in a later post in this series I will cover securing RDP with 2FA with something like DUO) The latter of those is the proper way and my recodmended setup however I will cover how to just expose the RDP port and secure your account by requiring more than one factor of authentication. 
+
+## Hardware
 
 Lets jump in, First we need to discuss hardware, I dont personally have one recomendation so we will cover a few different catagories starting with USFF and Micro PC's. These can be picked up for extremely cheap, often for $150 or less, from places like Ebay or Gov Auction sites. Lets start with USFF, My personal brand choice is Dell but other vendors make the same types of machines. A good choice from dell would be the Optiplex 9020, in this image we have from Left to Right the 9020 MiniTower (This would be like a Mini ATX form factor), In the middle we have the 9020 SFF (This Small form factor would also be a good choice but as you can see is still a decent amount larger than the MiniTower size to the Right), and last we have the 9020 USFF and as you can see its much smaller than both the MiniTower and the SFF size thus we would want the USFF model to take up as little space at its host location as possible. 
 
@@ -45,9 +48,15 @@ Lastly we will talk about MicroPC's and x86/64 Thin Clients that are more than p
 
 Alright so you have chosen your hardware at this point and are almost ready to get setup, Lets talk about how it works, You put your remote workstation at a location in the US or your home nation (this can be the same location as your HomeRouter or another location to add redundancy in the event that your HomeRouter is down from a reason like an ISP outage in which case your remote workstation would be down too so ultimatly I would recomend putting this somewhere else but if you only have the location of your HomeRouter then that works too albeit losing the redundancy aspect.)
 
+## Basics
+
 So lets start at the basics, Windows computers have, Built-in to the OS, a feature called [Remote Desktop or RDP (Remote Desktop Protocol for short.)](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) This is the lifeblood of this setup (there are other ways of connecting remotely to the desktop like VNC, NoVNC, Teamviewer, etc... but they all have perfomance issues compared to using the built-in OS level feature of RDP thus we will only cover those as a backup connection method if RDP is down due to issues like dynamic ip changes, dyndns issues, port issues etc... as options like anydesk or teamviewer can punch through without the need for port forwards) All windows versions currently supported will have both the Application to connect to other machines with RDP as well as the ability to enable those remote connections to them, so its as simple as going into the settings on that machine and enabling remote connections and adding the user you want to be able to connect with to the right group. Check out [How to Enable RDP](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-access) for Microsoft's documentation on how to enable RDP.
 
+## Networking
+
 Now that we understand what we are connecting to we can talk about the networking side of this, You can either [open the port by port forwarding](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-outside-access) or the recomended way would be setting up [Tailscale](https://tailscale.com/kb/1017/install/) or a [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/use_cases/rdp/#connect-to-rdp-server-with-warp-to-tunnel) and connecting that way as this does not expose the port to the internet and only you can connect to it. Click the links above for setup guides direct from their respective documentation sites.
+
+## Remote Access
 
 Okay so we have picked out hardware, we have put the device into production and allowed for remote access and either setup port forwarding or put RDP behind something like Tailscale or Cloudflare Tunnels, Now how do we connect to it? Well that depends on how you have published your machine, if you are using plain old port forwarding then you will need to setup something like [DynDNS to autoupdate the dynamic IP the ISP Modem](https://help.dyn.com/remote-access/getting-started-with-remote-access/) might have at any given time and then you just connect with the DynDNS URL which wont change. If you have setup one of the more secure method and are using Tailscale then you simply put the Tailscale IP into the RDP app on your laptop. I suggest creating an RDP shortcut and saving it to you desktop for easy connection.
 
@@ -62,5 +71,7 @@ Okay so we have picked out hardware, we have put the device into production and 
     6. Choose a location (I.E. The Desktop) where you want to save the shortcut.
     7. Enter a name and click the Save As button.
 ![RDP Shortcut](rdpshortcut.webp)
+
+## Closing
 
 This is not intended to be a deep dive full blown guide to cover all the setup scenarios thus why I linked directly to the documentaion guides, This like most of my content serves as a general guide or overview to get you started. As mentioned at the start of this post, I do offer Tech Services in which you can scdule time with by going to the [Contact Page](https://techrelay.xyz/contact) or clicking {{< calendly calendar="techrelay" />}}
