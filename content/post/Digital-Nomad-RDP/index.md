@@ -15,7 +15,7 @@ shareImage = ''
 tags = ['featured', 'Tech', 'Digital Nomad', 'Pinned']
 thumbnail = ''
 title = "Digital Nomad RDP"
-toc = false
+toc = true
 usePageBundles = true
 series = 'Digital Nomad'
 +++
