@@ -2,7 +2,7 @@
 author = 'Nicholas'
 description = 'Ramblings about IT, Travel and Digital Nomad!'
 usePageBundles = false
-title = 'Tech Relay - Tech & Travel'
+title = 'Tech, Travel & Digital Nomad'
 +++
 <br>
 <br>
@@ -10,7 +10,7 @@ title = 'Tech Relay - Tech & Travel'
 <div style="text-align: center;">
 	<body>
 		<h1>Welcome to Tech Relay!</h1>
-		<p>Below you will find my most recent posts.</p>
+		<p>to Tech, Travel, and Digital Nomads, Below you will find my most recent posts.</p>
 	</body>
 </div>
 <br>
