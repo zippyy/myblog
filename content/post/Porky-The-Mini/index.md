@@ -29,6 +29,4 @@ To be fair, insert letterkenny joke here haha, I am not upset, I got way more th
 
 So I thought to myself, theres got to be a shop that does only or mostly just this type of work and thus labor should be less. I found a few Transmission shops and the best rated/reviewed one in town was actually really close to me so I give them a call and they said they can do it for $1800 and get it started by the end of the week. So off Porky went to the Transmission shop today. Fingers crossed that she is done quickly and without any unforseen consequenses. [Insert Half-Life Reference here](https://www.youtube.com/watch?v=tZqBrMqZLR4)
 
-![Obligitory Photo of Porky](porky.png)
-
 So long and Thanks for all the Fish! 
