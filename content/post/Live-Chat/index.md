@@ -21,4 +21,6 @@ usePageBundles = true
 
 So in the spirit of adding forums I also decided to add a live chat feature, in the bottom right hand corner theres a teal chat bubble that will launch a live chat in the page, use it as yet another means of getting ahold of me haha.
 
+![Live Chat](chat.png)
+
 As always So long and Thanks for all the Fish!
