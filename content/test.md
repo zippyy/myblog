@@ -5,5 +5,5 @@ slug = 'test'
 title = 'test'
 +++
 <html>
-<iframe src="https://forum.techrelay.xyz" style="border:0px #ffffff hidden;" name="forums" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
+<iframe src="https://forum.techrelay.xyz" style="border:0px #ffffff hidden;" name="forums" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="1000px" width="1000px" allowfullscreen></iframe>
 </html>
