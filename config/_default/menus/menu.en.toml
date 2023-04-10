@@ -21,15 +21,15 @@ weight = "-107"
 [[main]]
 name = "Forums"
 url = "https://forum.techrelay.xyz/"
-weight = "-107"
+weight = "-106"
 [[main]]
 name = "Archives"
 url = "archives/"
-weight = "-106"
+weight = "-105"
 [[main]]
 identifier = "Links"
 name = "Links"
-weight = "-105"
+weight = "-104"
 [[main]]
 name = "Snippets & Scripts"
 parent = "Links"
