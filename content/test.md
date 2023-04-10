@@ -3,5 +3,7 @@ author = 'Zippy'
 comments = false
 slug = 'test'
 title = 'test'
-iframe = https://forum.techrelay.xyz/
 +++
+<html>
+<iframe src="https://forum.techrelay.xyz" style="border:0px #ffffff hidden;" name="forums" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="800px" allowfullscreen></iframe>
+</html>
