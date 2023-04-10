@@ -19,6 +19,10 @@ name = "Contribute"
 url = "contribute/"
 weight = "-107"
 [[main]]
+name = "Forums"
+url = "https://forum.techrelay.xyz/"
+weight = "-107"
+[[main]]
 name = "Archives"
 url = "archives/"
 weight = "-106"
