@@ -1,7 +1,7 @@
 +++
 author = 'Zippy'
 comments = false
-date = '1942-04-02T22:20:47Z'
+date = "2020-04-09T22:53:20-06:00"
 description = ''
 slug = 'contact'
 title = 'Contact'
