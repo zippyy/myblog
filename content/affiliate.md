@@ -7,4 +7,4 @@ slug = 'affiliate'
 title = 'Affiliate'
 +++
 
-[Call-Centric](https://www.callcentric.com/?aid=1469308)
+[Call-Centric](https://www.callcentric.com/?aid=1469308) - Sip Trunk Provider, Very afforable, supports many different ATX, IP Phone and PBX brands, easy setup. 
