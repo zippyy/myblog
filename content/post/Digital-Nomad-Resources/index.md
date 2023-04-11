@@ -1,5 +1,5 @@
 ﻿+++
-categories = ['Technology']
+categories = ['Technology', 'Digital Nomad', 'Travel' ]
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2023-04-11T17:02:29-06:00"
@@ -12,10 +12,10 @@ featureImageAlt = ''
 featureImageCap = ''
 figurePositionShow = true
 shareImage = ''
-tags = ['featured', '']
+tags = ['featured', 'tech', 'Digital Nomad', 'Travel']
 thumbnail = ''
 title = "Digital Nomad Resources"
-toc = false
+toc = true
 usePageBundles = true
 +++
 
