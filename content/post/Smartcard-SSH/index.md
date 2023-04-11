@@ -28,7 +28,7 @@ Alright so Putty has an offshoot/fork called Putty-CAC that is enabled for Smart
 Like I said its not perfect, having to switch back and forth like that kinda sucks but considering before now It only worked with mobaxterm and for OpenSSH I had to use a key file on my disk which I am not a fan of, So this will work until something else comes along that gives me both at the same time! Below is the bat file, all you need is to have [Putty-CAC](https://risacher.org/putty-cac/) installed. (Run pageant without the openssh config first and import your keys and set it to remember your keys before using the bat file so that it already knows what CAPI or FIDO2 key to use.)
 
 
-
+So long and Thanks for all the Fish!
 
     
     @echo off
