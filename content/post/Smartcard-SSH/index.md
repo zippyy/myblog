@@ -1,5 +1,5 @@
 ﻿+++
-categories = ['Technology', "Tips & Trick's"]
+categories = ['Technology', 'Tips & Tricks']
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2023-04-10T18:17:41-06:00"
