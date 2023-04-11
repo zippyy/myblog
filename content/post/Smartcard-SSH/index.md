@@ -1,5 +1,5 @@
 ﻿+++
-categories = ['Technology']
+categories = ['Technology', "Tips & Trick's"]
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2023-04-10T18:17:41-06:00"
@@ -15,7 +15,7 @@ shareImage = ''
 tags = ['featured', 'tech', 'SSH', 'Terminal']
 thumbnail = ''
 title = "Smartcard SSH"
-toc = false
+toc = true
 usePageBundles = true
 +++
 
