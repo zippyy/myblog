@@ -10,4 +10,4 @@ title = 'Services'
 
 **Under Construction**
 
-Here is a List of services I offer, You can reach out to me by heading to the [Contact](https://techrelay.xyz/contact) for all my contact methods or by {{< calendly calendar="techrelay" />}}
+Here is a List of services I offer, You can reach out to me by heading to the [Contact](https://techrelay.xyz/contact) for all my contact methods or by clicking {{< calendly calendar="techrelay" />}}
