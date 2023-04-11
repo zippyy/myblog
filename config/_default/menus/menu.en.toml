@@ -46,6 +46,10 @@ url = "status/"
 name = "CV/Résumé"
 parent = "Links"
 url = "https://nbennett.pro"
+[[main]]
+name = "Affiliate Links"
+parent = "Links"
+url = "https://techrelay.xyz/affiliate"
 [[social]]
 name = "github"
 type = "social"
