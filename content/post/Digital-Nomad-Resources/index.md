@@ -65,7 +65,7 @@ I thought it would be useful to put a page together with some Digital Nomad Reso
 
 
    1. [Nomad Soulmates](https://nomadsoulmates.com/) - A Digital Nomad Oriented Dating Site.
-   2. [Digital Nomad Sub-Reddit](https://www.reddit.com/r/digitalnomad)
+   2. [Digital Nomad Sub-Reddit](https://www.reddit.com/r/digitalnomad) - The Official Digital Nomad Sub-Reddit.
 
 
 ## Jobs
