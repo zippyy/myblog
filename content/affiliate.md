@@ -20,5 +20,4 @@ These Links help me "keep the lights on" so to speak so please try and use any o
 
 [NordLocker](https://go.nordlocker.net/aff_c?offer_id=760&aff_id=86359) - NordLocker is an end-to-end encrypted file storage option from the NordVPN folks. Seems pretty decent so far, I have a mix between onedrive for business (I run full Hybrid AD setup with E5 licenses) and NordLocker.
 
-[Rakuten](https://click.linksynergy.com/fs-bin/click?id=G7JIjzlEF1M&offerid=311675.10000157&type=3&subid=0&LSNSUBSITE=LSNSUBSITE) - Rewards for purchasing items through their site.
 
