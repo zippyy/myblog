@@ -28,8 +28,7 @@ Alright so Putty has an offshoot/fork called Putty-CAC that is enabled for Smart
 
 
 
-    ```
+    
     @echo off
 	cd "C:\Program Files\PuTTY-cac\" 
 	pageant.exe --openssh-config C:\ProgramData\ssh\pageant.conf
-	```
