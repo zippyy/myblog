@@ -7,6 +7,9 @@ slug = 'affiliate'
 title = 'Affiliate Links'
 +++
 
+These Links help me "keep the lights on" so to speak so please try and use any of the following links to platforms you may already be using!
+
+
 [Call-Centric](https://www.callcentric.com/?aid=1469308) - Sip Trunk Provider, Very afforable, supports many different ATX, IP Phone and PBX brands, easy setup. 
 
 [Amazon Affiliate](https://www.amazon.com/b?_encoding=UTF8&tag=techrelay0b-20&linkCode=ur2&linkId=1062df21f10cf57cb153e27eb1fce307&camp=1789&creative=9325&node=193870011) - Amazon Affiliate link, Helps me keep things going!
