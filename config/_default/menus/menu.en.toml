@@ -50,6 +50,10 @@ url = "https://nbennett.pro"
 name = "Affiliate Links"
 parent = "Links"
 url = "https://techrelay.xyz/affiliate"
+[[main]]
+name = "Tech/IT Services"
+parent = "Links"
+url = "https://techrelay.xyz/services"
 [[social]]
 name = "github"
 type = "social"
