@@ -10,7 +10,7 @@ title = 'Services'
 
 **Under Construction**
 
-Here is a List of services I offer, You can reach out to me by heading to the [Contact](https://techrelay.xyz/contact) for all my contact methods or by clicking {{< calendly calendar="techrelay" />}}, For most services my rate is $75 for the first hour, $50 for Subsequent Hours in Increments of 30 Minutes.
+Here is a List of services I offer, You can reach out to me by heading to the [Contact](https://techrelay.xyz/contact) for all my contact methods or by clicking {{< calendly calendar="techrelay" />}}. For most services my rate is $75 for the first hour, $50 for Subsequent Hours in Increments of 30 Minutes.
 
 
 ## Digital Nomad
