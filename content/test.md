@@ -5,6 +5,7 @@ date = '1942-04-02T10:20:49Z'
 description = ''
 slug = 'test'
 title = 'test'
+enableEmoji = true
 +++
 
 <html>
@@ -54,3 +55,7 @@ title = 'test'
 </html>
 
 -->
+
+:heart:
+
+:kissing_face:
