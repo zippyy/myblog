@@ -9,3 +9,6 @@ title = 'Thanks'
 
 Thank you for contributing ❤ ❤️
 
+I :heart: Hugo!
+
+I :heart: Hugo!:
