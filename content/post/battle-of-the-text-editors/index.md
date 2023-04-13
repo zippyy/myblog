@@ -31,4 +31,4 @@ Let me know in the comments or over on the [Forums](https://forum.techrelay.xyz/
 
 So long and Thanks for all the Fish!
 
-*Update: So Sublime Text does support that same kind of functionality however since the hightlighting for markdown and specifically Hugo + Shortcodes I am going to stick with VS Code for a while unless it runs poorly or have issues otherwise.*
+*Update: So Sublime Text does support that same kind of functionality however since the hightlighting for markdown and specifically Hugo + Shortcodes I am going to stick with VS Code for a while unless it runs poorly or have issues otherwise, The only thing that I have not been able to do that Sublime Text has an Extentsion for is rendering images inside of the markdown files, In Sublime Text I can use the Markdown Images extenstion and it will show the image directly in the the text editor, VS Code seems to have a way to do that via the markdown preview which is better than nothing but thats a huge plus for sublime text yet not enough to detract from the other pluses of VS Code So far.*
