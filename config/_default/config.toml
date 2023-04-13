@@ -8,6 +8,7 @@ paginate = 10
 theme = ["hugo-calendly-shortcode","hugo-embed-pdf-shortcode","hugo-theme-component-webmentions","jemsugo","hugo-notice","hugo-github-calendar","hugo-cloak-email","hugo-embed-pdf-shortcode", "hugo-clarity"]
 #disqusShortname = ""
 enableInlineShortcodes = true
+enableEmoji = true
 
 DefaultContentLanguage = "en"
 # [languages]
@@ -34,6 +35,3 @@ enableRobotsTXT = true
 changefreq = 'monthly'
 filename = 'sitemap.xml'
 priority = 0.5
-
-[emoji]
-enableEmoji = true
