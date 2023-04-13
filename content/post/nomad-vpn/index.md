@@ -24,9 +24,11 @@ First of all lets discuss some pre-reqs that you must have or before you start t
 
 [Link will go here] to upcoming post talking about the GL-inet hardware if you want more/less features, different use cases, setups with other hardware otherwise Purchase the models mentioned in this guide for a quickstart.
 
-1. You must have another GL-Inet Router or a Raspi, Old Desktop, Home router, etc... that supports wireguard (openvpn can be used as well albeit at a slower perfomance)**
-2. If your setup does not have wireguard functionality already setup like a turnkey raspi distro, a built in vpn settings in your home router, etc.. then you must setup wg-easy first. (I will Cover This further in this series but for this guide I will assume you bought Two GL-Inet Routers and one will act as the server in your home region while the other goes with you and connects to it.)**
-3. You must have a travel router that you will configure to connect to this vpn and take with you on your travels (you can use a home router too that has support for something like openwrt if you plan to be stationary as well)**
+**1. You must have another GL-Inet Router or a Raspi, Old Desktop, Home router, etc... that supports wireguard (openvpn can be used as well albeit at a slower perfomance)**
+
+**2. If your setup does not have wireguard functionality already setup like a turnkey raspi distro, a built in vpn settings in your home router, etc.. then you must setup wg-easy first. (I will Cover This further in this series but for this guide I will assume you bought Two GL-Inet Routers and one will act as the server in your home region while the other goes with you and connects to it.)**
+
+**3. You must have a travel router that you will configure to connect to this vpn and take with you on your travels (you can use a home router too that has support for something like openwrt if you plan to be stationary as well)**
 
 
 For this Guide I will be using a GL-Inet Flint (GL-AX1800) as the Home region router refered to as HomeRouter in the rest of this guide and a Slate (GL-AR750S) as the Mobile travel router refered to as TravelRouter in the rest of this guide. 
