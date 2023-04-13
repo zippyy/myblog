@@ -25,6 +25,8 @@ Sublime Text has a tonne of Extensions including a plethora of Syntax Hightlight
 
 So I am only a day or so into using VS Code and so far I have only been editing posts, pages, and making changes to config files for this site but so far I am realy enjoying it, In fact I am writing this post in VS Code. I will do a follow up post after I have had sufficient time to use it and report back my comparison of pros and cons between Sublime Text and VS Code. 
 
+Another big plus for me that VS Code checks the box on is the ability to commit and push directly to github from within the application, Now I am not sure if Sublime Text has this functionality and I am actually going to check and edit this post with and update, but thats is a huge work flow gain for me and I didnt realize that it was something I wanted or how important is really was to my work flow until I started playing with VS Code. 
+
 Let me know in the comments or over on the [Forums](https://forum.techrelay.xyz/) with your choice of editor + extensions!
 
 So long and Thanks for all the Fish!
