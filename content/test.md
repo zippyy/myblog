@@ -60,3 +60,7 @@ title = 'test'
 :kissing_face:
 
 :see_no_evil:
+
+{{ emojify ":v:" }}
+
+{{ emojify ":heart:" }}
