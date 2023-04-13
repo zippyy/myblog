@@ -149,5 +149,3 @@ websiteDomain = "example.com" # Set the domain name of your website, in most cas
 matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
 
-[emoji]
-enableEmoji = true
