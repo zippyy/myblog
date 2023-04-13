@@ -7,5 +7,5 @@ slug = 'thanks'
 title = 'Thanks'
 +++
 
-Thank you for contributing ❤
+Thank you for contributing ❤ ❤️
 
