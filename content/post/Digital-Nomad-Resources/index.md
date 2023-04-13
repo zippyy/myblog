@@ -1,5 +1,5 @@
 ﻿+++
-categories = ['Technology', 'Digital Nomad', 'Travel' ]
+categories = ['Technology', 'Digital Nomad', 'Travel', 'Pinned']
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2023-04-11T17:02:29-06:00"
@@ -12,7 +12,7 @@ featureImageAlt = ''
 featureImageCap = ''
 figurePositionShow = true
 shareImage = ''
-tags = ['featured', 'tech', 'Digital Nomad', 'Travel']
+tags = ['featured', 'tech', 'Digital Nomad', 'Travel', 'Pinned']
 thumbnail = ''
 title = "Digital Nomad Resources"
 toc = true
