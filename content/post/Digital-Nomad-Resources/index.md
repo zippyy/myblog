@@ -18,7 +18,7 @@ title = "Digital Nomad Resources"
 toc = true
 usePageBundles = true
 series = 'Digital Nomad'
-weight = 9
+weight = '9'
 +++
 
 ## Intro
