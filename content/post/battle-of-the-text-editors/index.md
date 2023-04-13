@@ -30,3 +30,5 @@ Another big plus for me that VS Code checks the box on is the ability to commit 
 Let me know in the comments or over on the [Forums](https://forum.techrelay.xyz/) with your choice of editor + extensions!
 
 So long and Thanks for all the Fish!
+
+*Update: So Sublime Text does support that same kind of functionality however since the hightlighting for markdown and specifically Hugo + Shortcodes I am going to stick with VS Code for a while unless it runs poorly or have issues otherwise.*
