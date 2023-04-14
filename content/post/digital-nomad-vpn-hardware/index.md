@@ -98,9 +98,13 @@ The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gl
 
 ## Bonus
 
-Here is a bonus I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. 
+Here is a bonus I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. As well as another Bonus Hardware option.
 
 [HolaFly eSim Serivce](https://esim.holafly.com/?ref=drinkteatravel&utm_source=drinkteatravel&utm_medium=afiliacion) is a platform to purchase and use eSim cellular service world wide, they offer competitive pricing and what looks to be a simple process. I will update this with a personalized review once I get an opportunity to test it out. 
+
+[Spritz AX](https://www.gl-inet.com/products/gl-x3000/) is an awesome Dual-Sim 4G/5G Cellular Gateway, This is the opposite of the catagory above for Mobile Celluar Routers, This does not have a battery and is not meant to be "mobile or portable" however it has great use! If your like me and travel alot both inside me home nation and abroad then this might be of use to you in a vehicle or RV. I currently have one in my car but I plan to put a seccond one in the RV once we find the right one and start our Full Time RV Journey thus I thought I would mention it. Its a powerful Cellular router that works great in my car to give me reliable 5g access anywhere I have a signal.
+
+![Spritz AX 4G/5G Cellular Gateway](x3000_main_3.png)
 
 ## Closing 
 
