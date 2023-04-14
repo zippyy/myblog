@@ -14,7 +14,7 @@ figurePositionShow = true
 shareImage = ''
 tags = ['featured', 'Pinned', 'tech', 'Digital Nomad']
 thumbnail = ''
-title = "Digital nomad vpn hardware"
+title = "Digital Nomad VPN Hardware"
 toc = true
 usePageBundles = true
 series = 'Digital Nomad'
@@ -96,7 +96,7 @@ Again this another must have on my personal list of hardware, Hightly reccomend 
 The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gli.net and is one of the few reccomedation I have for hardward not made by Gli.net. It is awesome but to be honest I only carry one for simplicity and convinece, theres nothing aside from being e-Sim capable (hence the simpilicty and convinece part) that the Nighthawk or Mundi cant do and thus this is an optional option for hardware thus I dont reccomend you pick one up unless you just like to be prepared or the e-Sim functionality is important to you (for me its both).
 
 
-### Bonus
+## Bonus
 
 Here is a bonus I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. 
 
