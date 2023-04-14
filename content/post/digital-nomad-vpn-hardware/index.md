@@ -97,7 +97,7 @@ The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gl
 
 #### eSUNFI eSim/Physical Sim Combo
 
-The [eSUNFI](https://www.esun-fi.com/) (*Warning this website sucks ass*)This one is really interesting and I have heard some good things about it but yet to try it, Someone reached out with one to donate for review so as soon as I get it in hand I will update this post with a full review but so far it looks really promising as it has both a physical sim slot and eSim functionality which for me is a huge deal, if it supports using any eSim (the Mogo S2 above doesnt support a bring your carrier style, you have to purchase esim service from their shop which only has their partnered carriers) and its got decent performance like the nighthawk this device might replace two devices I dont generally leave home without.
+The [eSUNFI](https://www.esun-fi.com/) (*Warning this website sucks ass*)  This one is really interesting and I have heard some good things about it but yet to try it, Someone reached out with one to donate for review so as soon as I get it in hand I will update this post with a full review but so far it looks really promising as it has both a physical sim slot and eSim functionality which for me is a huge deal, if it supports using any eSim (the Mogo S2 above doesnt support a bring your carrier style, you have to purchase esim service from their shop which only has their partnered carriers) and its got decent performance like the nighthawk this device might replace two devices I dont generally leave home without.
 
 ![eSUNFI 4G eSim Router](Progetto-senza-titolo-39.webp)
 
@@ -108,13 +108,13 @@ Here is a bonus I thought was interesting, I have not had a chance to use it yet
 
 [HolaFly eSim Serivce](https://esim.holafly.com/?ref=drinkteatravel&utm_source=drinkteatravel&utm_medium=afiliacion) is a platform to purchase and use eSim cellular service world wide, they offer competitive pricing and what looks to be a simple process. I will update this with a personalized review once I get an opportunity to test it out. 
 
-[Spritz AX](https://www.gl-inet.com/products/gl-x3000/) is an awesome Dual-Sim 4G/5G Cellular Gateway, This is the opposite of the catagory above for Mobile Celluar Routers, This does not have a battery and is not meant to be "mobile or portable" however it has great use! If your like me and travel alot both inside me home nation and abroad then this might be of use to you in a vehicle or RV. I currently have one in my car but I plan to put a seccond one in the RV once we find the right one and start our Full Time RV Journey thus I thought I would mention it. Its a powerful Cellular router that works great in my car to give me reliable 5g access anywhere I have a signal.
+[Spritz AX](https://www.gl-inet.com/products/gl-x3000/) is an awesome Dual-Sim 4G/5G Cellular Gateway, This is the opposite of the catagory above for Mobile Celluar Routers, This does not have a battery and is not meant to be "mobile or portable" however it has great use! If your like me and travel alot both inside my home nation and abroad then this might be of use to you in a vehicle or RV. I currently have one in my car but I plan to put a seccond one in the RV once we find the right one and start our Full Time RV Journey thus I thought I would mention it. Its a powerful Cellular router that works great in my car to give me reliable 5g access anywhere I have a signal.
 
 ![Spritz AX 4G/5G Cellular Gateway](x3000_main_3.png)
 
 ## Closing 
 
-I hope this was a useful post and that I was able to give you a better understanding of your hardware options as well as covering the upgrade available to you, I will continue to add more content to the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/) as I come accross things and have the time to create content so check back often!
+I hope this was a useful post and that I was able to give you a better understanding of your hardware options as well as covering the upgrades available to you, I will continue to add more content to the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/) as I come accross things and have the time to create content so check back often!
 
 Let me know your thoughts or questions in the comments below or head over to the [Forums](https://forum.techrelay.xyz) to discuss these digital nomad topics and more!
 
