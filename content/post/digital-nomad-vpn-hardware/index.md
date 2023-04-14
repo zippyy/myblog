@@ -93,7 +93,7 @@ Again this another must have on my personal list of hardware, Hightly reccomend 
 
 ![Mogo S2](image_s2hero-min.png)
 
-The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gli.net and is one of the few reccomedation I have for hardward not made by Gli.net. It is awesome but to be honest I only carry one for simplicity and convinece, theres nothing aside from being e-Sim capable (hence the simpilicty and convinece part) that the Nighthawk or Mundi cant do and thus this is an optional option for hardware thus I dont reccomend you pick one up unless you just like to be prepared or the e-Sim functionality is important to you (for me its both).
+The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gli.net and is one of the few reccomedations I have for hardware not made by Gli.net. It is awesome but to be honest I only carry one for simplicity and convinece, theres nothing aside from being e-Sim capable (hence the simpilicty and convinece part) that the Nighthawk or Mundi cant do and thus this is an optional option for hardware thus I dont reccomend you pick one up unless you just like to be prepared or the e-Sim functionality is important to you (for me its both).
 
 
 ## Bonus
