@@ -89,11 +89,17 @@ It also supports Wireguard just like all the other devices I have mentioned (san
 
 Again this another must have on my personal list of hardware, Hightly reccomend you pick one up as it takes a standard micro-sim that you should be able to find pre-paid providers in any country you visit. 
 
-#### Mogo S2
+#### Mogo S2 eSIM 
 
 ![Mogo S2](image_s2hero-min.png)
 
 The [Mogo S2](https://ifreemogos.com/en/products/mogo-s2.html) is not made by Gli.net and is one of the few reccomedations I have for hardware not made by Gli.net. It is awesome but to be honest I only carry one for simplicity and convinece, theres nothing aside from being e-Sim capable (hence the simpilicty and convinece part) that the Nighthawk or Mundi cant do and thus this is an optional option for hardware thus I dont reccomend you pick one up unless you just like to be prepared or the e-Sim functionality is important to you (for me its both).
+
+#### eSUNFI eSim/Physical Sim Combo
+
+The [eSUNFI](https://www.esun-fi.com/) (*Warning this website sucks ass*)This one is really interesting and I have heard some good things about it but yet to try it, Someone reached out with one to donate for review so as soon as I get it in hand I will update this post with a full review but so far it looks really promising as it has both a physical sim slot and eSim functionality which for me is a huge deal, if it supports using any eSim (the Mogo S2 above doesnt support a bring your carrier style, you have to purchase esim service from their shop which only has their partnered carriers) and its got decent performance like the nighthawk this device might replace two devices I dont generally leave home without.
+
+![eSUNFI 4G eSim Router](Progetto-senza-titolo-39.webp)
 
 
 ## Bonus
