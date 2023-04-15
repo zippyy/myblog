@@ -146,11 +146,15 @@ All in all if your going to carry a hotspot also then this is the one! You want 
 
 ## Bonus
 
-Here is a bonus I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. As well as another Bonus Hardware option.
+Here are a couple bonuses I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. As well as another Bonus Hardware option.
+
+#### HolaFly eSim
 
 ![HolaFly eSim](holafly.png)
 
 [HolaFly eSim Serivce](https://esim.holafly.com/?ref=drinkteatravel&utm_source=drinkteatravel&utm_medium=afiliacion) is a platform to purchase and use eSim cellular service world wide, they offer competitive pricing and what looks to be a simple process. I will update this with a personalized review once I get an opportunity to test it out. 
+
+#### Spritz AX 4G/5G Cellular Gateway
 
 ![Spritz AX 4G/5G Cellular Gateway](x3000_main_3.png)
 
