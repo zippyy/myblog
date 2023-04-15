@@ -39,7 +39,7 @@ Lets get started on covering the hardware options, we will cover the exisiting h
 
 So in the original post the recomended HomeRouter option is the [Flint](linkhere) and that is still the case *if you are not replacing your exisiting router with the HomeRouter and you dont need the **VPN Cascading** feature that I mention in the Brume 2 section* but there is a new option called the [Brume 2](https://www.gl-inet.com/products/gl-mt2500/) lets cover it in detail.
 
-#### Flint
+#### Flint (Reccomended HomeRouter)
 
 ![Flint](ax1800_1.webp)
 
@@ -65,7 +65,7 @@ Setup for this device would be mostly the same except for an added part of confi
 
 This is an awesome addition and also brings [Mesh] Functionality to the HomeRouter offerings of GL-inet which is a nice tide considering all the major manufactueres offer a Mesh offering if not several. 
 
-The [Velica](linkhere) is honestly a pretty awesome addition to the GL-inet line up, Its got both Wireguard and OpenVPN like all the others along with some new features like Mesh networking (click the link above to read more about mesh but basically you can add as many "Nodes" and you need to fill the squarefootage of your dwelling and the network is self organizing) as well as support for both Adguard Home and Cloudfalre DNS over TLS which is a huge deal for privacy and security! It also features a large onboard flash storage (8gb which is huge considering most other router storage options) however it has a small downside that is really not a big deal and is very on par with other Mesh capable router systems and that is its only got 2 Ethernet ports, 1 WAN and 1 LAN (this is easiliy remedied by adding an unmanaged or managed switch into the mix, however I will not be covering that because that is not Digital Nomad specific thus there should be tonnes of resources on uncle google to get you going) 
+The [Velica](https://www.gl-inet.com/products/gl-b2200/) is honestly a pretty awesome addition to the GL-inet line up, Its got both Wireguard and OpenVPN like all the others along with some new features like Mesh networking (click the link above to read more about mesh but basically you can add as many "Nodes" and you need to fill the squarefootage of your dwelling and the network is self organizing) as well as support for both Adguard Home and Cloudfalre DNS over TLS which is a huge deal for privacy and security! It also features a large onboard flash storage (8gb which is huge considering most other router storage options) however it has a small downside that is really not a big deal and is very on par with other Mesh capable router systems and that is its only got 2 Ethernet ports, 1 WAN and 1 LAN (this is easiliy remedied by adding an unmanaged or managed switch into the mix, however I will not be covering that because that is not Digital Nomad specific thus there should be tonnes of resources on uncle google to get you going) 
 
 All in all I highly reccomend this option if your considering replacing your exisiting router and have a large house or could otherwise benfit from mesh however I still suggest the [Flint](https://www.gl-inet.com/products/gl-ax1800/) for either full replacement or adding to your existing router or [Brume 2](linkhere) if your not considering replacing your exisiting router and just want to add the functionality needed for [Digital Nomad VPN](https://techrelay.xyz/nomad-vpn) or need VPN cascading.
 
@@ -75,11 +75,11 @@ All in all I highly reccomend this option if your considering replacing your exi
 
 For this section the original recomendation was the [Slate](https://www.gl-inet.com/products/gl-ar750s/) and honestly its still a great option as its much cheaper than the newer offerings but if you dont mind spending the extra money the newer [Slate AX](https://www.gl-inet.com/products/gl-axt1800/) is a better choice along with some others I will cover below. 
 
-#### Slate AX
+#### Slate AX (Recommended TravelRouter)
 
 ![Slate AX](axt1800_1.webp)
 
-**This is the Recoomended TravelRouter if you dont have any special requirements like 2.5Gbps WAN**
+**This is the Recommended TravelRouter if you dont have any special requirements like 2.5Gbps WAN**
 
 The [Slate AX](https://www.gl-inet.com/products/gl-axt1800/) is a awesome upgrade to the already awesome Slate series and although it comes with a higher price tag its very worth it. 
 
