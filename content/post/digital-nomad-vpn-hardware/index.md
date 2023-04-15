@@ -23,7 +23,7 @@ weight = 3
 
 ## Preface
 
-Okay so in the [Digital Nomad VPN](https://techrelay.xyz/nomad-vpn) Post I said I would do an update with hardware choices, I finally have gotten around to it and in that time GL-inet has released some awesome upgraded hardware. I will also cover other brands but I need to do more research and testing (If you have a brand you want tested and reviewed for compatibility and quality head over to the [Contribute Page](https://techrelay.xyz/contribute) to donate funds to purchase specific hardware or head to the [Contact Page](https://techrelay.xyz/contact) to reach out if you have hardware to donate)
+Okay so in the [Digital Nomad VPN](https://techrelay.xyz/post/post/nomad-vpn) Post I said I would do an update with hardware choices, I finally have gotten around to it and in that time GL-inet has released some awesome upgraded hardware. I will also cover other brands but I need to do more research and testing (If you have a brand you want tested and reviewed for compatibility and quality head over to the [Contribute Page](https://techrelay.xyz/contribute) to donate funds to purchase specific hardware or head to the [Contact Page](https://techrelay.xyz/contact) to reach out if you have hardware to donate)
 
 ## Introduction
 
@@ -31,7 +31,7 @@ Alright so in part one of this post I will cover the new options for GL-inet har
 
 ## Hardware
 
-Lets get started on covering the hardware options, we will cover the existing hardware recommendations from the original post as well as new upgraded versions of hardware and some new options that were not available or viable at the writing of the [Original Post](https://techrelay.xyz/nomad-vpn)
+Lets get started on covering the hardware options, we will cover the existing hardware recommendations from the original post as well as new upgraded versions of hardware and some new options that were not available or viable at the writing of the [Original Post](https://techrelay.xyz/post/nomad-vpn)
 
 ### HomeRouter
 
@@ -67,7 +67,7 @@ This is an awesome addition and also brings [Mesh] Functionality to the HomeRout
 
 The [Velica](https://www.gl-inet.com/products/gl-b2200/) is honestly a pretty awesome addition to the GL-inet line up, Its got both Wireguard and OpenVPN like all the others along with some new features like Mesh networking (click the link above to read more about mesh but basically you can add as many "Nodes" and you need to fill the squarefootage of your dwelling and the network is self organizing) as well as support for both Adguard Home and Cloudfalre DNS over TLS which is a huge deal for privacy and security! It also features a large onboard flash storage (8gb which is huge considering most other router storage options) however it has a small downside that is really not a big deal and is very on par with other Mesh capable router systems and that is its only got 2 Ethernet ports, 1 WAN and 1 LAN (this is easiliy remedied by adding an unmanaged or managed switch into the mix, however I will not be covering that because that is not Digital Nomad specific thus there should be tonnes of resources on uncle google to get you going) 
 
-All in all I highly recommend this option if your considering replacing your existing router and have a large house or could otherwise benefit from mesh however I still suggest the [Flint](https://www.gl-inet.com/products/gl-ax1800/) for either full replacement or adding to your existing router or [Brume 2](linkhere) if your not considering replacing your existing router and just want to add the functionality needed for [Digital Nomad VPN](https://techrelay.xyz/nomad-vpn) or need VPN cascading.
+All in all I highly recommend this option if your considering replacing your existing router and have a large house or could otherwise benefit from mesh however I still suggest the [Flint](https://www.gl-inet.com/products/gl-ax1800/) for either full replacement or adding to your existing router or [Brume 2](linkhere) if your not considering replacing your existing router and just want to add the functionality needed for [Digital Nomad VPN](https://techrelay.xyz/post/nomad-vpn) or need VPN cascading.
 
 ### Travel Router
 
@@ -165,7 +165,7 @@ Here are a couple bonuses I thought were interesting, I have not had a chance to
 
 I hope this was a useful post and that I was able to give you a better understanding of your hardware options as well as covering the upgrades available to you, I will continue to add more content to the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/) as I come across things and have the time to create content so check back often!
 
-Let me know your thoughts or questions in the comments below or head over to the [Forums](https://forum.techrelay.xyz) to discuss these digital nomad topics and more!
+Let me know your thoughts or questions in the comments below or head over to the [Forums](https://forum.techrelay.xyz) to discuss these digital nomad topics and more! Also if this post or the [Digital Nomad Vpn](https://techrelay.xyz/post/post/nomad-vpn) post was helpful and you feel like contributing to me head over to the [Contribute](https://techrelay.xyz/contribute) and the [Affiliate Links](https://techrelay.xyz/affiliate) page for ways to contribute!
 
 
 So Long and Thanks for all the Fish!
