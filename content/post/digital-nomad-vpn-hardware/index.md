@@ -49,13 +49,13 @@ The [Flint](https://www.gl-inet.com/products/gl-ax1800/) is the best HomeRouter 
 
 The Flint is awesome, its got WiFi-6, 5 Ethernet ports (1 Gigabit WAN and 4 Gigabit LAN), and like pretty much everything from GL-inet, a USB 3.0 port, as well as 4 beefy external antennas, It also has a chipset capable of handling routing for Gigabit networks no problem (Some other brand struggle here if your connection is 1gbps). 
 
-All in all its a great choice and highly reccomended as long as you don't need mesh (You want the Velica below for that)
+All in all its a great choice and highly recommended as long as you don't need mesh (You want the Velica below for that)
 
 #### Brume 2
 
 ![Brume 2](mt2500_main.png)
 
-[Brume 2](https://www.gl-inet.com/products/gl-mt2500/) is a newer offering from GL-inet and its got a cool new feature called *VPN Cascading*, it can run both OpenVPN and Wireguard at the same time (This is by itself nothing new, the flint will do this too) with the added functionality of being able to transfer traffic between the two. For example you can have the OpenVPN connecting to a coprate VPN and then connect your TravelRouter and Work Device to the Wireguard endpoint and pass that traffic onward to the OpenVPN side of things, this could be very useful for someone who's company uses OpenVPN but doesn't enforce the Always-On functionality or enforce the use of the application on the device which may not be all companies but at least some will be this lenient.  
+[Brume 2](https://www.gl-inet.com/products/gl-mt2500/) is a newer offering from GL-inet and its got a cool new feature called *VPN Cascading*, it can run both OpenVPN and Wireguard at the same time (This is by itself nothing new, the flint will do this too) with the added functionality of being able to transfer traffic between the two. For example you can have the OpenVPN connecting to a corporate VPN and then connect your TravelRouter and Work Device to the Wireguard endpoint and pass that traffic onward to the OpenVPN side of things, this could be very useful for someone who's company uses OpenVPN but doesn't enforce the Always-On functionality or enforce the use of the application on the device which may not be all companies but at least some will be this lenient.  
 
 Setup for this device would be mostly the same except for an added part of configuring the Secondary Interface with your OpenVPN config which I will cover in yet another update post. 
 
@@ -63,7 +63,7 @@ Setup for this device would be mostly the same except for an added part of confi
 
 ![Velica](b2200_1.jpg)
 
-This is an awesome addition and also brings [Mesh] Functionality to the HomeRouter offerings of GL-inet which is a nice tide considering all the major manufactueres offer a Mesh offering if not several. 
+This is an awesome addition and also brings [Mesh] Functionality to the HomeRouter offerings of GL-inet which is a nice tide considering all the major manufacturers offer a Mesh offering if not several. 
 
 The [Velica](https://www.gl-inet.com/products/gl-b2200/) is honestly a pretty awesome addition to the GL-inet line up, Its got both Wireguard and OpenVPN like all the others along with some new features like Mesh networking (click the link above to read more about mesh but basically you can add as many "Nodes" and you need to fill the squarefootage of your dwelling and the network is self organizing) as well as support for both Adguard Home and Cloudfalre DNS over TLS which is a huge deal for privacy and security! It also features a large onboard flash storage (8gb which is huge considering most other router storage options) however it has a small downside that is really not a big deal and is very on par with other Mesh capable router systems and that is its only got 2 Ethernet ports, 1 WAN and 1 LAN (this is easiliy remedied by adding an unmanaged or managed switch into the mix, however I will not be covering that because that is not Digital Nomad specific thus there should be tonnes of resources on uncle google to get you going) 
 
