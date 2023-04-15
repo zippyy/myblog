@@ -31,7 +31,7 @@ First of all lets discuss some pre-reqs that you must have or before you start t
 **3. You must have a travel router that you will configure to connect to this vpn and take with you on your travels (you can use a home router too that has support for something like openwrt if you plan to be stationary as well)**
 
 
-For this Guide I will be using a GL-Inet Flint (GL-AX1800) as the Home region router refered to as HomeRouter in the rest of this guide and a Slate (GL-AR750S) as the Mobile travel router refered to as TravelRouter in the rest of this guide. 
+For this Guide I will be using a GL-Inet Flint (GL-AX1800) as the Home region router referred to as HomeRouter in the rest of this guide and a ~~Slate (GL-AR750S)~~ Slate AX (gl-axt1800) as the Mobile travel router referred to as TravelRouter in the rest of this guide. (You can still use the Original Slate if you can find it from a reseller or used on eBay as its by far going to be cheaper than both the Slate AX and Slate Plus, It is still very viable however it will be EoL in 2024 and might stop getting updates. So ultimately I would suggest upgrading to the Slate AX or the Slate Plus at minimum.)
 
 Alright lets get started. 
 
@@ -43,7 +43,7 @@ Assuming you have purchased the recommended routers in this guide then you just 
 
 ![initialize_wireguard_server](initialize_wireguard_server.png)
 
-choose the IP address subnet on the next screen. you can leave this as whatever the default is, on mine it was 10.0.0.1, I changed this to 10.0.42.1 (shout out to HHGTTG) but this can really be anything starting with 10.0.x.x (remember only 1-254); If you are wanting to access other things on the network that youll be hosting the wireguard server in, like remote desktop to another machine or access things like file servers, plex, home assistant, etc... then make sure enable the toggle for "Allow Access Local Network" If you dont need this then leave that toggle disabled. 
+choose the IP address subnet on the next screen. you can leave this as whatever the default is, on mine it was 10.0.0.1, I changed this to 10.0.42.1 (shout out to HHGTTG) but this can really be anything starting with 10.0.x.x (remember only 1-254); If you are wanting to access other things on the network that you will be hosting the wireguard server in, like remote desktop to another machine or access things like file servers, plex, home assistant, etc... then make sure enable the toggle for "Allow Access Local Network" If you dont need this then leave that toggle disabled. 
 
 ![start_wireguard_server](start_wireguard_server.png)
 
