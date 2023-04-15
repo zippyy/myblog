@@ -146,7 +146,7 @@ All in all if your going to carry a hotspot also then this is the one! You want 
 
 ## Bonus
 
-Here are a couple bonuses I thought was interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. As well as another Bonus Hardware option.
+Here are a couple bonuses I thought were interesting, I have not had a chance to use it yet but I did find many Digital Nomad and Travel resources that had good reviews for this service. As well as another Bonus Hardware option.
 
 ### HolaFly eSim
 
