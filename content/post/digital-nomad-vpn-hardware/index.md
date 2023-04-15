@@ -23,7 +23,7 @@ weight = 3
 
 ## Preface
 
-Okay so in the [Digital Nomad VPN](https://techrelay.xyz/post/post/nomad-vpn) Post I said I would do an update with hardware choices, I finally have gotten around to it and in that time GL-inet has released some awesome upgraded hardware. I will also cover other brands but I need to do more research and testing (If you have a brand you want tested and reviewed for compatibility and quality head over to the [Contribute Page](https://techrelay.xyz/contribute) to donate funds to purchase specific hardware or head to the [Contact Page](https://techrelay.xyz/contact) to reach out if you have hardware to donate)
+Okay so in the [Digital Nomad VPN](https://techrelay.xyz/post/nomad-vpn) Post I said I would do an update with hardware choices, I finally have gotten around to it and in that time GL-inet has released some awesome upgraded hardware. I will also cover other brands but I need to do more research and testing (If you have a brand you want tested and reviewed for compatibility and quality head over to the [Contribute Page](https://techrelay.xyz/contribute) to donate funds to purchase specific hardware or head to the [Contact Page](https://techrelay.xyz/contact) to reach out if you have hardware to donate)
 
 ## Introduction
 
@@ -165,7 +165,7 @@ Here are a couple bonuses I thought were interesting, I have not had a chance to
 
 I hope this was a useful post and that I was able to give you a better understanding of your hardware options as well as covering the upgrades available to you, I will continue to add more content to the [Digital Nomad Series](https://techrelay.xyz/series/digital-nomad/) as I come across things and have the time to create content so check back often!
 
-Let me know your thoughts or questions in the comments below or head over to the [Forums](https://forum.techrelay.xyz) to discuss these digital nomad topics and more! Also if this post or the [Digital Nomad Vpn](https://techrelay.xyz/post/post/nomad-vpn) post was helpful and you feel like contributing to me head over to the [Contribute](https://techrelay.xyz/contribute) and the [Affiliate Links](https://techrelay.xyz/affiliate) page for ways to contribute!
+Let me know your thoughts or questions in the comments below or head over to the [Forums](https://forum.techrelay.xyz) to discuss these digital nomad topics and more! Also if this post or the [Digital Nomad Vpn](https://techrelay.xyz/post/nomad-vpn) post was helpful and you feel like contributing to me head over to the [Contribute](https://techrelay.xyz/contribute) and the [Affiliate Links](https://techrelay.xyz/affiliate) page for ways to contribute!
 
 
 So Long and Thanks for all the Fish!
