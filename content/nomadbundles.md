@@ -14,12 +14,12 @@ So I have had several requests to offer a preconfigured ready to go hardware bun
 I will offer several combinations of hardware and different levels of bundles with more or less hardware depending on what you are wanting, These will ship to you preconfigured, all you need to do is plug it in and off you go. 
 
 <a href="https://trolley.link/p/28JLW97" data-trolley="true" data-tpk="28JLW97">
-    Basic "Get Started" VPN Hardware Bundle
+    $318 Basic "Get Started" VPN Hardware Bundle
 </a>
 <br>
 <br>
 <a href="https://trolley.link/p/7NRL3W" data-trolley="true" data-tpk="7NRL3W">
-    Basic "Get Started" VPN Hardware Bundle - Alternative Travel Router
+    $305 Basic "Get Started" VPN Hardware Bundle - Alternative Travel Router
 </a>
 
 
