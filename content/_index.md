@@ -10,7 +10,7 @@ title = 'Tech, Travel & Digital Nomad'
 <div style="text-align: center;">
 	<body>
 		<h1>Welcome to Tech Relay!</h1>
-		<p>Useful content relating to Tech, Travel, and Digital Nomads, Below you will find my most recent posts or use the links above!</p>
+		<p>Useful content relating to Tech, Travel, and Digital Nomads, Below you will find my Featured & Most Recent posts or use the links above to check all my posts or the other pages!</p>
 	</body>
 </div>
 <br>
