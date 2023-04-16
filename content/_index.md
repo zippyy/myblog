@@ -15,5 +15,5 @@ title = 'Tech, Travel & Digital Nomad'
 </div>
 <br>
 <div style="text-align: center;">
-{{< featured count=6 >}}
+{{< featured count=8 >}}
 </div>
