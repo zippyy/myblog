@@ -18,6 +18,7 @@ title = "SMS on Windows"
 toc = false
 usePageBundles = true
 weight = 5
+series = 'Digital Nomad'
 +++
 
 I have mentioned before that I carry two laptops with me, Among other devices, A Dell E5570 with dock that generally stays at "home" while I have an E7470 for on-the-go as its much lighter and has the same functionality, Smartcard reader, fingerprint scanner, SD-Card reader, WWAN but weighs half as much!
