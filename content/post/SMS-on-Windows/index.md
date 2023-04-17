@@ -31,7 +31,7 @@ Some carriers seem to have neglected to think or care about this aspect and thus
 
 The application is called [Mobile Broadband SMS Toolkit](http://awx.black-it.eu/en/software/mobile%20broadband%20sms%20toolkit/index.htm), its very small and lightweight, is carrier agnostic and looks to support a large variety of WWAN modems and Carriers. I highly recommend checking it out if you use a WWAN card and SMS on a regular basis, For me this will replace all the carrier apps I have with just one no matter where I am at or what carrier I am using at the time which is a big win in my book! 
 
-The [Bypass Mobile Hotspot Limits on Windows](https://techrelay.xyz/bypass-mobile-hotspot-windows/) post goes great with a WWAN card if your on a limited plan or a plan that is unlimited but limits hotspot which data coming from a WWAN card on a windows machine is going to show up as hotspot on many carriers but not on others so your milage may very, Its work keeping a copy of the bat file on your machine if your often switching carriers while traveling abroad. 
+The [Bypass Mobile Hotspot Limits on Windows](https://techrelay.xyz/post/bypass-mobile-hotspot-windows/) post goes great with a WWAN card if your on a limited plan or a plan that is unlimited but limits hotspot which data coming from a WWAN card on a windows machine is going to show up as hotspot on many carriers but not on others so your milage may very, Its work keeping a copy of the bat file on your machine if your often switching carriers while traveling abroad. 
 
 Let me know what you use when your at home and abroad in the comments below or head over to the [Forums](https://forum.techrelay.xyz/)
 
