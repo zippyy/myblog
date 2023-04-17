@@ -47,4 +47,4 @@ Now that you have the file in your system path you can simply switch back and fo
 
 In conclusion, using TTL-changer is a simple and effective way to bypass hotspot limits on Windows. By increasing the TTL value, you can use your hotspot data without restrictions and stay connected while on the go. However, be aware that some mobile carriers may consider this a violation of their terms of service.
 
-Check out the post on using [SMS with a WWAN card on Windows](https://techrelay.xyz/post/sms-on-windows/) if your using a WWAN card like me as a bonus to this post as they go hand in hand if your using limited data capped or hotspot limited sim cards. 
+Check out the post on using [SMS with a WWAN card on Windows](https://techrelay.xyz/post/sms-on-windows/) if your using a WWAN card like me as a bonus to this post as they go hand in hand if your using limited data capped or hotspot limited sim cards and also would like a unified way to use SMS with a carrier agnostic application. 
