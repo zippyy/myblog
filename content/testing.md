@@ -7,4 +7,4 @@ slug = 'testing'
 title = 'testing'
 +++
 
-![nick](nick.png)
+![nick](logos/logo.gif)
