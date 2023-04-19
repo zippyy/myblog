@@ -18,5 +18,3 @@ title = 'Tech, Travel & Digital Nomad'
 {{< featured count=10 >}}
 </div>
 
-
-![test](images/nick.png#center)
