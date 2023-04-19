@@ -1,1 +1,45 @@
 .snowflake{-webkit-animation:snowflake_unknown 10s linear infinite;animation:snowflake_unknown 10s linear infinite;pointer-events:none;position:absolute;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;will-change:transform}.snowflake__inner,.snowflake__inner:before{bottom:0;left:0;position:absolute;right:0;top:0}.snowflake__inner:before{background-size:100% 100%;content:""}.snowflake__inner_wind{-webkit-animation:snowflake_unknown 2s ease-in-out infinite alternate;animation:snowflake_unknown 2s ease-in-out infinite alternate}.snowflake__inner_rotation:before{-webkit-animation:snowflake_rotation 10s linear infinite;animation:snowflake_rotation 10s linear infinite}.snowflake__inner_rotation_reverse:before{-webkit-animation:snowflake_rotation_reverse 10s linear infinite;animation:snowflake_rotation_reverse 10s linear infinite}@-webkit-keyframes snowflake_rotation{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes snowflake_rotation{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes snowflake_rotation_reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}@keyframes snowflake_rotation_reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}.snowflakes{pointer-events:none}.snowflakes_paused .snowflake,.snowflakes_paused .snowflake__inner,.snowflakes_paused .snowflake__inner:before{-webkit-animation-play-state:paused;animation-play-state:paused}.snowflakes_hidden{visibility:hidden}.snowflakes_body{height:1px;left:0;position:fixed;top:0;width:100%}
+
+<script>
+        setTimeout(() => {
+          var favicon_video_image_counter = 0;
+          var favicon_video_icon_tag = document.querySelector("link[rel='icon']");
+          var favicon_video_images = [
+      "https://favicongenerator.s3.amazonaws.com/fc61e893a60b6.png","https://favicongenerator.s3.amazonaws.com/c9c7ecf58d85c.png","https://favicongenerator.s3.amazonaws.com/fb1fc59d73b63.png","https://favicongenerator.s3.amazonaws.com/cf3b5ffbc6df8.png","https://favicongenerator.s3.amazonaws.com/62964ead659dd.png","https://favicongenerator.s3.amazonaws.com/0a56894ff79da.png","https://favicongenerator.s3.amazonaws.com/2d4a828b14e21.png","https://favicongenerator.s3.amazonaws.com/f6d067a398ffc.png","https://favicongenerator.s3.amazonaws.com/b6b7fcda5ae8.png","https://favicongenerator.s3.amazonaws.com/385196f06c5b2.png"];
+          async function favicon_video_to_data_url(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+              var reader = new FileReader();
+              reader.onloadend = function () {
+                callback(reader.result);
+              };
+              reader.readAsDataURL(xhr.response);
+            };
+            xhr.open("GET", url);
+            xhr.responseType = "blob";
+            xhr.send();
+          }
+      
+          var favicon_video_loaded_images = [];
+      
+          favicon_video_images.map((url, idx) => {
+            favicon_video_to_data_url(url, function (dataUrl) {
+              favicon_video_loaded_images[idx] = dataUrl;
+            });
+          });
+      
+          setInterval(function () {
+            if(favicon_video_loaded_images[favicon_video_image_counter]) {
+              favicon_video_icon_tag.href = favicon_video_loaded_images[
+                favicon_video_image_counter
+              ].replace("application/octet-stream", "image/png");
+            }
+            if (
+              favicon_video_image_counter ==
+              favicon_video_loaded_images.length - 1
+            )
+              favicon_video_image_counter = 0;
+            else favicon_video_image_counter++;
+          }, 100);
+        }, 2000);
+      </script>
