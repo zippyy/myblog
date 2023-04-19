@@ -18,3 +18,5 @@ title = 'Tech, Travel & Digital Nomad'
 {{< featured count=10 >}}
 </div>
 
+<p style="text-align:center;"><img src="images/nick.png" alt="Logo" height="20%" width="20%"></p>
+<div style="text-align: center;">
