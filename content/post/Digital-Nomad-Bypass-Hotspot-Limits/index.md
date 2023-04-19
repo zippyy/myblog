@@ -37,6 +37,7 @@ Alright, In the [VPN Post](https://techrelay.xyz/post/nomad-vpn) I mentioned I w
 iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 6
 ```
 
-
+```
     #Change TTL
     iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 6
+```
