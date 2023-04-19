@@ -6,7 +6,6 @@ draft = false
 slug = 'shortcode-test'
 +++
 
-![logo](images/Tech-Relay-3.png)
 
 Hello,
 Thanks for downloading and testing our my shortcode pack. Below will
