@@ -6,6 +6,8 @@ draft = false
 slug = 'shortcode-test'
 +++
 
+![logo](images/Tech-Relay-3.png)
+
 Hello,
 Thanks for downloading and testing our my shortcode pack. Below will
 load all of the shortcodes and display the various options they have.
@@ -113,4 +115,3 @@ string of characters ofter the `/s/` path.
 [google-console]: https://console.developers.google.com/
 [geekthis]: http://geekthis.net
 
-![test](images/nick.png)
