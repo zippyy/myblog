@@ -3,6 +3,7 @@ title = "Shortcode Tests"
 description = "A post that tries out this set of shortcodes."
 date = "2016-12-29T13:39:24-05:00"
 draft = false
+slug = 'shortcode-test'
 +++
 
 Hello,
