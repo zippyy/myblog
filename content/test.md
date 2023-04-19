@@ -67,4 +67,4 @@ n8n fixed and working
 
 updated flow
 
-![test](images/nick.png#center)
+![test](images/nick.png)
