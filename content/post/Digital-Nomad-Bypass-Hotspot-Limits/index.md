@@ -40,7 +40,7 @@ iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 6
 6. Click *Restart Firewall* and the device should reboot. You should be good to go now as any device that connects to the Travel Router will mask their TTL as if it were a mobile device. 
 
 
-*If you want to test it for peace of mind and are comfortable with SSH you can connect to the Travel Router and run the command Ping localhost 127.0.0.1 and in the responses you should see the TTL as 65.*
+**If you want to test it for peace of mind and are comfortable with SSH you can connect to the Travel Router and run the command *ping 127.0.0.1* and in the responses you should see the TTL as 65.**
 
 
 I hope this post was helpful and keep an eye out for more parts covering other solutions! Let me know what you do to bypass hotspot limits or request a guide on a specific brand in the comments below!
