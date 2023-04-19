@@ -18,7 +18,7 @@ title = "Digital Nomad Bypass Hotspot Limits"
 toc = false
 usePageBundles = true
 series = 'Digital Nomad'
-weight = 5
+weight = 4
 +++
 
 Alright, In the [VPN Post](https://techrelay.xyz/post/nomad-vpn) I mentioned I would add other posts to the series to cover useful things, One of which I mentioned was bypassing hotspot limits which I did post part one which is specific to windows and really has the most use for machines with built in WWAN or a Hotspot connected to a windows device but in this post we will cover how to modify the A Travel Router to set the TTL to 65 which in most cases will bypass hotspot limits put forth by carriers, This post will be specific to GL-inet routers but I will do more parts to cover other hardware/software vendors.
