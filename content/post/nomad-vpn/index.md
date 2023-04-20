@@ -123,6 +123,19 @@ In the Travel Router Gui navigate to Admin Panel -> VPN -> Internet Kill Switch.
 
 Congrats you have now setup your Wireguard Server on the HomeRouter, Connected the TravelRouter to the VPN and enabled the KILL Switch, Connected a device to the TravelRouter Either via Ethernet or Wifi and you can visit https://icanhazip.com and it shows your HomeRouter's External IP address. 
 
+
+## Updates
+
+I will add updates to this section here, starting with DDNS.
+
+### DDNS
+
+Okay so if you login to the admin portal for the HomeRouter, Go to Applications >> Dynamic DNS and click the toggle to enable DDNS, Copy the hostname shown and replace the endpoint ip address in your wireguard config on the TravelRouter with the DDNS URL, This will prevent you from having any issues with Dynamically assigned addresses changing while you are abroad. 
+
+![Dynamic DNS Toggle](ddns.png)
+
+![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
+
 ## Closing
 
 I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
