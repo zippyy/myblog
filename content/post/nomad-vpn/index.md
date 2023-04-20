@@ -132,9 +132,26 @@ I will add updates to this section here, starting with DDNS.
 
 Okay so if you login to the admin portal for the HomeRouter, Go to Applications >> Dynamic DNS and click the toggle to enable DDNS, Copy the hostname shown and replace the endpoint ip address in your wireguard config on the TravelRouter with the DDNS URL, This will prevent you from having any issues with Dynamically assigned addresses changing while you are abroad. 
 
+see the screenshots below for examples.
+
 ![Dynamic DNS Toggle](ddns.png)
 
 ![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
+
+You may also want to enable HTTP or HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the ddns url. 
+
+see the below screenshots for examples. 
+
+![HTTP Remote Access Toggle](http_remote_access.png)
+
+![HTTPS Remote Access Toggle](https_remote_access.png)
+
+If you are comfortable with the Terminal and would also like to access the HomeRouter Via SSH you can also use the DDNS URL by Clicking the Toggle below the HTTP and HTTPS Toggles. 
+
+See the below screenshot for an example. 
+
+![SSH Remote Access Toggle](ssh_remote_access.png)
+
 
 ## Closing
 
