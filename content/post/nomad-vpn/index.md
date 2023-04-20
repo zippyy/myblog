@@ -152,7 +152,13 @@ See the below screenshot for an example.
 
 ### GoodCloud
 
-Another Useful feature of the GL-inet Routers is they Come with a service called GoodCloud, Like the DDNS it allows you to access both SSH and 
+Another Useful feature of the GL-inet Routers is they Come with a service called GoodCloud, Like the DDNS it allows you to access both SSH and Web Portal remotely however unlike the DDNS this option does not require any port forwarding and thus can be a failsafe if something happens with your DDNS or Portforwarding allowing you emergency access to your HomeRouter to fix whatever issues you may be having. 
+
+Login to the Admin Panel and go to Application >> GoodCloud and click the Toggle for GoodCloud and Remote Web Access. (Also enable SSH if like above with the DDNS config you are comfortable with the terminal and would like SSH access as well.)
+
+See the below screenshot for an example. 
+
+![GoodCloud Toggle](enable_goodcloud.png)
 ## Closing
 
 I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
