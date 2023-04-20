@@ -12,20 +12,20 @@ featureImageAlt = ''
 featureImageCap = ''
 figurePositionShow = true
 shareImage = ''
-tags = ['featured', '']
+tags = ['featured', 'Penetration', 'Security']
 thumbnail = ''
 title = "WiFi Pineapple on Slate AR750S"
 toc = false
 usePageBundles = true
 +++
 
-Alright so with the Original Slate coming up on End of Life, and since I had long since replaced it with a Slate AX, I was looking for neat uses I could repurpose the hardware into as its still a really decent device! While I was hunting Github I came across [This Repository]() with ported firmwares of Pineapple-Wifi Cloner for a large number of devices including a bunch of GL-inet devices like the AR750 (Creta) and AR750S (Original Slate) so I set out to see if I could get it to work.
+Alright so with the Original Slate coming up on End of Life, and since I had long since replaced it with a Slate AX, I was looking for neat uses I could repurpose the hardware into as its still a really decent device! While I was hunting Github I came across [This Repository by xchwarze](https://github.com/xchwarze/wifi-pineapple-cloner) with ported firmwares of Pineapple-Wifi Cloner for a large number of devices including a bunch of GL-inet devices like the AR750 (Creta) and AR750S (Original Slate) so I set out to see if I could get it to work.
 
 After an hour or so of tinkering with it and several factory resets via Uboot (one of my favourite things about the GL-inet devices is that they have great recovery options, I have never had to worry about bricking my device as Uboot always seems to work) I was able to get the firmware loaded and get logged into the web panel.
 
-I will go over how to get the firware for the AR750S and then how to upload it properly, access the portal and then your off to the races!
+I will go over how to get the firmware for the AR750S and then how to upload it properly, access the portal and then your off to the races!
 
-1. Download the firmware for the AR750S [Here]() or if your using a different device go [Here]() for the full list of devices and their associated firmwares.
+1. Download the firmware for the AR750S [Here](https://github.com/xchwarze/wifi-pineapple-cloner-builds/raw/main/releases/gl-ar750s-universal-sysupgrade.bin) or if your using a different device go [Here](https://github.com/xchwarze/wifi-pineapple-cloner-builds) for the full list of devices and their associated firmwares.
 2. For the AR750S you need to hold the reset button the side with the power unplugged, While still holding the reset button plug it back into power, The 5G light will flash 5 times and then release the button.
 3. Configure your computer's Ethernet with an IP address of 192.168.1.2, Subnetmask of 255.255.255.0, leave the gateway blank. 
 4. Connect the Ethernet cable from your Computer to the LAN port of the AR750S (Slate) and open a browser and go to 192.168.1.1, You should see the uboot page. 
