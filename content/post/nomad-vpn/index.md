@@ -138,11 +138,9 @@ see the screenshots below for examples.
 
 ![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
 
-You may also want to enable HHTP & HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
+You may also want to enable HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
 
-see the below screenshots for examples.
-
-![http Toggle](http.png)
+see the below screenshot for an example.
 
 ![https Toggle](https.png)
 
