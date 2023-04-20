@@ -138,11 +138,13 @@ see the screenshots below for examples.
 
 ![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
 
-You may also want to enable HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
+You may also want to enable HHTP & HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
 
-see the below screenshot for an example.
+see the below screenshots for examples.
 
+![HTTP Remote Web Access Toggle](http_remote_access.png)
 
+![HTTPS Remote Web Access Toggle](https_remote_access.png)
 
 If you are comfortable with the Terminal and would also like to access the HomeRouter Via SSH you can also use the DDNS URL by Clicking the Toggle below the HTTP and HTTPS Toggles. 
 
