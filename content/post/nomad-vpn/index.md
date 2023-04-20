@@ -142,9 +142,9 @@ You may also want to enable HHTP & HTTPS Remote Access to the admin portal, Mean
 
 see the below screenshots for examples.
 
-![HTTP Remote Web Access Toggle](http_remote_access.png)
+![http Toggle](http.png)
 
-![HTTPS Remote Web Access Toggle](https_remote_access.png)
+![https Toggle](https.png)
 
 If you are comfortable with the Terminal and would also like to access the HomeRouter Via SSH you can also use the DDNS URL by Clicking the Toggle below the HTTP and HTTPS Toggles. 
 
