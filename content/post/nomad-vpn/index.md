@@ -126,7 +126,7 @@ Congrats you have now setup your Wireguard Server on the HomeRouter, Connected t
 
 ## Updates
 
-I will add updates to this section here, starting with DDNS.
+I will add updates to this section here, starting with DDNS and GoodCloud.
 
 ### DDNS
 
@@ -138,13 +138,11 @@ see the screenshots below for examples.
 
 ![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
 
-You may also want to enable HTTP or HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the ddns url. 
+You may also want to enable HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
 
-see the below screenshots for examples. 
+see the below screenshot for an example.
 
-![HTTP Remote Access Toggle](http_remote_access.png)
-
-![HTTPS Remote Access Toggle](https_remote_access.png)
+![HTTPS Remote Web Access Toggle](https_remote_access.png)
 
 If you are comfortable with the Terminal and would also like to access the HomeRouter Via SSH you can also use the DDNS URL by Clicking the Toggle below the HTTP and HTTPS Toggles. 
 
@@ -152,7 +150,9 @@ See the below screenshot for an example.
 
 ![SSH Remote Access Toggle](ssh_remote_access.png)
 
+### GoodCloud
 
+Another Useful feature of the GL-inet Routers is they Come with a service called GoodCloud, Like the DDNS it allows you to access both SSH and 
 ## Closing
 
 I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
