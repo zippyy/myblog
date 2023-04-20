@@ -128,6 +128,8 @@ see the screenshots below for examples.
 
 ![Dynamic DNS Toggle](ddns.png)
 
+![Enable Dynamic DNS](ddnsenable.png)
+
 ![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
 
 You may also want to enable HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
