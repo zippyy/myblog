@@ -56,11 +56,9 @@ Go to VPN -> WireGuard Server -> Management and click Add a New User.
 ![add_a_new_wireguard_user](add_a_new_wireguard_user.png)
 
 
-
 Name the config here, For this Guide since we are setting up this first user for the TravelRouter we will call this config TravelRouter
 
 ![input_wireguard_config_name](input_wireguard_config_name.png)
-
 
 
 Back on the management page you will see your user/client on the list. 
@@ -84,11 +82,9 @@ Edit: I forgot to mention that if your endpoint address is a local one, i.e 192.
  With the config you saved from the last part of the guide, Connect to the TravelRouter either via Ethernet or Wifi and navigate to the web GUI (like the HomeRouter it is most likely 192.168.8.1 however yours will come with a card that has all that info)
 
 
-
 once logged into the web GUI navigate to VPN -> WireGuard Client and click the button that says Setup WireGuard Manually.
 
 ![setup_wireguard_manually](setup_wireguard_manually.png)
-
 
 
 Click on the Configuration Tab and Paste the config in the window
@@ -109,16 +105,12 @@ on that same page you should see an IP Address and an UP/Down Stat. if traffic i
 
 If you would prefer a video of this TravelRouter Client part of the setup GLINET has a really good one from their support site linked [here](https://youtu.be/oTrche1jprQ)
 
-At this point you should have the HomeRouter Server running with the TravelRouter and maybe your Phone connected as clients to the HomeRouter Server and you are able to browse the internet! Awesome right? well there still one last thing to do, VPN<->Internet Kill Switch
-
-
+At this point you should have the HomeRouter Server running with the TravelRouter and maybe your Phone connected as clients to the HomeRouter Server and you are able to browse the internet! Awesome right? Well there is still one last thing to do, The VPN Internet Kill Switch failsafe.
 
 In the Travel Router Gui navigate to Admin Panel -> VPN -> Internet Kill Switch. Click the Toggle for Enable and Click APPLY
 
 
-
 ![internet_kill_switch_enabled](internet_kill_switch_enabled.png)
-
 
 
 Congrats you have now setup your Wireguard Server on the HomeRouter, Connected the TravelRouter to the VPN and enabled the KILL Switch, Connected a device to the TravelRouter Either via Ethernet or Wifi and you can visit https://icanhazip.com and it shows your HomeRouter's External IP address. 
