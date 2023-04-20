@@ -37,6 +37,8 @@ I will go over how to get the firmware for the AR750S and then how to upload it 
 
 Once I figured out that I needed to use Uboot (The instructions say to use SSH but that didnt work for me either although I may not have waited long enough on that first try however this method above I was able to reproduce several times.) It was smooth sailing so dont try to use the LUCI Admin interface firmware upgrade/flash option becuase it seems to get stuck but it may have just been a fluke so YMMV but I was easily able to reset to the original firmware with Uboot when that didnt work for me so feel free to test it and report back in the comments below. 
 
+Here is a picture of the Original WiFi-Pineapple Hardware that this firmware is a clone from.
+
 ![Original Wifi-Pinapple](wp-mk7_81d03a53-bf1a-426f-9425-a34c8b3d9c85_1200x.webp)
 
 So long and Thanks for all the Fish!
