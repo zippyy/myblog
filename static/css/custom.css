@@ -1,3 +1,8 @@
+figure {
+    text-align: center !important;
+    margin: 0.7rem auto !important;
+}
+
 img[src$='#center'] {
     display: block !important;
     margin: 0 auto !important;
@@ -15,17 +20,7 @@ img[src$='#right'] {
     clear: right !important;
 }
 
-figcaption[src$='#center'] {
-    text-align: center !important;
+figure figcaption {
     margin: 0.5rem auto !important;
-}
-
-figcaption[src$='#left'] {
-    float: left !important;
-    margin: 0.5rem 0.7rem 0.5rem 0 !important;
-}
-
-figcaption[src$='#right'] {
-    float: right !important;
-    margin: 0.5rem 0 0.5rem 0.7rem !important;
+    text-align: center !important;
 }
