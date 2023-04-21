@@ -7,14 +7,14 @@ img[src$='#center']
     /* whatever else styles you fancy here */
 }
 
-img[src$='#floatleft']
+img[src$='#left']
 {
     float:left;
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
 
-img[src$='#floatright']
+img[src$='#right']
 {
     float:right;
     margin: 0.7rem;      /* this margin is totally up to you */
