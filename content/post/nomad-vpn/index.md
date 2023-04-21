@@ -153,6 +153,58 @@ Login to the Admin Panel and go to Application >> GoodCloud and click the Toggle
 See the below screenshot for an example. 
 
 ![GoodCloud Toggle](enable_goodcloud.png)
+
+
+### AdGuard Home
+
+*Only Applicable to the following:* [GL-AX1800 (Flint)](link), [GL-A1300 (Slate Plus)](link), [GL-AXT1800 (Slate AX)](link), [GL-MT3000 (Beryl AX)](link), [GL-MT2500/GL-MT2500A (Brume 2)](link) and [GL-X3000 (Spitz AX)](link).
+
+AdGuard is a Network Wide Ad and Tracking Blocker. Like Pihole, NextDNS, etc... with the above supported models having built in functionality. Go to Applications >> Adguard Home and click the start button.
+
+![Adguard Home Start Button](adguardhome_init.png)
+
+Once you have clicked the start button you will see a link to the settings page appear, Click that to go to the Adguard Settings Panel. 
+
+![Adguard Settings Page Link](adguardhome_started.png)
+
+![Adguard Settings Page](adguardhome_settings.png)
+
+From there you may configure Adguard Home as you please. Check back for another standalone post covering Adguard Home, NextDNS(My Personal Choice), Pihole, Etc.. including links to quality blocklists. 
+
+### Tailscale
+
+*Only Applicable to the following:* [GL-AX1800 (Flint)](link), [GL-A1300 (Slate Plus)](link), [GL-AXT1800 (Slate AX)](link), [GL-MT3000 (Beryl AX)](link), [GL-MT2500/GL-MT2500A (Brume 2)](link) and [GL-X3000 (Spitz AX)](link).
+
+**Note: Because Tailscale is based on WireGuard, it is not recommended to use the Tailscale feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs. So this feature may only be useful for those that dont require using the vpn to mask their location or those like me that carry an extra TravelRouter for my Personal Devices.**
+
+**Note: This feature is currently in beta, and may have some bugs.**
+
+Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about [Tailscale, Check out their website](https://tailscale.com/)
+
+If you already have other devices in Tailscale then all you need to do is follow below, otherwise add a few devices first.
+
+Go to Applications >> Tailscale and click the enable Toggle. 
+
+![Enable Tailscale Toggle](enable_tailscale.png)
+
+Once you have enabled the toggle you should see the Device Bind Link, Click that
+
+![Device Bind Link](tailscale_bind_link_1.png)
+
+A pop-up will show a link, click that link 
+
+![Popup with link](tailscale_bind_link_2.png)
+
+Once logged in, click on connect. 
+
+[Connect](tailscale_connect_device.png)
+
+After connection is successful you can go to you Tailscale machines list and you should now see the GL-inet router listed there. 
+
+![Tailscale Portal Machine List](tailscale_admin_console_2.png)
+
+You should now be setup with Tailscale, just remember not to run it with the Wireguard or OpenVPN Client at the same time. 
+
 ## Closing
 
 I threw this together super fast for the folks on reddit, I will improve this guide when I have a little more time to sit down and knock it out. I will also be adding more in this Digital Nomad Series to cover things like Mobile Internet, Hotspots, Masking data to avoid caps, etc.... 
