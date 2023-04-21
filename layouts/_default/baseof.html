@@ -35,7 +35,7 @@
     <main>
       {{- block "main" . }}{{ end }}
     </main>
-
+    {{ partial "testimonials.html" . }}
     {{- partialCached "icons" . }}
     {{- partialCached "footer" . }}
     {{- partialCached "scripts/index" . }}
