@@ -1,41 +1,22 @@
 img[src$='#center']
 {
     display: block;
-    margin: 0.7rem auto !important;
-}
-
-img[src$='#center'] + em
-{
-    display: block;
-    margin: 0.7rem auto;
-    text-align: center;
-}
-
-img[src$='#floatleft'],
-img[src$='#floatright']
-{
-    display: inline-block;
-    vertical-align: top;
+    margin: 0.7rem auto !important; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
 }
 
 img[src$='#floatleft']
 {
-    float: left !important;
-    margin: 0.7rem !important;
-    clear: left;
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
 }
 
 img[src$='#floatright']
 {
-    float: right !important;
-    margin: 0.7rem !important;
-    clear: right;
-}
-
-img[src$='#floatleft'] + em,
-img[src$='#floatright'] + em
-{
-    display: block;
-    margin: 0.7rem auto;
-    text-align: center;
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
 }
