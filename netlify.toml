@@ -1,4 +1,5 @@
 [build]
+  command = "npm install --save dotenv && npm install --save node-fetch@2"
   publish = "public"
 
 [build.environment]
@@ -10,3 +11,5 @@
 [context.branch-deploy]
   command = "hugo --environment staging"
 
+[functions]
+  node_bundler = "esbuild"
