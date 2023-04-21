@@ -6,18 +6,8 @@ description = ''
 slug = 'testimonials'
 title = 'Testimonials'
 +++
-<html>
-<head>
-<link rel="stylesheet" href="owl.carousel.css">
-<link rel="stylesheet" href="owl.theme.css">
-</head>
-</div>
+
 <div>
 <div style="text-align: center;">
 {{< testimonials >}}
 </div>
-<footer>
-<script src="jquery.min.js"></script>
-<script src="owl.carousel.min.js"></script>
-</footer>
-</html>
