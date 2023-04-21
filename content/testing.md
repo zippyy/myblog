@@ -11,5 +11,5 @@ usePageBundles = false
 ![nick](/images/nick.png#center)
 
 <div class="content">
-    <img src="/testing/images/nick.png" alt="Nick" id="center">
+    <img src="/images/nick.png" alt="Nick" id="center">
 </div>
