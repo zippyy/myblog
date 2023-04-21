@@ -10,7 +10,7 @@ usePageBundles = false
 
 
 
-![nick](/images/nick.png#center) 
+![](/images/nick.png#center) 
 
 
 
