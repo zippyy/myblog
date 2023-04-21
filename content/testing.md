@@ -10,6 +10,8 @@ usePageBundles = false
 
 ![nick](/images/nick.png#center)
 
+<html>
+<body>
 {{ if isset .Site.Params "testimonials" }}
 {{ if .Site.Params.testimonials.enable }}
 {{ if isset .Site.Data "testimonials" }}
@@ -65,3 +67,5 @@ usePageBundles = false
 {{ end }}
 {{ end }}
 {{ end }}
+</body>
+</html>
