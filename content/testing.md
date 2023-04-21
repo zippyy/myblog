@@ -10,3 +10,6 @@ usePageBundles = false
 
 ![nick](/images/nick.png#center)
 
+<div class="content">
+    ![nick](/images/nick.png#center)
+</div>
