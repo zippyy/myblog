@@ -8,8 +8,8 @@ title = 'Testimonials'
 +++
 <html>
 <head>
-<link rel="stylesheet" href="/css/owl.carousel.css">
-<link rel="stylesheet" href="/css/owl.theme.css">
+<link rel="stylesheet" href="owl.carousel.css">
+<link rel="stylesheet" href="owl.theme.css">
 </head>
 </div>
 <div>
@@ -17,7 +17,7 @@ title = 'Testimonials'
 {{< testimonials >}}
 </div>
 <footer>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="owl.carousel.min.js"></script>
 </footer>
 </html>
