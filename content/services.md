@@ -21,11 +21,18 @@ Here is a List of services I offer, You can reach out to me by heading to the [C
 
 
 ## Web
+
 1. Web Application Installation/Configuration 
 2. Hosting Management
 3. Web Sites in Hugo
 4. Web Sites in WordPress
 5. Email Stuff (Setup and Configuration of hosted email like MS365 or Gsuite)
-6. Azure, MS365, Intune, Auto-Pilot and On-Prem AD, Exchange. (Colnsulting and Contracts (Management, Setup, Configuration, Troubleshooting, etc...) Compensation depends on scope of projects, Not included in the rate mentioned above.)
+6. Azure, MS365, Intune, Auto-Pilot and On-Prem AD, Exchange. (Management, Setup, Configuration, Troubleshooting, etc. Compensation depends on scope of projects, Not included in the rate mentioned above.)
+
+## Consulting
+
+I am available for a vast range of consulting niches including Windows/Windows Server Administration, Cloud (Azure Ad, MS365, Intune, Autopilot), Virtualization (vmWare, Proxmox, Hyper-V) including VDI like Horizon, Linux Server Administration, Mobile Device Management (MDM) and Remote Management & Monitoring (RMM). You name it and I can either already do it or quickly learn how. 
+
+I have affordable rates, quality work ethics and great communication skills, You will not be let down by choosing to work with me. 
 
 ## More to come...
