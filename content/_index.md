@@ -16,8 +16,3 @@ title = 'Tech, Travel & Digital Nomad'
 <br>
 <div style="text-align: center;">
 {{< featured count=10 >}}
-</div>
-<div>
-<div style="text-align: center;">
-{{< testimonials >}}
-</div>
