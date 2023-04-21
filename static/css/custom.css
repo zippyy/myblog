@@ -5,10 +5,10 @@ figure {
   
   figcaption {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
     text-align: center;
-    margin-top: 0.5rem !important;
   }
   
   img[src$='#center'] {
@@ -36,8 +36,6 @@ figure {
   img[src$='#right'] + figcaption {
     margin-right: 0.7rem !important;
     text-align: right !important;
-    position: relative;
-    top: -100%;
   }
   
   figure img {
