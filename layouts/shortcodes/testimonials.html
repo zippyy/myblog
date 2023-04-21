@@ -23,7 +23,7 @@
                     data-pagination-speed="{{ default 1000 .Site.Params.CarouselTestimonials.pagination_speed }}">
                     {{ range .Site.Data.testimonials }}
                     <li class="item">
-                        <div class="testimonial same-height-always">
+                        <div class="testimonial">
                             <div class="text">
                                 <p>{{ .text | markdownify }}</p>
                             </div>
