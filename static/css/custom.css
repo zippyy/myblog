@@ -1,41 +1,40 @@
 figure {
-    margin: 0.7rem auto !important;
-    position: relative;
+    margin: 0.7rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   figcaption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    margin-top: 0.5rem;
     text-align: center;
-    margin-top: 0.5rem !important;
   }
   
   img[src$='#center'] {
-    display: block !important;
-    margin: 0 auto !important;
+    display: block;
+    margin: 0 auto;
   }
   
   img[src$='#left'] {
-    float: left !important;
-    margin: 0.7rem !important;
-    clear: left !important;
+    float: left;
+    margin: 0.7rem;
+    clear: left;
   }
   
   img[src$='#left'] + figcaption {
-    margin-left: 0.7rem !important;
-    text-align: left !important;
+    margin-left: 0.7rem;
+    text-align: left;
   }
   
   img[src$='#right'] {
-    float: right !important;
-    margin: 0.7rem !important;
-    clear: right !important;
+    float: right;
+    margin: 0.7rem;
+    clear: right;
   }
   
   img[src$='#right'] + figcaption {
-    margin-right: 0.7rem !important;
-    text-align: right !important;
+    margin-right: 0.7rem;
+    text-align: right;
   }
   
   figure img {
