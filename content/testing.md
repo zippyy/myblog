@@ -8,7 +8,11 @@ title = 'testing'
 usePageBundles = false
 +++
 
-![nick](/images/nick.png#left) ![nick](/images/nick.png#center) ![nick](/images/nick.png#right)
+![nick](/images/nick.png#left) 
+
+![nick](/images/nick.png#center) 
+
+![nick](/images/nick.png#right)
 
 
 
