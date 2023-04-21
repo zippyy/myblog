@@ -1,51 +1,44 @@
 figure {
     margin: 0.7rem auto !important;
     position: relative;
-}
-
-figcaption {
+  }
+  
+  figcaption {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
     text-align: center;
-    margin-top: 0.5rem !important;
-}
-
-img[src$='#center'] {
+  }
+  
+  img[src$='#center'] {
     display: block !important;
     margin: 0 auto !important;
-}
-
-img[src$='#left'] {
+  }
+  
+  img[src$='#left'] {
     float: left !important;
     margin: 0.7rem !important;
     clear: left !important;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-img[src$='#left'] + figcaption {
+  }
+  
+  img[src$='#left'] + figcaption {
     margin-left: 0.7rem !important;
     text-align: left !important;
-    bottom: initial;
-    top: 100%;
-}
-
-img[src$='#right'] {
+  }
+  
+  img[src$='#right'] {
     float: right !important;
     margin: 0.7rem !important;
     clear: right !important;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-img[src$='#right'] + figcaption {
+  }
+  
+  img[src$='#right'] + figcaption {
     margin-right: 0.7rem !important;
     text-align: right !important;
-    bottom: initial;
-    top: 100%;
-}
-
-figure img {
+  }
+  
+  figure img {
     vertical-align: bottom;
-}
+  }
+  
