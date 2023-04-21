@@ -1,6 +1,20 @@
+figure {
+    margin: 0.7rem auto !important;
+  }
+  
+  figcaption {
+    margin-top: 0.5rem !important;
+    text-align: center;
+  }
+  
   img[src$='#center'] {
-    display: block !important;
-    margin: 0 auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  img[src$='#center'] + figcaption {
+    margin: 0.7rem 0 0.5rem;
+    text-align: center;
   }
   
   img[src$='#left'] {
@@ -9,31 +23,22 @@
     clear: left !important;
   }
   
+  img[src$='#left'] + figcaption {
+    margin-left: 0.7rem !important;
+    text-align: left !important;
+  }
+  
   img[src$='#right'] {
     float: right !important;
     margin: 0.7rem !important;
     clear: right !important;
   }
   
-  figcaption {
-    margin-top: 0.5rem !important;
-  }
-  
-  figcaption#center {
-    text-align: center !important;
-  }
-  
-  figcaption#left {
-    text-align: left !important;
-    margin-left: 0.7rem !important;
-  }
-  
-  figcaption#right {
-    text-align: right !important;
+  img[src$='#right'] + figcaption {
     margin-right: 0.7rem !important;
+    text-align: right !important;
   }
   
   figure img {
     vertical-align: bottom;
   }
-  
