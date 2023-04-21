@@ -197,7 +197,7 @@ A pop-up will show a link, click that link
 
 Once logged in, click on connect. 
 
-[Connect](tailscale_connect_device.png)
+![Connect](tailscale_connect_device.png)
 
 After connection is successful you can go to you Tailscale machines list and you should now see the GL-inet router listed there. 
 
