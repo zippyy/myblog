@@ -8,13 +8,13 @@ img[src$='#center'] {
     margin: 0 auto !important;
 }
 
-img[src$='#floatleft'] {
+img[src$='#left'] {
     float: left !important;
     margin: 0.7rem !important;
     clear: left !important;
 }
 
-img[src$='#floatright'] {
+img[src$='#right'] {
     float: right !important;
     margin: 0.7rem !important;
     clear: right !important;
