@@ -1,44 +1,22 @@
-figure {
-    margin: 0.7rem auto !important;
-    position: relative;
-  }
-  
-  figcaption {
-    position: absolute;
-    bottom: -1.5rem;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  img[src$='#center'] {
-    display: block !important;
-    margin: 0 auto !important;
-  }
-  
-  img[src$='#left'] {
-    float: left !important;
-    margin: 0.7rem !important;
-    clear: left !important;
-  }
-  
-  img[src$='#left'] + figcaption {
-    margin-left: 0.7rem !important;
-    text-align: left !important;
-  }
-  
-  img[src$='#right'] {
-    float: right !important;
-    margin: 0.7rem !important;
-    clear: right !important;
-  }
-  
-  img[src$='#right'] + figcaption {
-    margin-right: 0.7rem !important;
-    text-align: right !important;
-  }
-  
-  figure img {
-    vertical-align: bottom;
-  }
-  
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
