@@ -201,7 +201,7 @@ Once logged in, click on connect.
 
 After connection is successful you can go to you Tailscale machines list and you should now see the GL-inet router listed there. 
 
-![Tailscale Portal Machine List](tailscale_admin_console_2.png)
+![Tailscale Portal Machine List](machine.png)
 
 You should now be setup with Tailscale, just remember not to run it with the Wireguard or OpenVPN Client at the same time. 
 
