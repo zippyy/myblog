@@ -37,6 +37,7 @@ title = 'Quote'
     <div class="form-group">
     <label class="form-label" for="Budget"><i class="fas fa-money-bill-wave"></i>Budget</label>
     <input id="quote-request-budget" name="Budget" type="text" placeholder="Enter your budget" class="form-input" required="" autocomplete="off" oninput="if(!this.value.startsWith('$')){this.value = '$' + this.value}">
+    <span class="error">Please enter a valid number.</span>
 </div>
 <div class="form-group">
         <label class="form-label" for="Message"><i class="fas fa-pencil-alt"></i>Message</label>
@@ -48,59 +49,74 @@ title = 'Quote'
 </form>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const budgetField = document.getElementById('quote-request-budget');
-      budgetField.addEventListener('change', function() {
-        let budgetValue = budgetField.value.trim();
-        if (budgetValue === '') {
-          budgetField.value = '';
-        } else {
-          budgetValue = parseFloat(budgetValue.replace('$', '').replace(',', ''));
-          if (!isNaN(budgetValue)) {
-            budgetField.value = '$' + budgetValue.toLocaleString();
-          }
-        }
-      });
+   document.addEventListener('DOMContentLoaded', function() {
+  const budgetField = document.getElementById('quote-request-budget');
+  const errorSpan = document.querySelector('.error');
 
-      const form = document.querySelector('.quote-request-form');
-      form.addEventListener('submit', function(e) {
-        const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
-        if (budgetValue !== '') {
-          budgetField.value = budgetValue;
-          budgetField.dispatchEvent(new Event('change'));
-        }
+  budgetField.addEventListener('input', function() {
+    let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+    if (!isNaN(budgetValue)) {
+      budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
+      errorSpan.classList.remove('show');
+    } else {
+      errorSpan.classList.add('show');
+    }
+  });
 
-      });
-    });
+  const form = document.querySelector('.quote-request-form');
+  form.addEventListener('submit', function(e) {
+    const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+    if (!isNaN(budgetValue)) {
+      budgetField.value = budgetValue;
+      budgetField.dispatchEvent(new Event('input'));
+    } else {
+      errorSpan.classList.add('show');
+      e.preventDefault();
+    }
+  });
+});
+
   </script>
 
 </body>
 <style>
     .quote-request-form {
-        background-color: #002538;
-        border: none;
-        padding: 30px;
-        border-radius: 10px;
-    }
-    
-    .form-label {
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        font-size: 18px;
-        font-weight: 600;
-        color: #fff;
-    }
+  background-color: #002538;
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+}
 
-    .form-label i {
-        font-size: 20px;
-        margin-right: 10px;
-    }
-    
-    .form-input {
-        display: block;
-        width: 100%;
-        padding: 12px;
-        background-color: #333;
-        color: #fff;
-       
+.form-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.form-label i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.error.show {
+  display: block;
+}
+</style>
