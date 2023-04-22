@@ -7,7 +7,7 @@ exports.handler = async event => {
   const payload = JSON.parse(event.body).payload
   console.log(`Recieved a submission: ${payload.email}`)
 
-  return fetch("https://api.elasticemail.com/v2/list/addcontacts", {
+  return fetch("https://api.elasticemail.com/v2/contact/add", {
     method: "POST",
     headers: {
       Authorization: `Token ${ELASTICEMAIL_API_KEY}`,
