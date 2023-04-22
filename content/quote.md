@@ -122,6 +122,22 @@ budgetField.addEventListener('keydown', function(event) {
             color: #fff;
         }
 
+        .btn-submit {
+            background-color: #F78A2C;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            transition: all 0.3s ease;
+            margin-top: 20px; /* increased margin */
+}
+
+            .btn-submit:hover {
+            background-color: #E2761B;
+}
+
         .error {
             display: none;
             color: red;
