@@ -122,6 +122,17 @@ budgetField.addEventListener('keydown', function(event) {
             color: #fff;
         }
 
+        .error {
+            display: none;
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .error.show {
+            display: block;
+        }
+
         .btn-submit {
             background-color: #F78A2C;
             color: #fff;
@@ -134,18 +145,7 @@ budgetField.addEventListener('keydown', function(event) {
             margin-top: 20px; /* increased margin */
 }
 
-            .btn-submit:hover {
+        .btn-submit:hover {
             background-color: #E2761B;
 }
-
-        .error {
-            display: none;
-            color: red;
-            font-size: 14px;
-            margin-top: 5px;
-        }
-
-        .error.show {
-            display: block;
-        }
     </style>
