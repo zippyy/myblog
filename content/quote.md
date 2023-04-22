@@ -3,8 +3,8 @@ author = 'Zippy'
 comments = false
 date = "2020-04-09T22:53:20-06:00"
 description = ''
-slug = 'contact'
-title = 'Contact'
+slug = 'quote'
+title = 'Quote'
 +++
 
 <!DOCTYPE HTML>
