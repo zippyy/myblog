@@ -54,14 +54,14 @@ title = 'Quote'
   const errorSpan = document.querySelector('.error');
 
   budgetField.addEventListener('input', function() {
-    let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
-    if (!isNaN(budgetValue)) {
-      budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
-      errorSpan.classList.remove('show');
-    } else {
-      errorSpan.classList.add('show');
-    }
-  });
+  let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+  if (!isNaN(budgetValue) || budgetValue === '') {
+    budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
+    errorSpan.classList.remove('show');
+  } else {
+    errorSpan.classList.add('show');
+  }
+});
 
   budgetField.addEventListener('keydown', function(event) {
     if (event.key === 'Backspace') {
