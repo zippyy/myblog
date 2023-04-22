@@ -26,10 +26,10 @@ title = 'Contact'
         <label class="form-label" for="ProjectType"><i class="fas fa-clipboard"></i>Project Type</label>
         <select id="quote-request-project-type" name="ProjectType" class="form-input" required="">
             <option value="" disabled="" selected="">Select project type</option>
-            <option value="Web Design">Web Design</option>
-            <option value="Graphic Design">Graphic Design</option>
-            <option value="Branding">Branding</option>
-            <option value="Marketing">Marketing</option>
+            <option value="Digital Nomad">Digital Nomad</option>
+            <option value="Hugo Websites">Hugo Websites</option>
+            <option value="Cloud">Cloud</option>
+            <option value="Consulting">Consulting</option>
             <option value="Other">Other</option>
         </select>
     </div>
