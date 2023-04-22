@@ -79,44 +79,44 @@ title = 'Quote'
   </script>
 
 </body>
-<style>
-    .quote-request-form {
-  background-color: #002538;
-  border: none;
-  padding: 30px;
-  border-radius: 10px;
-}
+ <style>
+        .quote-request-form {
+            background-color: #002538;
+            border: none;
+            padding: 30px;
+            border-radius: 10px;
+        }
 
-      .form-label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-}
+        .form-label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
 
-      .form-label i {
-    font-size: 20px;
-    margin-right: 10px;
-}
+        .form-label i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
 
-      .form-input {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background-color: #333;
-    color: #fff;
-}
+        .form-input {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #333;
+            color: #fff;
+        }
 
-      .error {
-    display: none;
-    color: red;
-    font-size: 14px;
-    margin-top: 5px;
-}
+        .error {
+            display: none;
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
 
-      .error.show {
-    display: block;
-}
-</style>
+        .error.show {
+            display: block;
+        }
+    </style>
