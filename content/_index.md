@@ -17,5 +17,4 @@ title = 'Tech, Travel & Digital Nomad'
 <div style="text-align: center;">
 {{< featured count=10 >}}
 <br>
-<!-- newsletter -->
-{{- partial "newsletter.html" . -}}
+{{< newsletter >}}
