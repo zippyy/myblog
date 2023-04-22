@@ -54,9 +54,9 @@ title = 'Quote'
   const errorSpan = document.querySelector('.error');
 
   budgetField.addEventListener('input', function() {
-    let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+    let budgetValue = budgetField.value.trim().replace(/[^\d.]/g, '');
     if (!isNaN(budgetValue)) {
-      budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
+      budgetField.value = formatCurrency(parseFloat(budgetValue));
       errorSpan.classList.remove('show');
     } else {
       errorSpan.classList.add('show');
@@ -65,7 +65,7 @@ title = 'Quote'
 
   const form = document.querySelector('.quote-request-form');
   form.addEventListener('submit', function(e) {
-    const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+    const budgetValue = budgetField.value.trim().replace(/[^\d.]/g, '');
     if (!isNaN(budgetValue)) {
       budgetField.value = budgetValue;
       budgetField.dispatchEvent(new Event('input'));
@@ -74,7 +74,18 @@ title = 'Quote'
       e.preventDefault();
     }
   });
+
+  function formatCurrency(amount) {
+    const formatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+    return formatter.format(amount);
+  }
 });
+
 
   </script>
 
