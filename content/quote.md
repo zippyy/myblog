@@ -96,9 +96,8 @@ budgetField.addEventListener('keydown', function(event) {
  <style>
         .quote-request-form {
             background-color: #002538;
-            border: none;
             padding: 30px;
-            border-radius: 10px;
+           
         }
 
         .form-label {
