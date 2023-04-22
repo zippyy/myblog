@@ -49,7 +49,7 @@ title = 'Quote'
 </form>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   const budgetField = document.getElementById('quote-request-budget');
   const errorSpan = document.querySelector('.error');
 
@@ -64,19 +64,21 @@ title = 'Quote'
   });
 
   budgetField.addEventListener('keydown', function(event) {
-    if (event.key === 'Backspace') {
+    if (event.key === 'Backspace' || event.key === 'Delete') {
       budgetField.value = budgetField.value.replace('$', '');
     }
   });
 
-  budgetField.addEventListener('input', function() {
-  let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
-  if (budgetValue === '' || !isNaN(budgetValue)) {
-    budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
-    errorSpan.classList.remove('show');
-  } else {
-    errorSpan.classList.add('show');
-  }
+  const form = document.querySelector('.quote-request-form');
+  form.addEventListener('submit', function(e) {
+    const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+    if (!isNaN(budgetValue)) {
+      budgetField.value = budgetValue;
+      budgetField.dispatchEvent(new Event('input'));
+    } else {
+      errorSpan.classList.add('show');
+      e.preventDefault();
+    }
   });
 });
 
