@@ -87,36 +87,36 @@ title = 'Quote'
   border-radius: 10px;
 }
 
-.form-label {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
+      .form-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
-.form-label i {
-  font-size: 20px;
-  margin-right: 10px;
+      .form-label i {
+    font-size: 20px;
+    margin-right: 10px;
 }
 
-.form-input {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  background-color: #333;
-  color: #fff;
+      .form-input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
 }
 
-.error {
-  display: none;
-  color: red;
-  font-size: 14px;
-  margin-top: 5px;
+      .error {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
-.error.show {
-  display: block;
+      .error.show {
+    display: block;
 }
 </style>
