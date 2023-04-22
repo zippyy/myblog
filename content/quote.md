@@ -72,9 +72,6 @@ title = 'Quote'
         display: block;
         width: 100%;
         padding: 12px;
-        border: none;
-        border-radius: 5px;
         background-color: #333;
         color: #fff;
-    }
        
