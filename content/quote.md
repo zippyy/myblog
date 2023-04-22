@@ -64,10 +64,12 @@ title = 'Quote'
 
       const form = document.querySelector('.quote-request-form');
       form.addEventListener('submit', function(e) {
-        const budgetValue = budgetField.value.trim();
+        const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
         if (budgetValue !== '') {
-          budgetField.value = budgetValue.replace('$', '').replace(',', '');
+          budgetField.value = budgetValue;
+          budgetField.dispatchEvent(new Event('change'));
         }
+
       });
     });
   </script>
