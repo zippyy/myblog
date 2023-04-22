@@ -6,4 +6,3 @@ slug = 'form'
 title = 'form'
 +++
 
-{{< contactform >}}
