@@ -8,6 +8,7 @@ title = 'Quote'
 +++
 
 <!DOCTYPE HTML>
+<body>
 <form name="quote-request" class="quote-request-form" action="/thank-you/" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="quote-request" />
     <div class="form-group">
@@ -34,10 +35,10 @@ title = 'Quote'
         </select>
     </div>
     <div class="form-group">
-        <label class="form-label" for="Budget"><i class="fas fa-money-bill-wave"></i>Budget</label>
-        <input id="quote-request-budget" name="Budget" type="text" placeholder="Enter your budget" class="form-input" required="" autocomplete="off">
-    </div>
-    <div class="form-group">
+    <label class="form-label" for="Budget"><i class="fas fa-money-bill-wave"></i>Budget</label>
+    <input id="quote-request-budget" name="Budget" type="text" placeholder="Enter your budget" class="form-input" required="" autocomplete="off" oninput="if(!this.value.startsWith('$')){this.value = '$' + this.value}">
+</div>
+<div class="form-group">
         <label class="form-label" for="Message"><i class="fas fa-pencil-alt"></i>Message</label>
         <textarea class="form-input" id="quote-request-message" name="Message" placeholder="Enter your message" rows="6"></textarea>
     </div>
@@ -46,6 +47,32 @@ title = 'Quote'
     </div>
 </form>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const budgetField = document.getElementById('quote-request-budget');
+      budgetField.addEventListener('change', function() {
+        let budgetValue = budgetField.value.trim();
+        if (budgetValue === '') {
+          budgetField.value = '';
+        } else {
+          budgetValue = parseFloat(budgetValue.replace('$', '').replace(',', ''));
+          if (!isNaN(budgetValue)) {
+            budgetField.value = '$' + budgetValue.toLocaleString();
+          }
+        }
+      });
+
+      const form = document.querySelector('.quote-request-form');
+      form.addEventListener('submit', function(e) {
+        const budgetValue = budgetField.value.trim();
+        if (budgetValue !== '') {
+          budgetField.value = budgetValue.replace('$', '').replace(',', '');
+        }
+      });
+    });
+  </script>
+
+</body>
 <style>
     .quote-request-form {
         background-color: #002538;
