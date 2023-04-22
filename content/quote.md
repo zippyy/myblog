@@ -63,11 +63,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  budgetField.addEventListener('keydown', function(event) {
-    if (event.key === 'Backspace' || event.key === 'Delete') {
-      budgetField.value = budgetField.value.replace('$', '');
+budgetField.addEventListener('keydown', function(event) {
+  if (event.key === 'Backspace' || event.key === 'Delete') {
+    let budgetValue = budgetField.value.replace('$', '');
+    if (!isNaN(budgetValue)) {
+      budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
+      errorSpan.classList.remove('show');
+    } else {
+      budgetField.value = '';
     }
-  });
+  }
+});
+
 
   const form = document.querySelector('.quote-request-form');
   form.addEventListener('submit', function(e) {
