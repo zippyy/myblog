@@ -26,34 +26,34 @@ IRC: LiberaChat IRC Network on Channel #TechRelay
 
 You may also use the form below to reach out to me directly.
 <br>
-
+<br>
 <!DOCTYPE HTML>
 <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
     <div class="form-group">
-        <label class="form-label" for="Name"><i class="fas fa-user"></i>Name</label>
+        <label class="form-label" for="Name"><i class="fas fa-user"></i> Name</label>
         <input id="contact-form-name" name="Name" type="text" placeholder="Enter your name" class="form-input" required="" autocomplete="off">
     </div>
-    <div class="form-group">
-        <label class="form-label" for="Email"><i class="fas fa-envelope"></i>Email Address</label>
+    <div class="form-group" style="margin-top: 20px;">
+        <label class="form-label" for="Email"><i class="fas fa-envelope"></i> Email Address</label>
         <input id="contact-form-email" name="Email" type="email" placeholder="Enter your email address" class="form-input" required="" autocomplete="off">
     </div>
-    <div class="form-group">
-        <label class="form-label" for="Subject"><i class="fas fa-comment"></i>Subject</label>
+    <div class="form-group" style="margin-top: 20px;">
+        <label class="form-label" for="Subject"><i class="fas fa-comment"></i> Subject</label>
         <input id="contact-form-subject" name="Subject" type="text" placeholder="Enter the subject of your message" class="form-input" required="" autocomplete="off">
     </div>
-    <div class="form-group">
-        <label class="form-label" for="Message"><i class="fas fa-pencil-alt"></i>Message</label>
+    <div class="form-group" style="margin-top: 20px;">
+        <label class="form-label" for="Message"><i class="fas fa-pencil-alt"></i> Message</label>
         <textarea class="form-input" id="contact-form-message" name="Message" placeholder="Enter your message" rows="6"></textarea>
     </div>
-    <div class="form-group">
-        <button type="submit" value="Submit" id="Form-submit" class="btn-submit"><i class="fas fa-paper-plane"></i>Send Message</button>
+    <div class="form-group" style="margin-top: 30px;">
+        <button type="submit" value="Submit" id="Form-submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
     </div>
 </form>
 
 <style>
     .contact-form {
-        background-color: #1a1a1a;
+        background-color: #002538;
         border: none;
         padding: 30px;
         border-radius: 10px;
@@ -107,15 +107,4 @@ You may also use the form below to reach out to me directly.
         align-items: center;
     }
 
-    .btn-submit i {
-        font-size: 18px;
-        margin-right: 10px;
-    }
-    
-    .btn-submit:hover {
-        background-color: #0069d9;
-    }
-</style>
-
-<!-- Add Font Awesome icons -->
-<script src="https://kit.fontawesome
+    .btn-submit i
