@@ -69,17 +69,14 @@ title = 'Quote'
     }
   });
 
-  const form = document.querySelector('.quote-request-form');
-  form.addEventListener('submit', function(e) {
-    const budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
-    if (!isNaN(budgetValue) || budgetValue === '') {
-      budgetField.value = budgetValue === '' ? '' : parseFloat(budgetValue).toLocaleString();
-      budgetField.dispatchEvent(new Event('input'));
-    } else {
-      errorSpan.classList.add('show');
-      budgetField.value = '';
-      e.preventDefault();
-    }
+  budgetField.addEventListener('input', function() {
+  let budgetValue = budgetField.value.trim().replace('$', '').replace(',', '');
+  if (budgetValue === '' || !isNaN(budgetValue)) {
+    budgetField.value = '$' + parseFloat(budgetValue).toLocaleString();
+    errorSpan.classList.remove('show');
+  } else {
+    errorSpan.classList.add('show');
+  }
   });
 });
 
