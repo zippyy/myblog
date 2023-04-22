@@ -25,6 +25,7 @@ Matrix: {{< cloakemail address="@nick:matrix.techrelay.xyz" protocol="matrix" >}
 IRC: LiberaChat IRC Network on Channel #TechRelay
 
 You may also use the form below to reach out to me directly.
+<br>
 
 <!DOCTYPE HTML>
 <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
