@@ -134,7 +134,7 @@ since = 2018
 
 # website author
 [author]
-name = "Nicholas Bennett"
+name = "Nicholas"
 photo = "images/nick.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
