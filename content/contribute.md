@@ -42,19 +42,4 @@ Patreon - [https://www.patreon.com/techrelay](https://www.patreon.com/techrelay)
  <!-- You only need this once per page (but it won't do any harm) -->
  <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
 
-<style>
-        a[data-trolley="true"] {
-            display: inline-block;
-            background-color: #2ecc71;
-            color: #ffffff;
-            padding: 12px 24px; /* updated padding */
-            border-radius: 5px;
-            font-size: 14px; /* updated font-size */
-            text-decoration: none;
-            margin: 10px;
-        }
-        
-        a[data-trolley="true"]:hover {
-            background-color: #27ae60;
-        }
-    </style>
+ 
