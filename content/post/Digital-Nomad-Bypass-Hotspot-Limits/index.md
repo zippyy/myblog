@@ -36,7 +36,7 @@ Alright, In the [VPN Post](https://techrelay.xyz/post/nomad-vpn) I mentioned I w
 
 ```
 #Change TTL
-iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 6
+iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 65
 ```
 
 6. Click *Restart Firewall* and the device should reboot. You should be good to go now as any device that connects to the Travel Router will mask their TTL as if it were a mobile device. 
