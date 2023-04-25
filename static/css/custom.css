@@ -20,3 +20,10 @@ img[src$='#right']
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+      margin-top: 80px; /* adjust this value to move the menu options down as needed */
+    }
+  }
+  
