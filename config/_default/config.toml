@@ -40,3 +40,11 @@ priority = 0.5
     enable = true
     title = "Testimonials"
     subtitle = "Here are some Testimonials from Clients and Customers, Send an email to Testimonials@techrelay.xyz to have yours added to the list below!"
+
+
+[params.css.overrides]
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-top: 70px; /* adjust this value to move the menu options down as needed */
+  }
+}
