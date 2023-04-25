@@ -29,5 +29,5 @@ img[src$='#right']
 .widget_recent_comments .date,
 .widget_rss .date,
 .widget_tag_cloud .date {
-    display: none;
+    display: none !important;
 }
