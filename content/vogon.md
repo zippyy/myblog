@@ -8,4 +8,88 @@ title = 'Vogon Poetry'
 usePageBundles = false
 +++
 
-<iframe src="https://edsu.github.io/vogon/#techrelay" style="width:100%; height:500px;"></iframe>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/vogon.css">
+  </head>
+  <body>
+    <a class="hide-for-small-only" href="http://github.com/edsu/vogon"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a> 
+    <div class="row">
+
+      <section id="left" class="show-for-large-up large-3 columns">
+
+        <div class="row">
+          <blockquote>
+            <p>A beautiful poem should re-write itself one-half word at
+            a time, in pre-determined intervals.</p>
+            <footer><cite><a href="http://www.upne.com/0819569288.html">Seven Controlled Vocabluaries</a> by <a href="https://twitter.com/chalkknit">Tan Lin</a>.</cite></footer>
+          </blockquote>
+        </div>
+
+        <div class="row">
+          <blockquote>
+            <p>Vogon poetry is of course, the third worst in the universe.</p>
+            <footer><cite><a href="https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy">A Hitchiker's Guide to the Galaxy</a> by <a href="https://en.wikipedia.org/wiki/Douglas_Adams">Douglas Adams</a></cite></footer>
+          </blockquote>
+        </div>
+  
+        <div id="tips" class="row">
+          <p>
+          Tips:
+          </p>
+          <ol>
+            <li>Reload this page and see the poem change.</li>
+            <li>Change the poem by giving it a new title (just click on it).</li>
+            <li>Share a stanza you like on Twitter by hovering over it. Oh go on, it's Twitter!</li>
+            <li>Log out of Google and try it again.</li>
+            <li>Open your JavaScript console to see log messages about what's 
+            going on.</li>
+            <li>Yep, it's <a href="http://inkdroid.org/journal/2014/09/17/googles-subconscious/">using</a> Google's autocomplete to generate a poem using the title as a seed.</li>
+          </ol>
+        </div>
+
+      </section>
+
+      <div class="large-1 columns">
+        &nbsp;
+      </div>
+
+      <section id="poem" class="large-5 small-11 columns">
+        <br>
+        <br>
+        <input id="title" value="Vogon">
+        <br>
+        <br>
+        <article id="stanzas">
+        </article>
+      </section>
+
+      <section id="tweets" class="show-for-large-up large-2 columns">
+        <a class="twitter-timeline" href="https://twitter.com/hashtag/vogonpoetry" data-widget-id="512142781146345472">#vogonpoetry Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </section>
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/verbs.js"></script>
+    <script src="js/vogon.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script>
+      $(function() {
+        var title = window.location.hash || "Vogon";
+        title = decodeURIComponent(title);
+
+        title = title.replace("#", "");
+        $("#title").val(title);
+        writePoem(title);
+        $("#title").change(function() {
+          writePoem($(this).val());
+        });
+      });
+    </script>
+  </body>
+</html>
