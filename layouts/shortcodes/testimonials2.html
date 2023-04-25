@@ -1,66 +1,80 @@
-{{ if isset .Site.Params "testimonials" }}
-  {{ if .Site.Params.testimonials.enable }}
-    {{ if isset .Site.Data "testimonials" }}
-      {{ if gt (len .Site.Data.testimonials) 0 }}
-        <section class="bar background-pentagon no-mb">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading text-center">
-                  <h2>{{ .Site.Params.testimonials.title }}</h2>
-                </div>
-                <p class="lead">{{ .Site.Params.testimonials.subtitle | markdownify }}</p>
-                
-                <!-- *** TESTIMONIALS CAROUSEL *** -->
-                <div class="slick"
-                  data-dots="{{ default true .Site.Params.CarouselTestimonials.dots }}"
-                  data-arrows="{{ default false .Site.Params.CarouselTestimonials.arrows }}"
-                  data-infinite="{{ default true .Site.Params.CarouselTestimonials.infinite }}"
-                  data-speed="{{ default 500 .Site.Params.CarouselTestimonials.speed }}"
-                  data-slides-to-show="{{ default 1 .Site.Params.CarouselTestimonials.slides_to_show }}"
-                  data-slides-to-scroll="{{ default 1 .Site.Params.CarouselTestimonials.slides_to_scroll }}">
-                  {{ range .Site.Data.testimonials }}
-                    <div class="slick-item">
-                      <div class="testimonial same-height-always">
-                        <div class="text">
-                          <p>{{ .text | markdownify }}</p>
-                        </div>
-                        <div class="bottom">
-                          <div class="icon"><i class="fas fa-quote-left"></i></div>
-                          <div class="name-picture">
-                            <img class="" alt="" src="{{ .avatar | absURL }}">
-                            <h5>{{ .name }}</h5>
-                            <p>{{ .position }}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  {{ end }}
-                </div>
-                <!-- /.slick -->
-                
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {{/* Load Slick carousel styles and scripts */}}
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        
-        {{/* Initialize the Slick carousel */}}
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $('.slick').slick();
-          });
-        </script>
-        
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- other head content -->
 </head>
+
+{{ if isset .Site.Params "testimonials" }}
+    {{ if .Site.Params.testimonials.enable }}
+        {{ if isset .Site.Data "testimonials" }}
+            {{ if gt (len .Site.Data.testimonials) 0 }}
+                <section class="bar background-pentagon no-mb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="heading text-center">
+                                    <h2>{{ .Site.Params.testimonials.title }}</h2>
+                                </div>
+
+                                <p class="lead">
+                                  {{ .Site.Params.testimonials.subtitle | markdownify }}
+                                </p>
+
+                                <!-- *** TESTIMONIALS CAROUSEL *** -->
+
+                                <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+                                <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+                                <div class="slick"
+                                     data-dots="{{ default true .Site.Params.CarouselTestimonials.dots }}"
+                                     data-arrows="{{ default false .Site.Params.CarouselTestimonials.arrows }}"
+                                     data-infinite="{{ default true .Site.Params.CarouselTestimonials.infinite }}"
+                                     data-speed="{{ default 500 .Site.Params.CarouselTestimonials.speed }}"
+                                     data-slides-to-show="{{ default 1 .Site.Params.CarouselTestimonials.slides_to_show }}"
+                                     data-slides-to-scroll="{{ default 1 .Site.Params.CarouselTestimonials.slides_to_scroll }}">
+                                     
+                                  {{ range .Site.Data.testimonials }}
+                                    <div class="slick-item">
+                                      <div class="testimonial same-height-always">
+                                        <div class="text">
+                                          <p>{{ .text | markdownify }}</p>
+                                        </div>
+                                        <div class="bottom">
+                                          <div class="icon"><i class="fas fa-quote-left"></i>
+                                          </div>
+                                          <div class="name-picture">
+                                            <img class="" alt="" src="{{ .avatar | absURL }}">
+                                            <h5>{{ .name }}</h5>
+                                            <p>{{ .position }}</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  {{ end }}
+                                </div>
+                                <!-- /.slick -->
+
+                                <!-- *** TESTIMONIALS CAROUSEL END *** -->
+
+                                <script>
+                                    $(document).ready(function(){
+                                        $('.slick').slick({
+                                            dots: $('.slick').data('dots'),
+                                            arrows: $('.slick').data('arrows'),
+                                            infinite: $('.slick').data('infinite'),
+                                            speed: $('.slick').data('speed'),
+                                            slidesToShow: $('.slick').data('slides-to-show'),
+                                            slidesToScroll: $('.slick').data('slides-to-scroll')
+                                        });
+                                    });
+                                </script>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- /.bar -->
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
