@@ -15,7 +15,12 @@
                 </p>
 
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
-
+                {{ with resources.Get "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" }}
+                <link rel="stylesheet" href="{{ .RelPermalink }}">
+                {{ end }}
+                {{ with resources.Get "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" }}
+                <link rel="stylesheet" href="{{ .RelPermalink }}">
+                {{ end }}
                 <div class="slick"
                      data-dots="{{ default true .Site.Params.CarouselTestimonials.dots }}"
                      data-arrows="{{ default false .Site.Params.CarouselTestimonials.arrows }}"
@@ -43,7 +48,9 @@
                   {{ end }}
                 </div>
                 <!-- /.slick -->
-
+                {{ with resources.Get "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" }}
+                <script src="{{ .RelPermalink }}"></script>
+                {{ end }}
                 <!-- *** TESTIMONIALS CAROUSEL END *** -->
             </div>
 

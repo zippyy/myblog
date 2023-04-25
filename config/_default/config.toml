@@ -41,7 +41,3 @@ priority = 0.5
     title = "Testimonials"
     subtitle = "Here are some Testimonials from Clients and Customers, Send an email to Testimonials@techrelay.xyz to have yours added to the list below!"
 
-
-[params.slick]
-  css = ["//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css", "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"]
-  js = ["//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"]
