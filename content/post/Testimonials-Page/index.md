@@ -33,6 +33,8 @@ Eventually it is all working now and once I get these testimonials organized and
 
 I am really loving Hugo and ChatGPT has really helped me understand more about how it works and get better at building my stuff like Partials and ShortCodes which I had made plenty of at this point. I am just obsoletely in love with Hugo, although it takes some finagling to get some things to work or to take things from other themes its so worth it when you get everything to work right.
 
+*Update: Here is the link to the [Testimonials Page](https://techrelay.xyz/testimonials/)
+
 Head over to the [Services Page](https://techrelay.xyz/services) for a quote on getting a Hugo site built!
 
 As always So long and Thanks for all the Fish!
