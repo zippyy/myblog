@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-19T02:31:18Z'
+year = "2021"
+month = "2021-10"
 description = ''
 draft = false
 image = '__GHOST_URL__/content/images/2021/10/yuri-bodrikhin-dXLnq8z8x4k-unsplash-1-.jpg'

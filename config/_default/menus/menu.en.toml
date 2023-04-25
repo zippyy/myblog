@@ -19,17 +19,45 @@ name = "Contribute"
 url = "contribute/"
 weight = "-107"
 [[main]]
+name = "Forums"
+url = "https://forum.techrelay.xyz/"
+weight = "-106"
+[[main]]
+name = "Archives"
+url = "archives/"
+weight = "-105"
+[[main]]
 identifier = "Links"
 name = "Links"
-weight = "-105"
+weight = "-104"
 [[main]]
 name = "Snippets & Scripts"
 parent = "Links"
-url = "https://techrelay.xyz/snippets"
+url = "snippets/"
 [[main]]
 name = "Trauma To Travel"
 parent = "Links"
 url = "https://traumatotravel.xyz"
+[[main]]
+name = "Build Status"
+parent = "Links"
+url = "status/"
+[[main]]
+name = "CV/Résumé"
+parent = "Links"
+url = "https://nbennett.pro"
+[[main]]
+name = "Affiliate Links"
+parent = "Links"
+url = "https://techrelay.xyz/affiliate"
+[[main]]
+name = "Tech/IT Services"
+parent = "Links"
+url = "https://techrelay.xyz/services"
+[[main]]
+name = "Testimonials"
+parent = "Links"
+url = "https://techrelay.xyz/testimonials/"
 [[social]]
 name = "github"
 type = "social"
@@ -37,7 +65,7 @@ url = "https://github.com/techrelay"
 weight = 1
 [[social]]
 name = "twitter"
-url = "https://twitter.com/techrelay"
+url = "https://twitter.com/_zippyy_"
 weight = 2
 [[social]]
 name = "rss"

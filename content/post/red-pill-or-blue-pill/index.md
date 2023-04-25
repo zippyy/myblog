@@ -1,10 +1,13 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-13T01:47:36Z'
+year = "2021"
+month = "2021-10"
 description = ''
 featureimage = 'reddoorbluedoor.jpg'
 slug = 'red-pill-or-blue-pill'
 title = 'Red Pill or Blue Pill'
+tags = ['Tech','Communications']
 +++
 So I took the plunge over the weekend and setup a matrix home-server, I have not gotten any of the bridges setup yet but so far I am liking the interfaces.
 

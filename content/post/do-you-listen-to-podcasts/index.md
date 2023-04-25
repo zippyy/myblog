@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-19T00:52:10Z'
+year = "2021"
+month = "2021-10"
 description = ''
 draft = false
 image = '__GHOST_URL__/content/images/2021/10/will-francis-ZDNyhmgkZlQ-unsplash.jpg'

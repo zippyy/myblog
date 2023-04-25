@@ -3,6 +3,8 @@ categories = ['Technology']
 codeLineNumbers = false # Override global value for showing of line numbers within code block.
 codeMaxLines = 10 # Override global value for how many lines within a code block before auto-collapsing.
 date = 2022-11-16T10:45:18-06:00 # Date of post creation.
+year = "2022"
+month = "2022-11"
 description = '' # Description used for search engine.
 draft = false # Sets whether to render this page. Draft of true will not be rendered.
 featureImage = '' # Sets featured image on blog post.
@@ -25,3 +27,5 @@ I have been working as a Systems Engineer with a focus on Virtualization (I am a
 I will update this post when I either find a job or after a few months of being laid off to give an idea of what it was like to experience the lovely  adventure of the layoff train. CHOO!...CHOO!
 
 So long and Thanks for all the fish!
+
+Check out [Layoff Update](https://techrelay.xyz/post/layoff-update/) for the current status of the first layoff in my career. 

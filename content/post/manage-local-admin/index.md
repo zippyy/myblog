@@ -1,11 +1,14 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-13T21:48:34Z'
+year = "2021"
+month = "2021-10"
 description = ''
 draft = false
-image = '__GHOST_URL__/content/images/2021/10/jason-dent-3wPJxh-piRw-unsplash.jpg'
+image = ''
 slug = 'manage-local-admin'
 title = 'Manage Local Admin'
+tags = ['Tech','Sysadmin']
 +++
 
 

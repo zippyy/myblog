@@ -1,6 +1,8 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-09-07T20:40:46Z'
+year = "2021"
+month = "2021-09"
 description = ''
 draft = false
 image = '__GHOST_URL__/content/images/2021/10/kyle-glenn-dGk-qYBk4OA-unsplash-1-.jpg'

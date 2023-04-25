@@ -7,7 +7,7 @@ largeTwitterCard = false # set to true if you want to show a large twitter card 
 introDescription = "Technologist, Engineer, Traveler, Explorer."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+keywords = ["Tech", "Blog", "Technology", "Digital Nomad", "Nomad", "Digital", "TechRelay", "Tech Relay", "IT", "Travel", "Tech Blog", "Travel Blog", "Cloud", "Enterprise"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
@@ -49,10 +49,10 @@ fontsDir = "fonts/" # without a leading forward slash
 
 # Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
 # when a given page has no other image present.
-fallBackOgImage = "images/thumbnail.png"
+fallBackOgImage = "images/fallback.png"
 
 # Logo image
-logo = "logos/logo.png"
+logo = "logos/logo.gif"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
@@ -75,7 +75,7 @@ figurePositionShow = false # toggle on or off globally
 figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
 
 # Set the collapsed mobile navigation to either appear from the left or the right
-mobileNavigation = "left" # if you prefer right change to 'right'
+mobileNavigation = "right" # if you prefer right change to 'right'
 
 # some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
 
@@ -118,7 +118,7 @@ utterancesIssueTerm = "title" # Default: pathname
 # pinFeatured = true
 
 # Maximum number of pinned featured posts. (default: 8)
-# numberOfPinnedPosts = 8
+# numberOfPinnedPosts = 3
 
 # Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
 # dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
@@ -134,7 +134,7 @@ since = 2018
 
 # website author
 [author]
-name = "Nicholas Bennett"
+name = "Nicholas"
 photo = "images/nick.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]

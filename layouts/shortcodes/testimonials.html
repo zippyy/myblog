@@ -1,0 +1,77 @@
+{{ if isset .Site.Params "testimonials" }}
+  {{ if .Site.Params.testimonials.enable }}
+    {{ if isset .Site.Data "testimonials" }}
+      {{ if gt (len .Site.Data.testimonials) 0 }}
+        <section class="bar background-pentagon no-mb">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading text-center">
+                  <h2>{{ .Site.Params.testimonials.title }}</h2>
+                </div>
+
+                <p class="lead">{{ .Site.Params.testimonials.subtitle | markdownify }}</p>
+
+                <!-- *** TESTIMONIALS CAROUSEL *** -->
+                <link rel="stylesheet" href="/css/owl.carousel.min.css">
+                <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+                <div class="owl-carousel owl-theme">
+                  {{ range .Site.Data.testimonials }}
+                  <div class="testimonial same-height-always">
+                    <div class="text">
+                      <p>{{ .text | markdownify }}</p>
+                    </div>
+                    <div class="bottom">
+                      <div class="icon"><i class="fas fa-quote-left"></i></div>
+                      <div class="name-picture">
+                        <img class="" alt="" src="{{ .avatar | absURL }}">
+                        <h5>{{ .name }}</h5>
+                        <p>{{ .position }}</p>
+                      </div>
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+                <!-- /.owl-carousel -->
+
+                <!-- *** TESTIMONIALS CAROUSEL END *** -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /.bar -->
+
+        <!-- *** JQUERY *** -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- *** OWL CAROUSEL SCRIPTS *** -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+          $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+              loop: {{ default true .Site.Params.CarouselTestimonials.infinite }},
+              margin: 30,
+              nav: true,
+              dots: true,
+              autoplay: false,
+              autoplayTimeout: {{ default 5000 .Site.Params.CarouselTestimonials.speed }},
+              autoplayHoverPause: true,
+              responsive: {
+                0: {
+                  items: 1
+                },
+                768: {
+                  items: 2
+                },
+                992: {
+                  items: 3
+                }
+              }
+            });
+          });
+        </script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

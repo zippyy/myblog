@@ -1,10 +1,12 @@
 +++
 author = 'Nicholas Bennett'
 date = '2023-03-26T01:58:03Z'
+year = "2023"
+month = "2023-03"
 description = ''
 draft = false
 slug = 'netlify-vs-cloudflare'
-tags = ['featured']
+tags = ['featured','Hugo','Selfhosted']
 title = 'Netlify vs Cloudflare Pages'
 +++
 

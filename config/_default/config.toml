@@ -8,6 +8,7 @@ paginate = 10
 theme = ["hugo-calendly-shortcode","hugo-embed-pdf-shortcode","hugo-theme-component-webmentions","jemsugo","hugo-notice","hugo-github-calendar","hugo-cloak-email","hugo-embed-pdf-shortcode", "hugo-clarity"]
 #disqusShortname = ""
 enableInlineShortcodes = true
+enableEmoji = true
 
 DefaultContentLanguage = "en"
 # [languages]
@@ -26,3 +27,17 @@ month = "month"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+enableRobotsTXT = true
+
+
+[sitemap]
+changefreq = 'monthly'
+filename = 'sitemap.xml'
+priority = 0.5
+
+[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "Here are some Testimonials from Clients and Customers, Send an email to Testimonials@techrelay.xyz to have yours added to the list below!"
+

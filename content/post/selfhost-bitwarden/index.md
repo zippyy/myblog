@@ -1,11 +1,13 @@
 +++
 author = 'Nicholas Bennett'
 date = '2022-02-10T01:58:03Z'
+year = "2022"
+month = "2022-02"
 description = ''
 draft = false
 series = 'Hosting Bitwarden'
 slug = 'seflhost-bitwarden'
-tags = ['featured']
+tags = ['Selfhost','Tech']
 title = 'Selfhost Bitwarden'
 +++
 

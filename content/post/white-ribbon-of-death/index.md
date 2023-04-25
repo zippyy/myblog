@@ -1,11 +1,14 @@
 +++
 author = 'Nicholas Bennett'
 date = '2021-10-19T01:04:21Z'
+year = "2021"
+month = "2021-10"
 description = ''
 featureImage = 'wrod.jpg'
 image = ''
 slug = 'white-ribbon-of-death'
 title = 'White Ribbon Of Death'
+tags = ['Travel','Outdoors']
 +++
 Okay this is not my normal post for this blog but its a passion of mine outside of tech so here we go!
 
