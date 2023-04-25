@@ -20,3 +20,8 @@ img[src$='#right']
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
+
+.archive-date {
+    display: none;
+  }
+  
