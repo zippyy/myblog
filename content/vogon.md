@@ -8,7 +8,7 @@ title = 'Vogon Poetry'
 usePageBundles = false
 +++
 
-<!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf8">
