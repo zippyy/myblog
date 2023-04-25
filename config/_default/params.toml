@@ -149,3 +149,6 @@ websiteDomain = "example.com" # Set the domain name of your website, in most cas
 matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
 
+[params.slick]
+  css = ["//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css", "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"]
+  js = ["//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"]
