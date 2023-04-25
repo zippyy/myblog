@@ -21,7 +21,7 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-.archive-date {
+.widget_archive li {
     display: none;
-  }
+}
   
