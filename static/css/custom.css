@@ -21,9 +21,6 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-@media (max-width: 767px) {
-    .navbar-collapse {
-      margin-top: 80px; /* adjust this value to move the menu options down as needed */
-    }
+.owl-dots {
+    display: block !important;
   }
-  
