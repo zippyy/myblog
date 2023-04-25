@@ -19,7 +19,7 @@ toc = false
 usePageBundles = true
 +++
 
-I have been getting a consistent number of people either paying me to complete the [Digital Nomad VPN Setup](https://techrelay.xyz/post/nomad-vpn) or that have set it up on their own, are super satisfied and want to let me know so I decided to start working on a testimonials page for those folks as well as anyone else I do any kind of work for. 
+I have been getting a consistent number of people either paying me to complete the [Digital Nomad VPN Setup](https://techrelay.xyz/post/nomad-vpn) or that have set it up on their own, are super satisfied, and want to let me know so I decided to start working on a testimonials page for those folks as well as anyone else I do any kind of work for. 
 
 As you know I build this site with Hugo. I started looking for a theme that had a testimonials functionality to see if I could use it on my own site. After a while I found the Hugo-Universal-Theme that had exactly what I wanted, and that was more than just some html to make a carousel or something, I wanted to use TOML files in a directory to pull and display the testimonials in the carousel. 
 
