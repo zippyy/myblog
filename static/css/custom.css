@@ -21,6 +21,3 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-.posts .post .date {
-    display: none !important;
-}
