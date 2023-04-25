@@ -21,13 +21,6 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-.widget_archive .date,
-.widget_categories .date,
-.widget_meta .date,
-.widget_pages .date,
-.widget_recent_entries .date,
-.widget_recent_comments .date,
-.widget_rss .date,
-.widget_tag_cloud .date {
+.posts .post .date {
     display: none !important;
 }
