@@ -35,6 +35,6 @@ I am really loving Hugo and ChatGPT has really helped me understand more about h
 
 *Update: Here is the link to the [Testimonials Page](https://techrelay.xyz/testimonials/)*
 
-Head over to the [Services Page](https://techrelay.xyz/services) for a quote on getting a Hugo site built!
+Head over to the [Services Page](https://techrelay.xyz/services) for a quote on getting the Digital Nomad VPN setup or a Hugo site built!
 
 As always So long and Thanks for all the Fish!
