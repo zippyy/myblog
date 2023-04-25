@@ -21,6 +21,7 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-.sidebar .widget_archive li {
-    display: none;
-}
+.sidebar .date {
+    display:none !important;
+ }
+ 
