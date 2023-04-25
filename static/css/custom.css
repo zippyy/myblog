@@ -21,7 +21,6 @@ img[src$='#right']
     /* whatever else styles you fancy here */
 }
 
-.blog-date-sidebar {
+.sidebar .widget_archive li {
     display: none;
-  }
-  
+}
