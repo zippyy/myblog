@@ -15,31 +15,6 @@
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-                <script>
-                  $(document).ready(function() {
-                    $('.owl-carousel').owlCarousel({
-                      loop: {{ default true .Site.Params.CarouselTestimonials.infinite }},
-                      margin: 30,
-                      nav: {{ default false .Site.Params.CarouselTestimonials.arrows }},
-                      dots: {{ default true .Site.Params.CarouselTestimonials.dots }},
-                      autoplay: false,
-                      autoplayTimeout: {{ default 5000 .Site.Params.CarouselTestimonials.speed }},
-                      autoplayHoverPause: true,
-                      responsive: {
-                        0: {
-                          items: 1
-                        },
-                        768: {
-                          items: 2
-                        },
-                        992: {
-                          items: 3
-                        }
-                      }
-                    });
-                  });
-                </script>
 
                 <div class="owl-carousel">
                   {{ range .Site.Data.testimonials }}
@@ -66,6 +41,36 @@
           </div>
         </section>
         <!-- /.bar -->
+
+        <!-- *** JQUERY *** -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- *** OWL CAROUSEL SCRIPTS *** -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+          $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+              loop: {{ default true .Site.Params.CarouselTestimonials.infinite }},
+              margin: 30,
+              nav: {{ default false .Site.Params.CarouselTestimonials.arrows }},
+              dots: {{ default true .Site.Params.CarouselTestimonials.dots }},
+              autoplay: false,
+              autoplayTimeout: {{ default 5000 .Site.Params.CarouselTestimonials.speed }},
+              autoplayHoverPause: true,
+              responsive: {
+                0: {
+                  items: 1
+                },
+                768: {
+                  items: 2
+                },
+                992: {
+                  items: 3
+                }
+              }
+            });
+          });
+        </script>
       {{ end }}
     {{ end }}
   {{ end }}
