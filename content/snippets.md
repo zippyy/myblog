@@ -7,4 +7,4 @@ slug = 'snippets'
 title = 'Snippets and Scripts'
 +++
 
-Test
+I will put Code Snippets and Useful Scripts here when I get a chance to organize them.
