@@ -52,8 +52,8 @@
             $('.owl-carousel').owlCarousel({
               loop: {{ default true .Site.Params.CarouselTestimonials.infinite }},
               margin: 30,
-              nav: {{ default false .Site.Params.CarouselTestimonials.arrows }},
-              dots: {{ default true .Site.Params.CarouselTestimonials.dots }},
+              nav: true,
+              dots: true,
               autoplay: false,
               autoplayTimeout: {{ default 5000 .Site.Params.CarouselTestimonials.speed }},
               autoplayHoverPause: true,
