@@ -8,4 +8,4 @@ title = 'Vogon Poetry'
 usePageBundles = false
 +++
 
-<iframe src="https://edsu.github.io/vogon/" style="width:100%; height:500px;"></iframe>
+<iframe src="https://edsu.github.io/vogon/#techrelay" style="width:100%; height:500px;"></iframe>
