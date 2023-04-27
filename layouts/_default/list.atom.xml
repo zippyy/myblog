@@ -112,7 +112,6 @@
                         {{ end }}
                     {{ end }}
                 {{ end }}
-            {{ end }}
         </entry>
     {{ end }}
 </feed>
