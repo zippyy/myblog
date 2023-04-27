@@ -26,7 +26,7 @@ year = "year"
 month = "month"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "ATOM"]
 
 enableRobotsTXT = true
 
@@ -41,3 +41,6 @@ priority = 0.5
     title = "Testimonials"
     subtitle = "Here are some Testimonials from Clients and Customers, Send an email to Testimonials@techrelay.xyz to have yours added to the list below!"
 
+[module]
+  [[module.imports]]
+    path = "github.com/kaushalmodi/hugo-atom-feed"
