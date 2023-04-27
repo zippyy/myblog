@@ -10,7 +10,7 @@
 
 {{ printf `<?xml version="1.0" encoding="UTF-8"?>` | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom"{{ with site.LanguageCode }} xml:lang="{{ . }}"{{ end }}>
-    <title type="html">{{ $title | safeHTML }}</title>
+    <title type="html"><![CDATA[{{ $title | safeHTML }}]]></title>
     {{ with (or (.Param "subtitle") (.Param "tagline")) }}
         {{ printf `<subtitle type="html"><![CDATA[%s]]></subtitle>` . | safeHTML }}
     {{ end }}
