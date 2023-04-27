@@ -91,7 +91,6 @@
                 <id>{{ .Permalink }}</id>
             {{ end }}
             {{ with .Params.author -}}
-                {{- range . -}} <!-- Assuming the author front-matter to be a list -->
                     <author>
                         <name>{{ . }}</name>
                     </author>
