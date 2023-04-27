@@ -1,4 +1,4 @@
-{{ printf `<?xml version="1.0" encoding="utf-8"?>` | safeHTML }} {{/* ref: https://validator.w3.org/feed/docs/atom.html */}}
+{{ printf `<?xml version="1.0" encoding="utf-8"?>`}} {{/* ref: https://validator.w3.org/feed/docs/atom.html */}}
     {{- $title := site.Title -}}
     {{- with .Title -}}
         {{- if (not (eq . site.Title)) -}}
