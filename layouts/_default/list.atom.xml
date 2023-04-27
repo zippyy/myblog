@@ -104,5 +104,4 @@
             {{ $description := (cond (eq "" $description1) "" (printf "<blockquote>%s</blockquote>" ($description1 | markdownify))) }}
             {{ printf `<content type="html"><![CDATA[%s%s]]></content>` $description .Content | safeHTML }}
         </entry>
-    {{ end }}
 </feed>
