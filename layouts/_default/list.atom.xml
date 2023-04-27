@@ -21,7 +21,6 @@
             {{ printf `<link href=%q rel=%q type=%q title=%q />` .Permalink $rel .MediaType.Type .Name | safeHTML }}
         {{- end -}}
     {{- end }}
-    {{- range .Translations }}
         {{ $output_formats := .OutputFormats }}
         {{- $lang := .Lang }}
         {{- $langstr := index site.Data.i18n.languages .Lang }}
