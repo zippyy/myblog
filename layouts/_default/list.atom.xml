@@ -103,7 +103,6 @@
             {{ printf `<content type="html"><![CDATA[%s%s]]></content>` $description .Content | safeHTML }}
             {{ with site.Taxonomies }}
                 {{ range $taxo,$_ := . }} <!-- Defaults taxos: "tags", "categories" -->
-                    {{ with $page.Param $taxo }}
                         {{ $taxo_list := . }} <!-- $taxo_list will be the tags/categories list -->
                         {{ with site.GetPage (printf "/%s" $taxo) }}
                             {{ $taxonomy_page := . }}
