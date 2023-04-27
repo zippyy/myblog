@@ -26,18 +26,20 @@ year = "year"
 month = "month"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "ATOM"]
 
-[outputFormats.ATOM]
-  mediatype = "application/atom+xml"
-  baseName = "atom"
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+[outputFormats.Atom]
+  # https://validator.w3.org/feed/docs/atom.html#whatIsAtom
+  name = "Atom"
+  mediaType = "application/atom+xml"
+  baseName = "atom" # generated file = <baseName>.<mediaType."application/atom+xml".suffixes[0]> = atom.xml
   isPlainText = false
   rel = "alternate"
   isHTML = false
-
-[mediaTypes]
-  [mediaTypes."application/atom+xml"]
-    suffixes = ["atom"]
+  noUgly = true
+  permalinkable = false
 
 enableRobotsTXT = true
 
