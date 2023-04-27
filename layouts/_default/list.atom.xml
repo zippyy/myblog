@@ -103,19 +103,6 @@
             {{ $description1 := .Description | default "" }}
             {{ $description := (cond (eq "" $description1) "" (printf "<blockquote>%s</blockquote>" ($description1 | markdownify))) }}
             {{ printf `<content type="html"><![CDATA[%s%s]]></content>` $description .Content | safeHTML }}
-            {{ with site.Taxonomies }}
-                {{ range $taxo,$_ := . }} <!-- Defaults taxos: "tags", "categories" -->
-                    {{ with $page.Param $taxo }}
-                        {{ $taxo_list := . }} <!-- $taxo_list will be the tags/categories list -->
-                        {{ with site.GetPage (printf "/%s" $taxo) }}
-                            {{ $taxonomy_page := . }}
-                            {{ range $taxo_list }} <!-- Below, assuming pretty URLs -->
-                                <category scheme="{{ printf "%s%s" $taxonomy_page.Permalink (. | urlize) }}" term="{{ (. | urlize) }}" label="{{ . }}" />
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-            {{ end }}
         </entry>
     {{ end }}
 </feed>
