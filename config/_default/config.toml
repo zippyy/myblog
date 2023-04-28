@@ -26,8 +26,7 @@ year = "year"
 month = "month"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
-post = ["HTML", "JSON", "ATOM"]
+home = ["HTML", "RSS", "JSON", "ATOM"]
 
 [mediaTypes."application/atom+xml"]
   suffixes = ["xml"]
