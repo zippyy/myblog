@@ -9,7 +9,7 @@
         <name>Nicholas</name>
     </author>
 
-    {{ range where .Site.Pages "Type" "post" }}
+    {{ range where .Site.RegularPages "Section" "post" }}
         {{ if not .Draft }}
             <entry>
                 <title>{{ .Title | safeHTML }}</title>
