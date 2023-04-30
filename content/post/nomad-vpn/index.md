@@ -218,11 +218,3 @@ So long and Thanks for all the fish!
 <br>
 {{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}   {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
 
-
-
-<!-- <a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
-    Donate
-</a>
-
- <!-- You only need this once per page (but it won't do any harm) -->
- <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script> -->
