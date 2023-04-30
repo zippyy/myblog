@@ -216,5 +216,5 @@ So long and Thanks for all the fish!
 ***If this post was helpful to you, please consider donating via the button below. Your donations allow me to purchase hardware and pay for infrastructure which provides me better ability to make content***
 <br>
 <br>
-{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}  {{< space 10 >}}  {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
+{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}  {{< space 30 >}}  {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
 
