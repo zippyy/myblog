@@ -45,29 +45,7 @@
       {{- $color := "#2ecc71" }}
       {{- $title := "Buy me a coffee" }}
 
-     <style>
-.bmc-button {
-  background-color: #0077b8;
-  color: #fff;
-  display: inline-flex;
-  padding: 0.2rem 0.75rem; /* 125% smaller padding */
-  text-transform: uppercase;
-  border: 1px solid #0077b8;
-  border-radius: 0.6rem; /* 125% smaller border radius */
-  font-size: 0.45rem; /* 125% smaller font size */
-  align-items: center;
-  user-select: none;
-}
-
-.bmc-button:hover {
-  background-color: #27ae60;
-}
-</style>
-
-
-
-
-       <!-- <style>
+       <style>
         .bmc-button  {
           background-color: #0077b8;
           color: #fff;
@@ -84,7 +62,7 @@
         .bmc-button:hover {
           background-color: #27ae60;
         }
-      </style> -->
+      </style>
 
       <br>
       <br>
@@ -92,7 +70,7 @@
       <span>
         <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/{{ $user }}">
           <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="{{ $title }}">
-          <span style="margin-left:15px;font-size:19px !important;">
+          <span style="margin-left:15px !important;">
             {{ $title }}
           </span>
         </a>
