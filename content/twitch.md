@@ -7,6 +7,4 @@ slug = 'twitch'
 title = 'Twitch'
 +++
 
-{{< twitch channel="techrelaygames" >}}
-
 {{< twitch2 >}}
