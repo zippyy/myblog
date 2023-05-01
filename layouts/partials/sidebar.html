@@ -29,7 +29,7 @@
       </div>
       {{- if ( ne $s.introURL false ) }}
       {{- $r := T "read_more" }}
-      <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
+      <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='About Me'>About Me</a>
 
       <!-- Add the Buy Me a Coffee code here -->
       {{- $user := "techrelay" }}
