@@ -16,3 +16,67 @@ usePageBundles = false
 
 
 
+{{- $user := .Get "user" }}
+{{- if not $user }}
+{{ errorf "Missing value for param 'user' for BuyMeACoffee: %s" .Position}}
+{{- end }}
+{{- $color := .Get "color" | default "#8bc34a" }}
+{{- $title := .Get "title" | default "Buy us a coffee" }}
+
+<style>
+.bmc-button {
+  background-color: {{ $color }};
+  color: #fff;
+  display: inline-flex;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  border: 1px solid {{ $color }};
+  border-radius: 1.5rem;
+  font-size: 0.9rem;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.bmc-button:hover {
+  opacity: 0.85;
+}
+
+</style>
+
+<!-- Include the Featherlight library -->
+<link href="https://cdn.jsdelivr.net/npm/featherlight/featherlight.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/featherlight/featherlight.min.js"></script>
+
+<span>
+  <a class="bmc-button" data-featherlight="#bmc-modal">
+    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="{{ $title }}">
+    <span style="margin-left: 15px;">{{ $title }}</span>
+  </a>
+</span>
+
+<!-- Add the modal content -->
+<div id="bmc-modal" style="display: none;">
+  <!-- Add your Buy Me a Coffee content here -->
+  <h2>Support us by buying a coffee!</h2>
+  <p>Your content goes here...</p>
+  <p>More information about how to support us...</p>
+  <p>Thank you!</p>
+</div>
+
+<script>
+$(document).ready(function() {
+  $('.bmc-button').featherlightGallery({
+    targetAttr: 'href',
+    openSpeed: 300,
+    closeSpeed: 300,
+    beforeOpen: function(event) {
+      $('body').css('overflow', 'hidden');
+    },
+    afterClose: function(event) {
+      $('body').css('overflow', 'auto');
+    }
+  });
+});
+</script>
