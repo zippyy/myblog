@@ -28,7 +28,7 @@
         {{ markdownify $introDescription }}
       </div>
       {{- if ( ne $s.introURL false ) }}
-      {{- $r := T "about_me" }}
+      {{- $r := T "read_more" }}
       <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
       {{- end }}
     {{- end }}
