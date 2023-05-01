@@ -33,7 +33,13 @@
       {{- end }}
     {{- end }}
 
-    {{</* buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" */>}}
+    {{% raw %}}
+      <div>
+        {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
+      </div>
+      {{% /raw %}}
+
+    {{- end }}
 
     {{ if .Site.Params.sidebardisclaimer }}
       <div class="sidebardisclaimer">
