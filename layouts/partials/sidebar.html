@@ -33,11 +33,10 @@
       {{- end }}
     {{- end }}
 
-    {{% raw %}}
-      <div>
-        {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}}
+    <div>
+        {{ "<buymeacoffee user=\"techrelay\" color=\"#2ecc71\" title=\"Buy me a coffee\"></buymeacoffee>" | safeHTML }}
       </div>
-      {{% /raw %}}
+
 
     {{- end }}
 
