@@ -40,42 +40,6 @@
       </div>
     {{ end }}
 
-    <!-- Add the Buy Me a Coffee code here -->
-      {{- $user := "techrelay" }}
-      {{- $color := "#2ecc71" }}
-      {{- $title := "Buy me a coffee" }}
-
-       <style>
-        .bmc-button  {
-          background-color: #0077b8;
-          color: #fff;
-          display: inline-flex;
-          padding: 0.5rem 1.5rem;
-          text-transform: uppercase;
-          border: 1px solid #0077b8;
-          border-radius: 1.5rem;
-          font-size: .9rem;
-          align-items: center;
-          user-select: none;
-        }
-
-        .bmc-button:hover {
-          background-color: #27ae60;
-        }
-      </style>
-
-      <br>
-      <br>
-
-      <span>
-        <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/{{ $user }}">
-          <img src="" alt="">
-          <span style="margin-left: !important;">
-            {{ $title }}
-          </span>
-        </a>
-      </span>
-
     {{- $relatedInSidebar := true }}
     {{- if eq $s.showRelatedInSidebar false }}
       {{ $relatedInSidebar = false }}
