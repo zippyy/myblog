@@ -12,7 +12,3 @@ usePageBundles = false
 
 ![](/images/nick.png#right) 
 
-
-
-
-{{< bmc2 user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
