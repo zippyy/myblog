@@ -8,3 +8,5 @@ title = 'Twitch'
 +++
 
 {{< twitch channel="techrelaygames" >}}
+
+{{< twitch2 >}}
