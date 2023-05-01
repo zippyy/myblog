@@ -9,15 +9,15 @@ title = 'Twitch'
 
 <style>
   #twitch-embed {
-    width: 100%;
-    max-width: 854px;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    width: 100% !important;
+    max-width: 854px !important;
+    height: 0 !important;
+    padding-bottom: 56.25% !important; /* 16:9 aspect ratio */
   }
 
   @media (max-width: 768px) {
     #twitch-embed {
-      max-width: 100%;
+      max-width: 100% !important;
     }
   }
 </style>
