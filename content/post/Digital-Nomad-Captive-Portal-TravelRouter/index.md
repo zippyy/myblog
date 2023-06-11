@@ -19,6 +19,8 @@ toc = false
 usePageBundles = true
 +++
 
+*I put this together real fast. When I get back from some work travels I will optimize the images and streamline the post but this should be enough to get most people through it*
+
 So like a lot of the content on this blog, I was asked on reddit to cover this topic so here is a post about using the TravelRouter to connect to a Captive Portal like in an airport, hotel, or coffee shop.
 
 In this post I will be covering how to do this by cloning the MAC address of your mobile device to the travel router to bypass the captive portal on your other devices once you have completed it once on the mobile device. There are two ways to do this and I will cover both
