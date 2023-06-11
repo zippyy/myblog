@@ -17,6 +17,7 @@ thumbnail = ''
 title = "Digital Nomad Captive Portal TravelRouter"
 toc = false
 usePageBundles = true
+weight = 6
 +++
 
 *I put this together real fast. When I get back from some work travels I will optimize the images and streamline the post but this should be enough to get most people through it*
