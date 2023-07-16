@@ -17,56 +17,6 @@ thumbnail = ''
 title = "Cable Cutting with IPTV"
 toc = false
 usePageBundles = true
-[tables.Monthly]
-name = "IPTV Monthly"
-
-  [[tables.fruits.cols]]
-  id = "Connections"
-  name = "Connections"
-  tip = "The Amount of Concurrent Connections."
-
-  [[tables.fruits.cols]]
-  id = "MonthlyCost"
-  name = "Monthly Cost"
-  tip = "The Monthly Price."
-  align = "right"
-
-  [[tables.fruits.rows]]
-  name = "1"
-  text = "$20"
-
-  [[tables.fruits.rows]]
-  name = "2"
-  text = "$35"
-
-  [[tables.fruits.rows]]
-  name = "3"
-  text = "$50"
-[tables.Monthly]
-name = "IPTV Annually"
-
-  [[tables.fruits.cols]]
-  id = "Connections"
-  name = "Connections"
-  tip = "The Amount of Concurrent Connections."
-
-  [[tables.fruits.cols]]
-  id = "AnnualCost"
-  name = "Annual Cost"
-  tip = "The Annual Price."
-  align = "right"
-
-  [[tables.fruits.rows]]
-  name = "1"
-  text = "$200"
-
-  [[tables.fruits.rows]]
-  name = "2"
-  text = "$350"
-
-  [[tables.fruits.rows]]
-  name = "3"
-  text = "$500"
 
 +++
 
