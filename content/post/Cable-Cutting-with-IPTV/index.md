@@ -19,56 +19,12 @@ toc = false
 usePageBundles = true
 
 [tables.monthly]
-name = "IPTV Monthly"
-
-  [[tables.monthly.cols]]
-  id = "Connections"
-  name = "Connections"
-  tip = "The Amount of Concurrent Connections."
-
-  [[tables.monthly.cols]]
-  id = "MonthlyCost"
-  name = "Monthly Cost"
-  tip = "The Monthly Price."
-  align = "right"
-
-  [[tables.monthly.rows]]
-  name = "1"
-  text = "$20"
-
-  [[tables.monthly.rows]]
-  name = "2"
-  text = "$35"
-
-  [[tables.monthly.rows]]
-  name = "3"
-  text = "$50"
-  
-[tables.annually]
-name = "IPTV Annually"
-
-  [[tables.annually.cols]]
-  id = "Connections"
-  name = "Connections"
-  tip = "The Amount of Concurrent Connections."
-
-  [[tables.annually.cols]]
-  id = "AnnualCost"
-  name = "Annual Cost"
-  tip = "The Annual Price."
-  align = "right"
-
-  [[tables.annually.rows]]
-  name = "1"
-  text = "$200"
-
-  [[tables.annually.rows]]
-  name = "2"
-  text = "$350"
-
-  [[tables.annually.rows]]
-  name = "3"
-  text = "$500"
+cols = [ "# of Connections", "Monthly Cost" ]
+rows = [
+  [ "1", "$20" ],
+  [ "2", "$35" ],
+  [ "3", "$50" ]
+]
 
 +++
 
@@ -78,6 +34,5 @@ so I started looking for other options to cut my cost but not my experience. I s
 So the service cost is pretty decent considering I cut all the streaming services out of my monthly. I pay annually for Real-Debrid at about $35 a year which gives me all my streaming content but generally you have to wait to watch something until aired and has been uploaded to a torrent indexer and for sports and pay-per-view content that really isnt the same unless its experience live the IPTV service makes up for that with access to Live TV, Sports, PPV and other things like Professional Fights for pennies compared to traditional cable/satilite or stacking streaming services. The cost for a decent IPTV service is around $20-35 a month per connection, I tried a bunch and ended up with Cuerna IPTV, Since they are trying to operate under the radar to reduce likelyhood of the service being shutdown they dont run a website instead you can send an email to inserthere@name.com to sign up for service and you will be sent a secure link to pay via the reputable Stripe payment processer, This brings the cost of their service down sifnicitantly starting at $20 for 1 connection, $30 for two connections and $50 for 3 connections monthly with discounts for 6 months and 12 months plans. See the below chart for a better breakdown of pricing. 
 
 {{< table "monthly" >}}
-{{< table "annually" >}}
 
 I have been using this service for about 6 months so far and have the 3 concurrent connections so my household can watch something on two tv's at the same time while recording a show in the background on the main living room tv that is connected to storage and I cant tell you how simple its been using the Tivimate App ($10 a year with a 7-day free trial or $35 lifetime) on our Android TV boxes, Firesticks and Nvidia Sheild we have around the house. (If you dont want to spend the extra money on Tivimate and dont need any of the extra features then you can use XCIPTV which is free and while it doesnt look as nice and the UI is a little more clunky its fully functional and fully free!)
