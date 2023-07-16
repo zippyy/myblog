@@ -42,8 +42,7 @@ name = "IPTV Monthly"
   [[tables.fruits.rows]]
   name = "3"
   text = "$50"
-
-  [tables.Monthly]
+[tables.Monthly]
 name = "IPTV Annually"
 
   [[tables.fruits.cols]]
