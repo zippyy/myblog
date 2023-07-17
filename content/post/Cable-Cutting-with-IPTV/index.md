@@ -31,7 +31,7 @@ cols = [ "# of Connections", "6-Month Cost" ]
 rows = [
   [ "1", "$100" ],
   [ "2", "$175" ],
-  [ "3", "$5250" ]
+  [ "3", "$250" ]
 ]
 
 [tables.annual]
