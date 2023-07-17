@@ -6,7 +6,7 @@ date = "2023-07-09T09:15:25-06:00"
 year = "2023"
 month = "2023-07"
 description = ''
-draft = true
+draft = false
 featureImage = ''
 featureImageAlt = ''
 featureImageCap = ''
@@ -24,6 +24,22 @@ rows = [
   [ "1", "$20" ],
   [ "2", "$35" ],
   [ "3", "$50" ]
+]
+
+[tables.sixmonth]
+cols = [ "# of Connections", "6-Month Cost" ]
+rows = [
+  [ "1", "$100" ],
+  [ "2", "$175" ],
+  [ "3", "$5250" ]
+]
+
+[tables.annual]
+cols = [ "# of Connections", "Annual Cost" ]
+rows = [
+  [ "1", "$200" ],
+  [ "2", "$350" ],
+  [ "3", "$500" ]
 ]
 
 +++
