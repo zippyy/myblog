@@ -49,7 +49,7 @@ so I started looking for other options to cut my cost but not my experience. I s
 
 So the service cost is pretty decent considering I cut all the streaming services out of my monthly. I pay annually for Real-Debrid at about $35 a year which gives me all my streaming content but generally you have to wait to watch something until aired and has been uploaded to a torrent indexer and for sports and pay-per-view content that really isnt the same unless its experience live the IPTV service makes up for that with access to Live TV, Sports, PPV and other things like Professional Fights for pennies compared to traditional cable/satilite or stacking streaming services. The cost for a decent IPTV service is around $20-35 a month per connection, I tried a bunch and ended up with Cuerna IPTV, Since they are trying to operate under the radar to reduce likelyhood of the service being shutdown they dont run a website instead you can send an email to inserthere@name.com to sign up for service and you will be sent a secure link to pay via the reputable Stripe payment processer, This brings the cost of their service down sifnicitantly starting at $20 for 1 connection, $30 for two connections and $50 for 3 connections monthly with discounts for 6 months and 12 months plans. See the below chart for a better breakdown of pricing. 
 
-Monthly
+{{< text-center >}}Monthly{{< /text-center >}}
 {{< table "monthly" >}}
 6-Month
 {{< table "sixmonth" >}}
