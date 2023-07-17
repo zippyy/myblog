@@ -60,3 +60,7 @@ I have been using this service for about 6 months so far and have the 3 concurre
 
 All in all the combination of Real-Debrid and IPTV has enabled me to cut hundreds of dollars a month without sacrificing any content or the experience either! [Click here to sign up for Real-Debrid](http://real-debrid.com/?id=7432212) and Email {{< cloakemail "CuernaIPTV@gmail.com" >}} to get started with the best IPTV Service I have come across! (Free 12-hour Trial is Available to test the service with your app or device)
 
+I will also be doing some upcoming posts on how to setup Streamio + Torrentio Addon with Real Debrid, How to setup Cuerna IPTV with both Tivimate and xcIPTV, as well as a Streaming "box" hardware guide!
+
+As Always, So long and thanks for all the fish!
+
