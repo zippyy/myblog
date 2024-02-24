@@ -18,4 +18,4 @@ As you know if you read my bio, I am from and currently reside in Colorado. Skii
 
 I have been itching to get out on the mountain since summer started and finally it has come back around to that time of year again, I decided on a whim to head up to A-basin for the opening day of the WROD and honestly compared to years past this was a great opening weekend in my eyes, The WROD was not real icy and was more like choppy mashed potatoes instead of frozen TV dinner status. All in all it was a great first of the season and I cant wait for my home mountain Keystone to open with their purported 4o+ acres of ski-able terrain. Winter is coming...... NO! Winter is here! and as one of my favorite filmmaker's (_Warren Miller)_ films says WINTER STARTS NOW!!!!
 
-So long and Thanks for all the fish! DONT PANIC!
+So long and Thanks for all the fish!
