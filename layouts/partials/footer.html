@@ -11,6 +11,4 @@
     <p>{{ T "copyright" | markdownify }}{{ with $s.since }}&nbsp;{{ . }}-{{ end }}&nbsp;<span class="year"></span>&nbsp;{{ upper $c }}. {{ T "all_rights" | markdownify }}</p>
     {{- partialCached "top" .}}
   </div>
-  <!-- progressive web app -->
-  {{ partial "pwa.html" . }}
 </footer>
