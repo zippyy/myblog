@@ -12,7 +12,7 @@ featureImageAlt = ''
 featureImageCap = ''
 figurePositionShow = true
 shareImage = ''
-tags = ['featured', 'Hugo', '']
+tags = ['featured', '']
 thumbnail = ''
 title = "Hugo Netlify Contact Form SMS"
 toc = false
@@ -21,7 +21,7 @@ usePageBundles = true
 
 This is gonna be a cool post, As you know this site is generated with the Hugo Static Site Generator and the static site is hosted on Netlify for free, If you head over to my [Contact Page](https://techrelay.xyz/contact) there is a Contact Form at the bottom which if you ready my [Netlify VS Cloudflare Pages Post](https://techrelay.xyz/post/netlify-vs-cloudflare) then you will know is a big reason why I have chosen to stay with Netlify for the static hosting portion of things. They make it dead simple to add the form to a static site and store the form contents which is viewable in the portal or send notification via email or webhook which is pretty nifty as well, however I dont always check my email that often and I often turn of email notifications on my Mobile as I get a ton of emails every day.
 
-So I set out to find an alternative that would alert me better, I have long used a service called [Text Belt](https://textbelt.com/) to send SMS notification from my Synology Appliances which has worked great for years but that is really the only thing I have ever used Text Belt for until I figured out I could send a POST via the webhook functionality in netlify notification via a simple https url with a message "ContactFormSubmission" which would alert me to either check my email or login to the portal, this has worked well for a few months until today I thought this could be even better.
+So I set out to find an alternative that would alert me better, I have long used a service called [Text Belt](linkhere) to send SMS notification from my Synology Appliances which has worked great for years but that is really the only thing I have ever used Text Belt for until I figured out I could send a POST via the webhook functionality in netlify notification via a simple https url with a message "ContactFormSubmission" which would alert me to either check my email or login to the portal, this has worked well for a few months until today I thought this could be even better.
 
 So I also use another awesome software called N8N, Like zapier or IFTTT, to build work flows between things, I also pay for IFTT as I dont have to self host that as a backup option, which works awesome if your familiar with it, nodered, zapier, or IFTTT, Then you will understand already how powerful a tool like that can be. 
 

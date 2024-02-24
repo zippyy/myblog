@@ -54,10 +54,6 @@ url = "https://techrelay.xyz/affiliate"
 name = "Tech/IT Services"
 parent = "Links"
 url = "https://techrelay.xyz/services"
-[[main]]
-name = "Testimonials"
-parent = "Links"
-url = "https://techrelay.xyz/testimonials/"
 [[social]]
 name = "github"
 type = "social"

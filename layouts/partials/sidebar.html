@@ -29,43 +29,7 @@
       </div>
       {{- if ( ne $s.introURL false ) }}
       {{- $r := T "read_more" }}
-      <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='About Me'>About Me</a>
-
-      <!-- Add the Buy Me a Coffee code here -->
-      {{- $user := "techrelay" }}
-      {{- $color := "#2ecc71" }}
-      {{- $title := "Buy me a coffee" }}
-
-       <style>
-        .bmc-button2  {
-          background-color: #0077b8;
-          color: #fff;
-          display: inline-flex;
-          padding: 0.5rem 1.5rem;
-          text-transform: uppercase;
-          border: 1px solid #0077b8;
-          border-radius: 1.5rem;
-          font-size: .9rem;
-          align-items: center;
-          user-select: none;
-        }
-
-        .bmc-button2:hover {
-          background-color: #27ae60;
-        }
-      </style>
-
-      <br>
-      <br>
-
-      <span>
-        <a class="bmc-button2" target="_blank" href="https://www.buymeacoffee.com/{{ $user }}">
-          <img src="" alt="">
-          <span style="margin-left: !important;">
-            {{ $title }}
-          </span>
-        </a>
-      </span>
+      <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
       {{- end }}
     {{- end }}
 

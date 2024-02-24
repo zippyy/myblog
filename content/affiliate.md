@@ -9,7 +9,6 @@ title = 'Affiliate Links'
 
 These Links help me "keep the lights on" so to speak so please try and use any of the following links to platforms you may already be using!
 
-[NextDNS](https://nextdns.io/?from=wyfqx2ct) This one is something I cant live without anymore, I used to run Pi-Hole and Adguard Home in my home env but once I tried NextDNS and considering how cheap it is I quickly switched over. No more self hosting DNS, faster queries, works with my AD DNS setup as well. Highly Recommend, tons of block lists available. also works great on Mobile's, Gl-inet Devices like the home or travel routers in my guides, and browsers!
 
 [Call-Centric](https://www.callcentric.com/?aid=1469308) - Sip Trunk Provider, Very afforable, supports many different ATX, IP Phone and PBX brands, easy setup. 
 

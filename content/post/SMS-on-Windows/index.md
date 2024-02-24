@@ -17,7 +17,7 @@ thumbnail = ''
 title = "SMS on Windows"
 toc = false
 usePageBundles = true
-weight = 7
+weight = 5
 series = 'Digital Nomad'
 +++
 

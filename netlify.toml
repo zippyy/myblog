@@ -10,5 +10,3 @@
 [context.branch-deploy]
   command = "hugo --environment staging"
 
-[functions]
-  node_bundler = "esbuild"

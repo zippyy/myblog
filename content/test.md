@@ -63,3 +63,6 @@ title = 'test'
 
 here is the cheatsheet for [emjoi shortcodes](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+n8n fixed and working
+
+updated flow

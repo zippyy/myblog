@@ -35,10 +35,10 @@
     <main>
       {{- block "main" . }}{{ end }}
     </main>
+
     {{- partialCached "icons" . }}
     {{- partialCached "footer" . }}
     {{- partialCached "scripts/index" . }}
     {{- partialCached "hooks/body-end" . }}
-    {{- partial "custom_footer.html" . }}
   </body>
 </html>

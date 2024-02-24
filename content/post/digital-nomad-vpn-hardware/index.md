@@ -55,8 +55,6 @@ All in all its a great choice and highly recommended as long as you don't need m
 
 ![Brume 2](mt2500_main.png)
 
-*This is the recommended Router if you need VPN Cascading and do not need WiFi.*
-
 [Brume 2](https://www.gl-inet.com/products/gl-mt2500/) is a newer offering from GL-inet and its got a cool new feature called *VPN Cascading*, it can run both OpenVPN and Wireguard at the same time (This is by itself nothing new, the flint will do this too) with the added functionality of being able to transfer traffic between the two. For example you can have the OpenVPN connecting to a corporate VPN and then connect your TravelRouter and Work Device to the Wireguard endpoint and pass that traffic onward to the OpenVPN side of things, this could be very useful for someone who's company uses OpenVPN but doesn't enforce the Always-On functionality or enforce the use of the application on the device which may not be all companies but at least some will be this lenient.  
 
 Setup for this device would be mostly the same except for an added part of configuring the Secondary Interface with your OpenVPN config which I will cover in yet another update post. 
@@ -144,15 +142,7 @@ The [eSUNFI](https://www.esun-fi.com/) (*Warning this website sucks ass*)  This 
 
 The [Nighthawk M6 Pro (MR6500)](https://www.netgear.com/home/mobile-wifi/hotspots/mr6500/) is a must have for me, On my personal devices I don't always use a TravelRouter as I have multiple VPN endpoints at home thus I normally just connect to the Hotspot when I am out and about because my Personal Laptop has always on built in VPN via my Enterprise SonicWALL Firewall, So having a good hotspot that also has ethernet is killer. This device has it all, 2.5Gbps Ethernet WAN, WiFi-6, 5G LTE and if you buy the [MR6150](https://www.netgear.com/home/mobile-wifi/hotspots/mr6150/) variant you can use an external antenna which is a huge plus for a mobile hotspot!
 
-All in all if your going to carry a hotspot also then this is the one! You want either the [MR6500](https://www.netgear.com/home/mobile-wifi/hotspots/mr6500/) or the [MR6150](https://www.netgear.com/home/mobile-wifi/hotspots/mr6150/) for the ability to use an external 
-
-#### Puli
-
-![Puli (GL-XE300)](xe300_1.webp)
-
-The [Puli](https://www.gl-inet.com/products/gl-xe300/) is another 4G LTE Hotspot/TravelRouter Combo, Like the [Mundi](https://techrelay.xyz/post/digital-nomad-vpn-hardware/#mundi) it supports built in cellular and has a built it battery however unlike the Mundi it also has 2 Gigabit Ethernet ports, a USB port and supports interchangeable modules like the Spitz and Spitz AX it supports CAT4 and CAT6 Modules. If you need the Ethernet and/or the interchangeable modules then you definitely want to check this one out.
-
-I would compare this to the [Nighthawk M6 Pro](https://techrelay.xyz/post/digital-nomad-vpn-hardware/#nighthawk-m6-pro-this-is-the-recommended-hotspot) but they are not in the same caliber and fit different use cases, The Nighthawk supports 5g, has a 2.5gig ethernet port and comes in a version that supports eSIM where as the Puli doesn't support 5g, only has gigabit ports and has a slower max throughput for cellular, it is much cheaper than the nighthawk but is not as powerful. The big pro for the Puli is that it runs the same GL-inet WRT based firmware as the other GL-inet devices so you get full blown TravelRouter features built into a hotspot.
+All in all if your going to carry a hotspot also then this is the one! You want either the [MR6500](https://www.netgear.com/home/mobile-wifi/hotspots/mr6500/) or the [MR6150](https://www.netgear.com/home/mobile-wifi/hotspots/mr6150/) for the ability to use an external antenna
 
 ## Bonus
 

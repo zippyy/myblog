@@ -3,9 +3,7 @@ title = "Shortcode Tests"
 description = "A post that tries out this set of shortcodes."
 date = "2016-12-29T13:39:24-05:00"
 draft = false
-slug = 'shortcode-test'
 +++
-
 
 Hello,
 Thanks for downloading and testing our my shortcode pack. Below will
@@ -113,4 +111,3 @@ string of characters ofter the `/s/` path.
 
 [google-console]: https://console.developers.google.com/
 [geekthis]: http://geekthis.net
-

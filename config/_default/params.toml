@@ -49,10 +49,10 @@ fontsDir = "fonts/" # without a leading forward slash
 
 # Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
 # when a given page has no other image present.
-fallBackOgImage = "images/fallback.png"
+fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/logo.gif"
+logo = "logos/logo.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
@@ -75,7 +75,7 @@ figurePositionShow = false # toggle on or off globally
 figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
 
 # Set the collapsed mobile navigation to either appear from the left or the right
-mobileNavigation = "right" # if you prefer right change to 'right'
+mobileNavigation = "left" # if you prefer right change to 'right'
 
 # some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
 
@@ -134,7 +134,7 @@ since = 2018
 
 # website author
 [author]
-name = "Nicholas"
+name = "Nicholas Bennett"
 photo = "images/nick.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
@@ -148,3 +148,4 @@ enable = false # To enable matomo analytics change to `true`.
 websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
 matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
+

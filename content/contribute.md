@@ -8,7 +8,7 @@ title = 'Contribute'
 +++
 If you like my Content and would like to support this site or buy me a coffee/beer you can contribute via the Donate/Patreon/buymeacoffee Buttons or the other methods below! You can also check out the [Affiliate Link's](https://techrelay.xyz/affiliate) Page for alternative ways of contributing to me.
 
-{{< patreon user="15505316" color="#0077b8" title="Become a Patron" >}} {{< space 5 >}} {{< buymeacoffee user="techrelay" color="#0077b8" title="Buy me a coffee" >}} 
+{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}   {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
 <br>
 
 Venmo Personal - [@zippyy](https://venmo.com/u/zippyy) 
@@ -18,8 +18,6 @@ Last 4 of Cell needed to send on venmo: 3020
 CashApp Personal - [$zippy90](https://cash.app/$zippy90)
 
 Patreon - [https://www.patreon.com/techrelay](https://www.patreon.com/techrelay)
-
-Buy Me a Coffee - [https://www.buymeacoffee.com/techrelay](https://www.buymeacoffee.com/techrelay)
 
 <!--Unstoppable Domains Address - nbennett.zil
 
@@ -44,4 +42,3 @@ Buy Me a Coffee - [https://www.buymeacoffee.com/techrelay](https://www.buymeacof
  <!-- You only need this once per page (but it won't do any harm) -->
  <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
 
- 
