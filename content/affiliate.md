@@ -28,3 +28,8 @@ These Links help me "keep the lights on" so to speak so please try and use any o
 [NordLocker](https://go.nordlocker.net/aff_c?offer_id=760&aff_id=86359) - NordLocker is an end-to-end encrypted file storage option from the NordVPN folks. Seems pretty decent so far, I have a mix between onedrive for business (I run full Hybrid AD setup with E5 licenses) and NordLocker.
 
 
+[![Debrid-Link](https://debrid-link.com/img/ba-en.png "Debrid-Link - Premium link generator and Seedbox")](https://debrid-link.com/id/rwye6)
+
+[![All-Debrid](https://cdn.alldebrid.com/lib/images/features.en.gif "All-Debrid - Premium link generator and Seedbox")](https://alldebrid.com/?uid=3ko7m&lang=en)
+
+[![Real-Debrid](http://real-debrid.com/static/images/banner/en.png "Real-Debrid - Premium link generator and Seedbox")](http://real-debrid.com/?id=7432212)
