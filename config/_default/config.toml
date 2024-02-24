@@ -26,7 +26,20 @@ year = "year"
 month = "month"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "ATOM"]
+
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+[outputFormats.Atom]
+  # https://validator.w3.org/feed/docs/atom.html#whatIsAtom
+  name = "Atom"
+  mediaType = "application/atom+xml"
+  baseName = "atom" # generated file = <baseName>.<mediaType."application/atom+xml".suffixes[0]> = atom.xml
+  isPlainText = false
+  rel = "alternate"
+  isHTML = false
+  noUgly = true
+  permalinkable = false
 
 enableRobotsTXT = true
 
@@ -35,3 +48,9 @@ enableRobotsTXT = true
 changefreq = 'monthly'
 filename = 'sitemap.xml'
 priority = 0.5
+
+[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "Here are some Testimonials from Clients and Customers, Send an email to Testimonials@techrelay.xyz to have yours added to the list below!"
+

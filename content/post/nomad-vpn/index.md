@@ -56,11 +56,9 @@ Go to VPN -> WireGuard Server -> Management and click Add a New User.
 ![add_a_new_wireguard_user](add_a_new_wireguard_user.png)
 
 
-
 Name the config here, For this Guide since we are setting up this first user for the TravelRouter we will call this config TravelRouter
 
 ![input_wireguard_config_name](input_wireguard_config_name.png)
-
 
 
 Back on the management page you will see your user/client on the list. 
@@ -84,11 +82,9 @@ Edit: I forgot to mention that if your endpoint address is a local one, i.e 192.
  With the config you saved from the last part of the guide, Connect to the TravelRouter either via Ethernet or Wifi and navigate to the web GUI (like the HomeRouter it is most likely 192.168.8.1 however yours will come with a card that has all that info)
 
 
-
 once logged into the web GUI navigate to VPN -> WireGuard Client and click the button that says Setup WireGuard Manually.
 
 ![setup_wireguard_manually](setup_wireguard_manually.png)
-
 
 
 Click on the Configuration Tab and Paste the config in the window
@@ -109,19 +105,105 @@ on that same page you should see an IP Address and an UP/Down Stat. if traffic i
 
 If you would prefer a video of this TravelRouter Client part of the setup GLINET has a really good one from their support site linked [here](https://youtu.be/oTrche1jprQ)
 
-At this point you should have the HomeRouter Server running with the TravelRouter and maybe your Phone connected as clients to the HomeRouter Server and you are able to browse the internet! Awesome right? well there still one last thing to do, VPN<->Internet Kill Switch
-
-
+At this point you should have the HomeRouter Server running with the TravelRouter and maybe your Phone connected as clients to the HomeRouter Server and you are able to browse the internet! Awesome right? Well there is still one last thing to do, The VPN Internet Kill Switch failsafe.
 
 In the Travel Router Gui navigate to Admin Panel -> VPN -> Internet Kill Switch. Click the Toggle for Enable and Click APPLY
-
 
 
 ![internet_kill_switch_enabled](internet_kill_switch_enabled.png)
 
 
-
 Congrats you have now setup your Wireguard Server on the HomeRouter, Connected the TravelRouter to the VPN and enabled the KILL Switch, Connected a device to the TravelRouter Either via Ethernet or Wifi and you can visit https://icanhazip.com and it shows your HomeRouter's External IP address. 
+
+
+## Updates
+
+I will add updates to this section here, starting with DDNS and GoodCloud.
+
+### DDNS
+
+Okay so if you login to the admin portal for the HomeRouter, Go to Applications >> Dynamic DNS and click the toggle to enable DDNS, Copy the hostname shown and replace the endpoint ip address in your wireguard config on the TravelRouter with the DDNS URL, This will prevent you from having any issues with Dynamically assigned addresses changing while you are abroad. 
+
+see the screenshots below for examples.
+
+![Dynamic DNS Toggle](ddns.png)
+
+![Enable Dynamic DNS](ddnsenable.png)
+
+![Wireguard Config With DDNS](Windscribe-Wireguard-conf-file-Endpoint.webp)
+
+You may also want to enable HTTPS Remote Access to the admin portal, Meaning you can access the admin portal via the DDNS URL. 
+
+see the below screenshot for an example.
+
+![https Toggle](remotewebaccess.png)
+
+If you are comfortable with the Terminal and would also like to access the HomeRouter Via SSH you can also use the DDNS URL by Clicking the Toggle below the HTTP and HTTPS Toggles. 
+
+See the below screenshot for an example. 
+
+![SSH Remote Access Toggle](ssh_remote_access.png)
+
+### GoodCloud
+
+Another Useful feature of the GL-inet Routers is they Come with a service called GoodCloud, Like the DDNS it allows you to access both SSH and Web Portal remotely however unlike the DDNS this option does not require any port forwarding and thus can be a failsafe if something happens with your DDNS or Portforwarding allowing you emergency access to your HomeRouter to fix whatever issues you may be having. 
+
+Login to the Admin Panel and go to Application >> GoodCloud and click the Toggle for GoodCloud and Remote Web Access. (Also enable SSH if like above with the DDNS config you are comfortable with the terminal and would like SSH access as well.)
+
+See the below screenshot for an example. 
+
+![GoodCloud Toggle](enable_goodcloud.png)
+
+
+### AdGuard Home
+
+*Only Applicable to the following:* [GL-AX1800 (Flint)](link), [GL-A1300 (Slate Plus)](link), [GL-AXT1800 (Slate AX)](link), [GL-MT3000 (Beryl AX)](link), [GL-MT2500/GL-MT2500A (Brume 2)](link) and [GL-X3000 (Spitz AX)](link).
+
+AdGuard is a Network Wide Ad and Tracking Blocker. Like Pihole, NextDNS, etc... with the above supported models having built in functionality. Go to Applications >> Adguard Home and click the start button.
+
+![Adguard Home Start Button](adguardhome_init.png)
+
+Once you have clicked the start button you will see a link to the settings page appear, Click that to go to the Adguard Settings Panel. 
+
+![Adguard Settings Page Link](adguardhome_started.png)
+
+![Adguard Settings Page](adguardhome_settings.png)
+
+From there you may configure Adguard Home as you please. Check back for another standalone post covering Adguard Home, NextDNS(My Personal Choice), Pihole, Etc.. including links to quality blocklists. 
+
+### Tailscale
+
+*Only Applicable to the following:* [GL-AX1800 (Flint)](link), [GL-A1300 (Slate Plus)](link), [GL-AXT1800 (Slate AX)](link), [GL-MT3000 (Beryl AX)](link), [GL-MT2500/GL-MT2500A (Brume 2)](link) and [GL-X3000 (Spitz AX)](link).
+
+**Note: Because Tailscale is based on WireGuard, it is not recommended to use the Tailscale feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs. So this feature may only be useful for those that dont require using the vpn to mask their location or those like me that carry an extra TravelRouter for my Personal Devices.**
+
+**Note: This feature is currently in beta, and may have some bugs.**
+
+Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about [Tailscale, Check out their website](https://tailscale.com/)
+
+If you already have other devices in Tailscale then all you need to do is follow below, otherwise add a few devices first.
+
+Go to Applications >> Tailscale and click the enable Toggle. 
+
+![Enable Tailscale Toggle](enable_tailscale.png)
+
+Once you have enabled the toggle you should see the Device Bind Link, Click that
+
+![Device Bind Link](tailscale_bind_link_1.png)
+
+A pop-up will show a link, click that link 
+
+![Popup with link](tailscale_bind_link_2.png)
+
+Once logged in, click on connect. 
+
+![Connect](tailscale_connect_device.png)
+
+After connection is successful you can go to you Tailscale machines list and you should now see the GL-inet router listed there. 
+
+![Tailscale Portal Machine List](machine.png)
+
+You should now be setup with Tailscale, just remember not to run it with the Wireguard or OpenVPN Client at the same time. 
 
 ## Closing
 
@@ -133,9 +215,6 @@ So long and Thanks for all the fish!
 
 ***If this post was helpful to you, please consider donating via the button below. Your donations allow me to purchase hardware and pay for infrastructure which provides me better ability to make content***
 <br>
-<a href="https://trolley.link/p/K34XGX" data-trolley="true" data-tpk="K34XGX">
-    Donate
-</a>
+<br>
+{{< patreon user="15505316" color="#2ecc71" title="Become a Patron" >}}  {{< space 100 >}}  {{< buymeacoffee user="techrelay" color="#2ecc71" title="Buy me a coffee" >}} 
 
- <!-- You only need this once per page (but it won't do any harm) -->
- <script async src="https://widget.trolley.link/cart.js" type="text/javascript"></script>
