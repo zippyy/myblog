@@ -19,3 +19,6 @@
 [submodule "cloakmail"]
 	path = themes/hugo-cloak-email
 	url = https://github.com/martignoni/hugo-cloak-email.git
+[submodule "github-contribution"]
+	path = themes/hugo-github-calendar
+	url = https://github.com/totoroot/hugo-github-calendar.git
