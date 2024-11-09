@@ -28,5 +28,4 @@ These Links help me "keep the lights on" so to speak so please try and use any o
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=725&aff_id=86359) - Pretty decent VPN service with good refferal offers. *Remember that VPN providers like this are not a replacement for the [Digital Nomad VPN](https://techrelay/post/nomad-vpn) but is a good thing to have for your personal devices to protect them from rando wifi as well as gain access to sites in your home nation while abroad* 
 
-[NordLocker](https://go.nordlocker.net/aff_c?offer_id=760&aff_id=86359) - NordLocker is an end-to-end encrypted file storage option from the NordVPN folks. Seems pretty decent so far, I have a mix between onedrive for business (I run full Hybrid AD setup with E5 licenses) and NordLocker.
-
+[NordLocker](https://go.nordlocker.net/aff_c?offer_id=760&aff_id=86359) - NordLocker is an end-to-end encrypted file storage option from the NordVPN folks. Seems pretty decent so far
