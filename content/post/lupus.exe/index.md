@@ -1,19 +1,19 @@
 ﻿+++
-categories = ['Technology']
+categories = ["Technology"]
 codeLineNumbers = false
 codeMaxLines = 10
 date = "2025-11-18T08:11:46-07:00"
 year = "2025"
 month = "2025-11"
-description = ''
+description = ""
 draft = false
-featureImage = ''
-featureImageAlt = ''
-featureImageCap = ''
+featureImage = ""
+featureImageAlt = ""
+featureImageCap = ""
 figurePositionShow = true
-shareImage = ''
-tags = ['featured', 'health', 'tech', 'life', 'update']
-thumbnail = ''
+shareImage = ""
+tags = ["featured", "health", "tech", "life", "update"]
+thumbnail = ""
 title = "Fighting Lupus.exe: System Stable, Blog Responding Normally"
 toc = false
 summary = "Two years of unexpected downtime. New treatment, new energy, and a fully responsive blog again."
