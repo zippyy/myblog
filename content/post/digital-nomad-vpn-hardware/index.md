@@ -18,7 +18,7 @@ title = "Digital Nomad VPN Hardware"
 toc = true
 usePageBundles = true
 series = 'Digital Nomad'
-weight = 3
+weight = 4
 +++
 
 ## Preface

@@ -18,6 +18,7 @@ title = "Fighting Lupus.exe: System Stable, Blog Responding Normally"
 toc = false
 summary = "Two years of unexpected downtime. New treatment, new energy, and a fully responsive blog again."
 usePageBundles = true
+weight = 1
 +++
 
 Hello everyone. It has been a while. Shortly after my last post, life threw me a surprise side quest. I developed lupus and the next two years became a mix of system crashes, mystery errors, and unexpected restarts. In short, I was extremely sick and operating in safe mode.

@@ -17,7 +17,7 @@ thumbnail = ''
 title = "Digital Nomad Captive Portal TravelRouter"
 toc = false
 usePageBundles = true
-weight = 6
+weight = 7
 series = 'Digital Nomad'
 +++
 
