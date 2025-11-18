@@ -21,7 +21,7 @@ summary = "Two years of unexpected downtime. New treatment, new energy, and a fu
 usePageBundles = true
 +++
 
-Hello everyone. It has been a while. Shortly after my last post, life threw me a surprise side quest. I developed lupus and the next two years became a mix of system crashes, mystery errors, and unexpected restarts. In short, I was extremely sick and operating in survival mode.
+Hello everyone. It has been a while. Shortly after my last post, life threw me a surprise side quest. I developed lupus and the next two years became a mix of system crashes, mystery errors, and unexpected restarts. In short, I was extremely sick and operating in safe mode.
 
 I am happy to say that things look very different now. I started a new treatment about three months ago and it completely changed the game. My CPU load dropped. My energy returned. The constant background noise finally quieted down. It feels like someone pushed a major firmware update and suddenly everything runs smoother.
 
