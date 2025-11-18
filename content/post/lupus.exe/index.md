@@ -17,7 +17,6 @@ thumbnail = ''
 title = "Fighting Lupus.exe: System Stable, Blog Responding Normally"
 toc = false
 summary = "Two years of unexpected downtime. New treatment, new energy, and a fully responsive blog again."
----
 usePageBundles = true
 +++
 
