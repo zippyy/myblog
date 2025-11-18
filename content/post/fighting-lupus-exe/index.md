@@ -41,7 +41,6 @@ I want to write more consistently again. I want to share what I have learned. An
 ## Thank you  
 Thank you to everyone who checked in. Thank you to everyone who waited. And thank you to the people in my life who helped me through all the strange and frustrating errors along the way.
 
-## Closing  
 The blog is back online. The service is responding. If you have ever been stuck in your own endless loading screen, I see you. Eventually the system recovers. Eventually the logs make sense again. And eventually you get to hit Publish.
 
 It feels good to be writing again. More coming soon.
