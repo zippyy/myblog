@@ -26,7 +26,7 @@ I am now empolyed by GL.iNet and absoloutely loving working for the company that
 
 I have a bunch of incoming content, I have new hardare to play with and have even published my first useful script to (Github!)[https://github.com/techrelay/GL.iNet-CellularModels-SMSonBoot] *inserts shameless plug here*. I am going to do a bunch of cellular related posts as I have really been enjoying the Puli AX on my travels.  
 
-Drop a comment below if there is something you want me to cover in a future post or series! 
+Drop a comment below or shoot me an email if there is something you want me to cover in a future post or series! 
 
 **Mic Drop**
 
