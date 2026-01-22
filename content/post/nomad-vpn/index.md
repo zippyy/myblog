@@ -14,7 +14,7 @@ categories = ['Digital Nomad','Pinned']
 toc = true
 +++
 
-**I will be doing an updated guide along with an updated hardware guide shortly, I now have access to flagship devices**
+<span style="color: red;"> **I will be doing an updated guide along with an updated hardware guide shortly, I now have access to flagship devices** </span>
 
 
 ## Preface
