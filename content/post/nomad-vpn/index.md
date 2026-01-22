@@ -13,6 +13,10 @@ weight = '2'
 categories = ['Digital Nomad','Pinned']
 toc = true
 +++
+
+**I will be doing an updated guide along with an updated hardware guide shortly, I now have access to flagship devices**
+
+
 ## Preface
 Alright so I was browsing Reddit and came across a post in the digital nomad sub asking about covering up your location when working abroad and thus I was compelled to do this write up and actually ended up deciding to do a whole series on DNing, Starting with how to setup your travel router, vpn, kill switch, etc... 
 
