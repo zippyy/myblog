@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+<defs>
+<style>
+.title{font:700 36px Arial,sans-serif;fill:#0f172a}
+.sub{font:400 18px Arial,sans-serif;fill:#475569}
+.head{font:700 20px Arial,sans-serif;fill:#0f172a}
+.text{font:400 16px Arial,sans-serif;fill:#1e293b}
+.small{font:400 14px Arial,sans-serif;fill:#475569}
+.badge{font:700 14px Arial,sans-serif;fill:#1d4ed8}
+</style>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="60" y="60" class="title">GL.iNet Popular Model Comparison (2026)</text>
+<text x="60" y="90" class="sub">Home, travel, and cellular picks at a glance</text>
+
+<g transform="translate(60,130)">
+  <rect width="380" height="340" rx="22" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="24" y="40" class="head">Home Routers</text>
+  <text x="24" y="72" class="badge">Best overall</text>
+  <text x="24" y="100" class="text">Flint 3 (GL-BE9300)</text>
+  <text x="24" y="128" class="small">Tri-band Wi-Fi 7 • 5× 2.5GbE</text>
+
+  <text x="24" y="180" class="badge">Best Wi-Fi 7 value</text>
+  <text x="24" y="208" class="text">Flint 3e (GL-BE6500)</text>
+  <text x="24" y="236" class="small">Dual-band Wi-Fi 7 • 5× 2.5GbE</text>
+
+  <text x="24" y="288" class="badge">Best proven value</text>
+  <text x="24" y="316" class="text">Flint 2 (GL-MT6000)</text>
+  <text x="24" y="344" class="small">Wi-Fi 6 • Excellent VPN performance</text>
+</g>
+
+<g transform="translate(490,130)">
+  <rect width="380" height="340" rx="22" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="24" y="40" class="head">Travel Routers</text>
+  <text x="24" y="72" class="badge">Best premium travel</text>
+  <text x="24" y="100" class="text">Slate 7 (GL-BE3600)</text>
+  <text x="24" y="128" class="small">Wi-Fi 7 • Touchscreen • Dual 2.5G</text>
+
+  <text x="24" y="180" class="badge">Best for VPN speed</text>
+  <text x="24" y="208" class="text">Beryl 7 (GL-MT3600BE)</text>
+  <text x="24" y="236" class="small">Wi-Fi 7 • Up to 1,100 Mbps WireGuard</text>
+
+  <text x="24" y="288" class="badge">Best budget pick</text>
+  <text x="24" y="316" class="text">Beryl AX (GL-MT3000)</text>
+  <text x="24" y="344" class="small">Compact Wi-Fi 6 travel router</text>
+</g>
+
+<g transform="translate(920,130)">
+  <rect width="380" height="340" rx="22" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="24" y="40" class="head">Cellular Routers</text>
+  <text x="24" y="72" class="badge">Best premium cellular</text>
+  <text x="24" y="100" class="text">Mudi 7 (GL-E5800)</text>
+  <text x="24" y="128" class="small">5G • Tri-band Wi-Fi 7 • Battery</text>
+
+  <text x="24" y="180" class="badge">Best portable 5G</text>
+  <text x="24" y="208" class="text">Puli AX (GL-XE3000)</text>
+  <text x="24" y="236" class="small">5G • Wi-Fi 6 • Battery</text>
+
+  <text x="24" y="288" class="badge">Best fixed 5G gateway</text>
+  <text x="24" y="316" class="text">Spitz AX (GL-X3000)</text>
+  <text x="24" y="344" class="small">5G • Wi-Fi 6 • External antennas</text>
+</g>
+
+<g transform="translate(60,520)">
+  <rect width="1240" height="380" rx="22" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="24" y="40" class="head">Quick Buyer Guide</text>
+  <text x="24" y="80" class="text">Choose Flint 3 if you want the strongest overall home setup.</text>
+  <text x="24" y="115" class="text">Choose Flint 2 if you want the best balance of price, maturity, and VPN performance.</text>
+  <text x="24" y="150" class="text">Choose Slate 7 if you want the most premium travel-router experience.</text>
+  <text x="24" y="185" class="text">Choose Beryl 7 if VPN speed matters more than anything else while traveling.</text>
+  <text x="24" y="220" class="text">Choose Beryl AX if you want the best budget travel router.</text>
+  <text x="24" y="255" class="text">Choose Mudi 7 if you want GL.iNet's most advanced mobile 5G package.</text>
+  <text x="24" y="290" class="text">Choose Puli AX if you need a battery-powered portable 5G router.</text>
+  <text x="24" y="325" class="text">Choose Spitz AX if you want a fixed 5G gateway for RV, rural, or backup-WAN use.</text>
+</g>
+</svg>
