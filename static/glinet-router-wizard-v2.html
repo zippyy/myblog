@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GL.iNet Router Recommendation Wizard</title>
+<style>
+  :root{
+    --bg:#0b1020;
+    --card:#121933;
+    --card2:#0f1530;
+    --text:#edf2ff;
+    --muted:#aeb8d6;
+    --accent:#7aa2ff;
+    --border:#243055;
+    --good:#7ee081;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background:linear-gradient(180deg,#0a0f1e,#121a35);
+    color:var(--text);
+    padding:24px;
+  }
+  .wrap{max-width:1100px;margin:0 auto;}
+  .hero{margin-bottom:20px}
+  h1{font-size:2rem;margin:0 0 8px}
+  p.lead{margin:0;color:var(--muted);font-size:1rem;line-height:1.6}
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin-top:20px;
+  }
+  .card{
+    background:rgba(18,25,51,.9);
+    border:1px solid var(--border);
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 10px 35px rgba(0,0,0,.25);
+  }
+  .card h2{margin-top:0;font-size:1.2rem}
+  .field{margin-bottom:16px}
+  label{display:block;font-weight:600;margin-bottom:8px}
+  select, input[type="checkbox"]{
+    accent-color:var(--accent);
+  }
+  select{
+    width:100%;
+    padding:12px 14px;
+    border-radius:12px;
+    border:1px solid var(--border);
+    background:#0c1230;
+    color:var(--text);
+    font-size:1rem;
+  }
+  .checks{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .check{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    background:var(--card2);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:12px;
+  }
+  button{
+    width:100%;
+    padding:14px 16px;
+    border:none;
+    border-radius:14px;
+    background:var(--accent);
+    color:#081126;
+    font-weight:800;
+    font-size:1rem;
+    cursor:pointer;
+  }
+  .result-title{font-size:1.5rem;margin:0 0 8px}
+  .badge{
+    display:inline-block;
+    padding:6px 10px;
+    border-radius:999px;
+    background:#152149;
+    border:1px solid var(--border);
+    color:var(--muted);
+    font-size:.85rem;
+    margin-right:8px;
+    margin-bottom:8px;
+  }
+  .score{
+    margin:16px 0 10px;
+    font-size:.95rem;
+    color:var(--muted);
+  }
+  .bars{display:grid;gap:10px;margin-top:12px}
+  .barrow{display:grid;grid-template-columns:130px 1fr;gap:10px;align-items:center}
+  .meter{
+    height:10px;background:#0a1128;border:1px solid var(--border);border-radius:999px;overflow:hidden
+  }
+  .meter > span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--good))}
+  .reasons ul{margin:10px 0 0 20px;color:var(--muted)}
+  .top3{margin-top:18px}
+  table{width:100%;border-collapse:collapse;font-size:.95rem}
+  th,td{padding:10px;border-bottom:1px solid var(--border);text-align:left}
+  th{color:var(--muted);font-weight:600}
+  @media (max-width: 860px){
+    .grid{grid-template-columns:1fr}
+    .checks{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>GL.iNet Router Recommendation Wizard</h1>
+    <p class="lead">Pick your use case and priorities, then get the best-fit GL.iNet model plus runner-up recommendations.</p>
+  </div>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Your Needs</h2>
+
+      <div class="field">
+        <label for="usecase">Primary use case</label>
+        <select id="usecase">
+          <option value="home">Home / office</option>
+          <option value="travel">Travel</option>
+          <option value="cellular">Cellular / 5G</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="priority">Top priority</label>
+        <select id="priority">
+          <option value="balanced">Balanced</option>
+          <option value="performance">Raw performance</option>
+          <option value="vpn">VPN speed</option>
+          <option value="value">Value</option>
+          <option value="portability">Portability</option>
+          <option value="futureproof">Future-proofing</option>
+          <option value="signal">Signal / antenna flexibility</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Important features</label>
+        <div class="checks">
+          <label class="check"><input type="checkbox" id="wifi7"> <span>Prefer Wi-Fi 7</span></label>
+          <label class="check"><input type="checkbox" id="battery"> <span>Need built-in battery</span></label>
+          <label class="check"><input type="checkbox" id="multigig"> <span>Need multi-gig Ethernet</span></label>
+          <label class="check"><input type="checkbox" id="portable"> <span>Must be very portable</span></label>
+          <label class="check"><input type="checkbox" id="external"> <span>Need external antennas</span></label>
+          <label class="check"><input type="checkbox" id="budget"> <span>Keep cost down</span></label>
+        </div>
+      </div>
+
+      <button id="runBtn">Recommend a Router</button>
+    </section>
+
+    <section class="card">
+      <div id="result">
+        <h2 class="result-title">Start with your use case</h2>
+        <p class="lead">The wizard will rank the current popular GL.iNet models and explain the recommendation.</p>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+const models = [
+  {
+    name: "Flint 3 (GL-BE9300)",
+    category: "home",
+    wifi7: true,
+    battery: false,
+    multigig: true,
+    portable: false,
+    external: false,
+    perf: 10,
+    vpn: 8,
+    value: 6,
+    futureproof: 10,
+    signal: 4,
+    notes: ["Best overall home router", "Tri-band Wi-Fi 7", "Five 2.5GbE ports"]
+  },
+  {
+    name: "Flint 3e (GL-BE6500)",
+    category: "home",
+    wifi7: true,
+    battery: false,
+    multigig: true,
+    portable: false,
+    external: false,
+    perf: 8,
+    vpn: 8,
+    value: 8,
+    futureproof: 9,
+    signal: 4,
+    notes: ["Best practical Wi-Fi 7 home pick", "Dual-band Wi-Fi 7", "Five 2.5GbE ports"]
+  },
+  {
+    name: "Flint 2 (GL-MT6000)",
+    category: "home",
+    wifi7: false,
+    battery: false,
+    multigig: true,
+    portable: false,
+    external: false,
+    perf: 8,
+    vpn: 9,
+    value: 10,
+    futureproof: 7,
+    signal: 4,
+    notes: ["Best value home router", "Very strong VPN performance", "Mature Wi-Fi 6 platform"]
+  },
+  {
+    name: "Slate 7 (GL-BE3600)",
+    category: "travel",
+    wifi7: true,
+    battery: false,
+    multigig: true,
+    portable: true,
+    external: false,
+    perf: 8,
+    vpn: 7,
+    value: 7,
+    futureproof: 9,
+    signal: 4,
+    notes: ["Best premium travel router", "Touchscreen", "Dual 2.5G ports"]
+  },
+  {
+    name: "Beryl 7 (GL-MT3600BE)",
+    category: "travel",
+    wifi7: true,
+    battery: false,
+    multigig: true,
+    portable: true,
+    external: false,
+    perf: 9,
+    vpn: 10,
+    value: 8,
+    futureproof: 9,
+    signal: 4,
+    notes: ["Fastest VPN travel pick", "Wi-Fi 7", "Excellent for secure remote work"]
+  },
+  {
+    name: "Beryl AX (GL-MT3000)",
+    category: "travel",
+    wifi7: false,
+    battery: false,
+    multigig: true,
+    portable: true,
+    external: false,
+    perf: 6,
+    vpn: 6,
+    value: 10,
+    futureproof: 6,
+    signal: 4,
+    notes: ["Best budget travel router", "Compact AX3000", "Strong value"]
+  },
+  {
+    name: "Slate AX (GL-AXT1800)",
+    category: "travel",
+    wifi7: false,
+    battery: false,
+    multigig: false,
+    portable: true,
+    external: false,
+    perf: 6,
+    vpn: 7,
+    value: 7,
+    futureproof: 5,
+    signal: 4,
+    notes: ["Reliable classic travel router", "Established model", "Good all-around travel choice"]
+  },
+  {
+    name: "Mudi 7 (GL-E5800)",
+    category: "cellular",
+    wifi7: true,
+    battery: true,
+    multigig: true,
+    portable: true,
+    external: false,
+    perf: 9,
+    vpn: 8,
+    value: 6,
+    futureproof: 10,
+    signal: 6,
+    notes: ["Best premium cellular router", "5G + tri-band Wi-Fi 7", "Battery-powered flagship"]
+  },
+  {
+    name: "Puli AX (GL-XE3000)",
+    category: "cellular",
+    wifi7: false,
+    battery: true,
+    multigig: false,
+    portable: true,
+    external: false,
+    perf: 7,
+    vpn: 6,
+    value: 8,
+    futureproof: 6,
+    signal: 6,
+    notes: ["Best portable 5G router", "Built-in battery", "Great for field work"]
+  },
+  {
+    name: "Spitz AX (GL-X3000)",
+    category: "cellular",
+    wifi7: false,
+    battery: false,
+    multigig: false,
+    portable: false,
+    external: true,
+    perf: 7,
+    vpn: 6,
+    value: 8,
+    futureproof: 6,
+    signal: 10,
+    notes: ["Best fixed 5G gateway", "External antennas", "Great for RV, rural, and failover use"]
+  }
+];
+
+function clamp(n,min,max){ return Math.max(min, Math.min(max, n)); }
+
+function scoreModel(m, prefs){
+  let s = 0;
+  if (m.category === prefs.usecase) s += 35;
+  else return -999;
+
+  const weightMap = {
+    balanced: {perf:8,vpn:8,value:8,futureproof:8,signal:8},
+    performance: {perf:14,vpn:8,value:4,futureproof:8,signal:6},
+    vpn: {perf:6,vpn:16,value:4,futureproof:6,signal:4},
+    value: {perf:5,vpn:5,value:16,futureproof:5,signal:4},
+    portability: {perf:5,vpn:4,value:6,futureproof:5,signal:4},
+    futureproof: {perf:8,vpn:6,value:4,futureproof:16,signal:4},
+    signal: {perf:4,vpn:4,value:4,futureproof:4,signal:16}
+  };
+
+  const w = weightMap[prefs.priority];
+  s += m.perf * w.perf / 10;
+  s += m.vpn * w.vpn / 10;
+  s += m.value * w.value / 10;
+  s += m.futureproof * w.futureproof / 10;
+  s += m.signal * w.signal / 10;
+
+  if (prefs.wifi7) s += m.wifi7 ? 12 : -6;
+  if (prefs.battery) s += m.battery ? 14 : -12;
+  if (prefs.multigig) s += m.multigig ? 10 : -6;
+  if (prefs.portable) s += m.portable ? 10 : -8;
+  if (prefs.external) s += m.external ? 12 : -8;
+  if (prefs.budget) s += m.value >= 8 ? 10 : -6;
+
+  if (prefs.priority === "portability") s += m.portable ? 12 : -10;
+  if (prefs.priority === "signal") s += m.external ? 12 : 0;
+
+  return Math.round(clamp(s, 0, 100));
+}
+
+function buildBar(label, value){
+  return `
+    <div class="barrow">
+      <div>${label}</div>
+      <div class="meter"><span style="width:${value*10}%"></span></div>
+    </div>
+  `;
+}
+
+function recommend(){
+  const prefs = {
+    usecase: document.getElementById("usecase").value,
+    priority: document.getElementById("priority").value,
+    wifi7: document.getElementById("wifi7").checked,
+    battery: document.getElementById("battery").checked,
+    multigig: document.getElementById("multigig").checked,
+    portable: document.getElementById("portable").checked,
+    external: document.getElementById("external").checked,
+    budget: document.getElementById("budget").checked
+  };
+
+  const ranked = models
+    .map(m => ({...m, score: scoreModel(m, prefs)}))
+    .sort((a,b) => b.score - a.score);
+
+  const best = ranked[0];
+  const runners = ranked.slice(1,3);
+
+  let reasonBullets = [...best.notes];
+  if (prefs.battery && best.battery) reasonBullets.unshift("Matches your battery requirement");
+  if (prefs.external && best.external) reasonBullets.unshift("Matches your external-antenna requirement");
+  if (prefs.wifi7 && best.wifi7) reasonBullets.unshift("Matches your Wi-Fi 7 preference");
+  if (prefs.multigig && best.multigig) reasonBullets.unshift("Matches your multi-gig requirement");
+  if (prefs.portable && best.portable) reasonBullets.unshift("Matches your portability preference");
+  if (prefs.budget && best.value >= 8) reasonBullets.unshift("Strong fit for cost-conscious buying");
+
+  const html = `
+    <div>
+      <div class="badge">${best.category.toUpperCase()}</div>
+      <div class="badge">Match score: ${best.score}/100</div>
+      <h2 class="result-title">${best.name}</h2>
+      <p class="lead">This is the best fit based on your selected use case, priorities, and feature requirements.</p>
+
+      <div class="bars">
+        ${buildBar("Performance", best.perf)}
+        ${buildBar("VPN speed", best.vpn)}
+        ${buildBar("Value", best.value)}
+        ${buildBar("Future-proofing", best.futureproof)}
+        ${buildBar("Signal", best.signal)}
+      </div>
+
+      <div class="reasons">
+        <div class="score">Why this model ranked first</div>
+        <ul>${reasonBullets.map(r => `<li>${r}</li>`).join("")}</ul>
+      </div>
+
+      <div class="top3">
+        <div class="score">Runner-up picks</div>
+        <table>
+          <thead><tr><th>Model</th><th>Score</th><th>Why it also fits</th></tr></thead>
+          <tbody>
+            ${runners.map(r => `<tr><td>${r.name}</td><td>${r.score}</td><td>${r.notes[0]}</td></tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+  document.getElementById("result").innerHTML = html;
+}
+
+document.getElementById("runBtn").addEventListener("click", recommend);
+</script>
+</body>
+</html>
