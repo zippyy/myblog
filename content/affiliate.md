@@ -9,6 +9,8 @@ title = 'Affiliate Links'
 
 These Links help me "keep the lights on" so to speak so please try and use any of the following links to platforms you may already be using!
 
+[Computers4People SIM](https://www.computers4people.org/shield?ref=2432389000008681607&coupon=REFERRAL5) Awesome T-Mobile based hotspot SIM; $14.95 a month for unlimited 5G data. Use the refferal link for 5% off monthly.
+
 [![](https://real-debrid.com/static/images/banner/en.png)](http://real-debrid.com/?id=7432212)
 [Real-Debrid](http://real-debrid.com/?id=7432212) Real Debrid is a cloud torrent and file host aggregate and seedbox/caching platform. I use it with Stremio for the ultimate entertainment streaming setup.
 
