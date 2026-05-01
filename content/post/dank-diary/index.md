@@ -31,7 +31,7 @@ Nothing crazy feature wise, most of the work went into making sure it actually w
 ## Access
 
 Web app is live here:  
-https://ios.dankdiary.xyz
+https://dankdiary.xyz
 
 TestFlight is here:  
 https://testflight.apple.com/join/HZxEHcz6
