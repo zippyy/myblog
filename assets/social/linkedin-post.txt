@@ -1,0 +1,9 @@
+I published a complete guide for installing OpenClash on a GL.iNet Slate 7 Pro and tunneling it back through a self-hosted VLESS REALITY server on a GL.iNet Flint 3.
+
+The post covers:
+- OpenClash installation on Slate 7 Pro
+- Xray setup on Flint 3
+- VLESS REALITY + XTLS Vision
+- Mihomo Meta config
+- The OpenClash SAFE_PATHS issue
+- Full troubleshooting and validation

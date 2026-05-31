@@ -1,0 +1,43 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+tcp-concurrent: true
+
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  ipv6: false
+  enhanced-mode: redir-host
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback:
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+
+proxies:
+  - name: Flint3-Reality
+    type: vless
+    server: YOUR_DDNS_HOSTNAME
+    port: 9443
+    uuid: YOUR_UUID
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: YOUR_PUBLIC_KEY
+      short-id: YOUR_SHORT_ID
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Flint3-Reality
+
+rules:
+  - MATCH,Proxy

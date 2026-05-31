@@ -1,0 +1,9 @@
+New guide: GL.iNet Flint 3 + Slate 7 Pro with VLESS REALITY.
+
+Covers:
+- Installing OpenClash on Slate 7 Pro
+- Xray on Flint 3
+- VLESS REALITY + Vision
+- Mihomo Meta
+- SAFE_PATHS fix
+- Full validation steps
