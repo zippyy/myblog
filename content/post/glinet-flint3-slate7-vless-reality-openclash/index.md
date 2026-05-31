@@ -20,9 +20,6 @@ tags:
   - VLESS
   - REALITY
   - Travel Router
-featured_image: "/images/posts/glinet-flint3-slate7-vless-reality-openclash/hero.png"
-images:
-  - "/images/posts/glinet-flint3-slate7-vless-reality-openclash/og-image.png"
 toc: true
 ---
 
