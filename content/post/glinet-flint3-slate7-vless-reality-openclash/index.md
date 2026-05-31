@@ -35,14 +35,14 @@ This guide walks through a complete end-to-end setup:
 4. Configure OpenClash/Mihomo on the Slate 7 Pro.
 5. Route all Slate-connected client devices through the Flint 3 at home.
 
-The goal is to turn the Slate 7 Pro into a travel router that tunnels connected devices back through the Flint 3 without using a traditional WireGuard/OpenVPN-style tunnel.
+The goal is to turn the Slate 7 Pro or Slate 7 into a travel router that tunnels connected devices back through the Flint 3 without using a traditional WireGuard/OpenVPN-style tunnel.
 
 The finished path looks like this:
 
 ```text
 Phone / Laptop / Tablet
         ↓
-GL.iNet Slate 7 Pro
+GL.iNet Slate 7 Pro or Slate 7
         ↓
 OpenClash / Mihomo Meta
         ↓
@@ -53,7 +53,7 @@ GL.iNet Flint 3
 Home Internet Connection
 ```
 
-{{< figure src="/images/posts/glinet-flint3-slate7-vless-reality-openclash/architecture.png" alt="Network architecture for Flint 3 and Slate 7 Pro VLESS REALITY setup" caption="Client devices connect to the Slate 7 Pro, which tunnels traffic through OpenClash to the Flint 3 running Xray." >}}
+<!--{{< figure src="/images/posts/glinet-flint3-slate7-vless-reality-openclash/architecture.png" alt="Network architecture for Flint 3 and Slate 7 Pro VLESS REALITY setup" caption="Client devices connect to the Slate 7 Pro, which tunnels traffic through OpenClash to the Flint 3 running Xray." >}} -->
 
 ## Hardware Used
 
@@ -62,20 +62,30 @@ Home Internet Connection
 The Flint 3 is the home-side endpoint. It runs the Xray server and accepts inbound VLESS REALITY connections.
 
 **Affiliate link placeholder:**  
-`https://example.com/flint3-affiliate-link`
+`https://amzn.to/4fhCJaf`
 
 ### GL.iNet Slate 7 Pro / GL-BE10000
 
-The Slate 7 Pro is the travel-side router. It runs OpenClash and transparently tunnels connected client devices back through the Flint 3.
+The Slate 7 Pro is the travel-side router. It runs OpenClash and transparently tunnels connected client devices back through the Flint 3. 
+
+***(Not available in the US yet so no Affiliate link, if you want to buy it in the US you must order direct from GL and use a forwarding service)***
+
+**Non-Affiliate link:**  
+`https://store.gl-inet.com/products/slate-7-pro-gl-be10000-tri-band-wi-fi-7-travel-router`
+
+OR
+
+### GL.iNet Slate 7 / GL-BE3600
+
+The Slate 7 can also be the travel-side router. It runs OpenClash and transparently tunnels connected client devices back through the Flint 3.
 
 **Affiliate link placeholder:**  
-`https://example.com/slate7pro-affiliate-link`
+`https://amzn.to/4o55c5w`
 
 ### Optional Accessories
 
-- Router UPS: `https://example.com/router-ups-affiliate-link`
-- USB-C PD battery: `https://example.com/usb-c-pd-power-bank-affiliate-link`
-- Portable 5G modem/hotspot: `https://example.com/5g-modem-affiliate-link`
+- Anker USB-C PD battery: `https://amzn.to/4vlc1Cg`
+- Portable 4G/5G modem/hotspot (will update with Simpoyo uFi 5G when it is available): `https://store.gl-inet.com/products/simpoyo-ufi-4g-usb-dongle-with-hotspot`
 
 ## VLESS REALITY vs WireGuard vs Tailscale
 
