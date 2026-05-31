@@ -61,7 +61,7 @@ Home Internet Connection
 
 The Flint 3 is the home-side endpoint. It runs the Xray server and accepts inbound VLESS REALITY connections.
 
-**Affiliate link placeholder:**  
+**Affiliate link:**  
 `https://amzn.to/4fhCJaf`
 
 ### GL.iNet Slate 7 Pro / GL-BE10000
@@ -79,13 +79,13 @@ OR
 
 The Slate 7 can also be the travel-side router. It runs OpenClash and transparently tunnels connected client devices back through the Flint 3.
 
-**Affiliate link placeholder:**  
+**Affiliate link:**  
 `https://amzn.to/4o55c5w`
 
-### Optional Accessories
+### Optional Accessories 
 
-- Anker USB-C PD battery: `https://amzn.to/4vlc1Cg`
-- Portable 4G/5G modem/hotspot (will update with Simpoyo uFi 5G when it is available): `https://store.gl-inet.com/products/simpoyo-ufi-4g-usb-dongle-with-hotspot`
+- Anker USB-C PD battery: **Affiliate Link** `https://amzn.to/4vlc1Cg`
+- Portable 4G/5G modem/hotspot (will update with Simpoyo uFi 5G when it is available): **Non-Affiliate link:** `https://store.gl-inet.com/products/simpoyo-ufi-4g-usb-dongle-with-hotspot`
 
 ## VLESS REALITY vs WireGuard vs Tailscale
 
