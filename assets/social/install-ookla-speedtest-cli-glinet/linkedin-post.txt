@@ -1,0 +1,3 @@
+I published a quick GL.iNet/OpenWrt guide for installing the official Ookla Speedtest CLI directly on ARM64 routers like the Flint 3, Slate 7, Slate 7 Pro, Mudi 7, and Spitz AX.
+
+Useful for ISP testing, VPN throughput checks, cellular modem testing, and travel router troubleshooting.
