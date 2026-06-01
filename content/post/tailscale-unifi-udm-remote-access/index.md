@@ -629,52 +629,6 @@ Recommended practices:
 - document who can access what
 - keep UniFi OS and Tailscale updated
 
-For a home lab, you can be a little more relaxed.
-
-For a client or business, write the rules down.
-
-## Real-World Use Cases
-
-This setup is excellent for:
-
-### Home lab access
-
-Access Proxmox, NAS, Home Assistant, dashboards, and internal tools while away from home.
-
-### Small business support
-
-Support a client network without exposing RDP, SSH, or firewall admin pages to the public internet.
-
-### Camera and NVR access
-
-Reach camera systems internally without opening web ports or relying on sketchy vendor cloud access.
-
-### Media server access
-
-Access local media services by IP or internal DNS name.
-
-### Traveling with trusted internet
-
-Use the UniFi gateway as an exit node when you want your traffic to route through home or office.
-
-## Affiliate-Ready Hardware Section
-
-If you are turning this into a full remote-access setup, these are the kinds of products worth linking in a Tech Relay post:
-
-- UniFi Dream Machine Pro
-- UniFi Dream Machine SE
-- UniFi Cloud Gateway Max
-- UniFi Dream Router
-- UniFi Switch Lite 8 PoE
-- UniFi U6 or U7 access points
-- Synology NAS
-- mini PC for Proxmox
-- GL.iNet travel router for remote access testing
-
-Suggested disclosure:
-
-> This post may contain affiliate links. If you purchase through these links, Tech Relay may earn a commission at no additional cost to you.
-
 ## Final Thoughts
 
 The best remote access setup is the one you actually trust enough to leave enabled.
@@ -697,7 +651,8 @@ For IT consulting and small business support, it is the kind of practical upgrad
 
 ## Sources and Further Reading
 
-- Colton Idle’s original DEV Community article on installing Tailscale on a UniFi router
+- Colton Idle’s original DEV Community article on installing Tailscale on a UniFi router: https://dev.to/coltonidle/how-to-install-tailscale-on-your-unifi-router-udm-5a35
+
 - SierraSoftworks `tailscale-unifi` project
 - Tailscale subnet router documentation
 - Tailscale exit node documentation
@@ -707,7 +662,7 @@ For IT consulting and small business support, it is the kind of practical upgrad
 
 ### Can I install Tailscale directly on a UniFi Dream Machine?
 
-Yes. UniFi does not currently offer first-party native Tailscale support in the standard VPN settings, but the SierraSoftworks community project installs Tailscale on UniFi OS devices and runs it as a persistent service.
+Yes. UniFi does not currently offer first-party native Tailscale support in the standard VPN settings, but the SierraSoftworks community project installs Tailscale on UniFi OS devices and runs it as a persistent service. This alswo works on the Cloud Gateways like UXG-MAX and UCG-Fiber
 
 ### Does this replace UniFi Teleport?
 
