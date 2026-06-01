@@ -20,11 +20,6 @@ tags:
   - Travel Router
   - Networking
 toc: true
-featureImage: "hero.png"
-featureImageAlt: "GL.iNet router running Ookla Speedtest CLI"
-featureImageCap: "Install the official Ookla Speedtest CLI directly on your GL.iNet router."
-shareImage: "og-image.png"
-thumbnail: "hero.png"
 usePageBundles: true
 ---
 
