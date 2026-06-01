@@ -662,7 +662,7 @@ For IT consulting and small business support, it is the kind of practical upgrad
 
 ### Can I install Tailscale directly on a UniFi Dream Machine?
 
-Yes. UniFi does not currently offer first-party native Tailscale support in the standard VPN settings, but the SierraSoftworks community project installs Tailscale on UniFi OS devices and runs it as a persistent service. This alswo works on the Cloud Gateways like UXG-MAX and UCG-Fiber
+Yes. UniFi does not currently offer first-party native Tailscale support in the standard VPN settings, but the SierraSoftworks community project installs Tailscale on UniFi OS devices and runs it as a persistent service. This also works on the Cloud Gateways like UXG-MAX and UCG-Fiber
 
 ### Does this replace UniFi Teleport?
 
