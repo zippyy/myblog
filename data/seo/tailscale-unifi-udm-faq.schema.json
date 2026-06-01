@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I install Tailscale directly on a UniFi Dream Machine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. UniFi does not currently offer first-party native Tailscale support in the standard VPN settings, but the SierraSoftworks community project installs Tailscale on UniFi OS devices and runs it as a persistent service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Tailscale replace UniFi Teleport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can. Teleport is simple, but Tailscale is more flexible if you want subnet routing, exit nodes, ACLs, multi-site access, and support across non-UniFi devices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to open ports to use Tailscale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Tailscale allows access to internal resources without forwarding ports to the public internet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I access VLANs over Tailscale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Advertise each subnet you want reachable, then approve those routes in the Tailscale admin console."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does DNS fail after installing Tailscale on UniFi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In some setups, dnsmasq does not listen properly on tailscale0. Adding interface=tailscale0 to the dnsmasq config and restarting dnsmasq can fix local DNS resolution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the installer complain about Bullseye backports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some UniFi OS builds reference Debian Bullseye backports in a way that can fail when the repository is no longer available from the expected mirror. Updating the source to the Debian archive path fixes the package lookup."
+      }
+    }
+  ]
+}
