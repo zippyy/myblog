@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need a managed switch for VLANs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you want to carry multiple VLANs over one cable and assign ports to different VLANs, you need a managed switch or smart switch with VLAN support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an unmanaged switch pass VLAN tags?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some unmanaged switches may pass tagged frames, but they cannot properly assign access ports, manage PVIDs, or enforce VLAN membership. A managed switch is recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should my trunk port be tagged or untagged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a clean router-to-switch trunk, tag every VLAN unless you specifically need a native VLAN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the CPU or self port in LuCI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CPU or self entry represents the router side of the bridge. It must be tagged for VLANs that OpenWrt needs to route, firewall, or provide DHCP for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use the same trunk for access points?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If your access point supports VLAN-tagged SSIDs, connect it to a switch port configured as a trunk and tag the SSID VLANs on that port."
+      }
+    }
+  ]
+}

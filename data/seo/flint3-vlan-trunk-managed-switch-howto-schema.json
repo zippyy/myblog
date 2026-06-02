@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Configure a VLAN Trunk Between a GL.iNet Flint 3 and a Managed Switch",
+  "description": "Create a tagged VLAN trunk from a Flint 3 router to any managed switch.",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "GL.iNet Flint 3"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Managed switch"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "LuCI"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Open LuCI",
+      "text": "Open the Flint 3 LuCI interface at /cgi-bin/luci."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Enable VLAN filtering",
+      "text": "Enable bridge VLAN filtering on br-lan."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Tag VLANs on trunk",
+      "text": "Tag the CPU/self port and the selected Flint 3 trunk port for each VLAN."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create VLAN interfaces",
+      "text": "Create interfaces such as br-lan.10, br-lan.20, br-lan.30, and br-lan.40 for routed VLANs."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Configure switch uplink",
+      "text": "Configure the managed switch port connected to the Flint 3 as a tagged trunk with the same VLAN IDs."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Test clients",
+      "text": "Connect test clients to access ports and confirm DHCP, internet access, and isolation."
+    }
+  ]
+}

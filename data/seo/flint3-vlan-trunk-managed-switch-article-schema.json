@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "How to Configure a VLAN Trunk Between a GL.iNet Flint 3 and Any Managed Switch",
+  "description": "Step-by-step guide for configuring a VLAN trunk port between a GL.iNet Flint 3 and any managed switch using LuCI, OpenWrt bridge VLAN filtering, and tagged VLANs.",
+  "author": {
+    "@type": "Person",
+    "name": "Nicholas Bennett"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tech Relay",
+    "url": "https://techrelay.xyz"
+  },
+  "datePublished": "2026-06-02",
+  "dateModified": "2026-06-02",
+  "mainEntityOfPage": "https://techrelay.xyz/posts/flint3-vlan-trunk-managed-switch/",
+  "image": "https://techrelay.xyz/images/posts/flint3-vlan-trunk-managed-switch/flint3-vlan-trunk-featured.svg",
+  "proficiencyLevel": "Intermediate",
+  "dependencies": "GL.iNet Flint 3, LuCI, OpenWrt, managed switch with VLAN support"
+}

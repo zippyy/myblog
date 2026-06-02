@@ -1,0 +1,1 @@
+Create a clean technical blog hero image showing a GL.iNet Flint 3 router connected by one Ethernet trunk cable to a managed switch. Show four labeled VLAN streams flowing through the trunk: Main, IoT, Guest, and Servers. Style: modern dark tech illustration, blue accents, professional SMB networking theme, no brand logos except generic router/switch shapes, 16:9 aspect ratio.

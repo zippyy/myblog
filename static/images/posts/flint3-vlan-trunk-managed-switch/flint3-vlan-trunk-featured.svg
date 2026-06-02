@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#111827"/>
+  <rect x="120" y="120" width="1360" height="660" rx="42" fill="#1f2937" stroke="#38bdf8" stroke-width="6"/>
+  <text x="800" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#f9fafb">Flint 3 VLAN Trunk Setup</text>
+  <text x="800" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#cbd5e1">One Ethernet cable. Multiple isolated networks.</text>
+  <rect x="250" y="390" width="330" height="150" rx="24" fill="#0f172a" stroke="#93c5fd" stroke-width="4"/>
+  <text x="415" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">GL.iNet Flint 3</text>
+  <text x="415" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">OpenWrt / LuCI</text>
+  <line x1="580" y1="465" x2="1020" y2="465" stroke="#38bdf8" stroke-width="12"/>
+  <text x="800" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#e0f2fe">Tagged Trunk</text>
+  <text x="800" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#bfdbfe">VLAN 10 • VLAN 20 • VLAN 30 • VLAN 40</text>
+  <rect x="1020" y="390" width="330" height="150" rx="24" fill="#0f172a" stroke="#93c5fd" stroke-width="4"/>
+  <text x="1185" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Managed Switch</text>
+  <text x="1185" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">Tagged + Access Ports</text>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#f9fafb">
+    <rect x="300" y="620" width="210" height="55" rx="16" fill="#0369a1"/><text x="405" y="656" text-anchor="middle">Main</text>
+    <rect x="545" y="620" width="210" height="55" rx="16" fill="#047857"/><text x="650" y="656" text-anchor="middle">IoT</text>
+    <rect x="790" y="620" width="210" height="55" rx="16" fill="#7c3aed"/><text x="895" y="656" text-anchor="middle">Guest</text>
+    <rect x="1035" y="620" width="210" height="55" rx="16" fill="#b45309"/><text x="1140" y="656" text-anchor="middle">Servers</text>
+  </g>
+  <text x="800" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#94a3b8">techrelay.xyz</text>
+</svg>
