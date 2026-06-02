@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does UU Game Booster work on GL.iNet routers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many GL.iNet routers can run the UU OpenWrt router plugin because GL.iNet firmware is OpenWrt-based, provided the router has compatible architecture support, internet access, and TUN support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need kmod-tun?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Install kmod-tun and verify /dev/net/tun exists before troubleshooting the UU plugin itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can this accelerate Nintendo Switch, PlayStation, and Xbox?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The router plugin can accelerate supported gaming devices behind the router, including consoles and handhelds that cannot run a desktop client."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is UU Game Booster the same thing as a VPN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. UU Game Booster is focused on supported game acceleration and route optimization, not general-purpose VPN privacy or full-network tunneling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the UU app not discover my router?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common causes include the phone being on cellular instead of router Wi-Fi, the router not being in normal router mode, the LAN bridge not behaving as expected, or the UU service not running."
+      }
+    }
+  ]
+}

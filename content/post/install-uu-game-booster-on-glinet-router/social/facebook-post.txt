@@ -1,0 +1,3 @@
+I put together a full guide for installing NetEase UU Game Booster on a GL.iNet router. It covers SSH, TUN support, the OpenWrt installer, binding the router, and troubleshooting.
+
+https://techrelay.xyz/post/install-uu-game-booster-on-glinet-router/

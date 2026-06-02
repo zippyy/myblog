@@ -1,0 +1,5 @@
+New Tech Relay guide: How to install NetEase UU Game Booster on a GL.iNet router.
+
+This walkthrough covers the OpenWrt-based install process, kmod-tun verification, the UU installer command, router binding from the mobile app, and troubleshooting for common issues like missing TUN support or router discovery failures. Useful for console, handheld, and travel-router gaming setups.
+
+https://techrelay.xyz/post/install-uu-game-booster-on-glinet-router/

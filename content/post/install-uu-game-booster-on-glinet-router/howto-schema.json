@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Install NetEase UU Game Booster on a GL.iNet Router",
+  "description": "Install the UU OpenWrt router plugin on a GL.iNet router.",
+  "totalTime": "PT20M",
+  "supply": [
+    {
+      "@type": "HowToSupply",
+      "name": "GL.iNet router"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "UU Game Booster account"
+    }
+  ],
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "SSH terminal"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "SSH into the router",
+      "text": "Connect to the GL.iNet router using ssh root@192.168.8.1 or the router's LAN IP."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Install TUN support",
+      "text": "Run opkg update and opkg install kmod-tun, then verify /dev/net/tun exists."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Download the UU installer",
+      "text": "Download install.sh from the NetEase uuplugin-script path into /tmp."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Run the installer",
+      "text": "Run /bin/sh install.sh openwrt $(uname -m)."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Bind the router",
+      "text": "Connect your phone to the GL.iNet router Wi-Fi and bind the router from the UU Game Booster app."
+    }
+  ]
+}

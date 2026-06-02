@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Install NetEase UU Game Booster on a GL.iNet Router",
+  "description": "Complete step-by-step guide for installing NetEase UU Game Booster on GL.iNet routers running OpenWrt.",
+  "author": {
+    "@type": "Organization",
+    "name": "Tech Relay"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tech Relay",
+    "url": "https://techrelay.xyz"
+  },
+  "datePublished": "2026-06-02",
+  "dateModified": "2026-06-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techrelay.xyz/post/install-uu-game-booster-on-glinet-router/"
+  }
+}

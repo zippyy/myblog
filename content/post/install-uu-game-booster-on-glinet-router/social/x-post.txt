@@ -1,0 +1,3 @@
+Install NetEase UU Game Booster on a GL.iNet router and accelerate consoles/handhelds at the router level. Full OpenWrt walkthrough with TUN checks, installer commands, binding steps, and troubleshooting.
+
+https://techrelay.xyz/post/install-uu-game-booster-on-glinet-router/
