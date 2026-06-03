@@ -1,0 +1,7 @@
+items:
+  - question: "Can the GL.iNet Flint 3 really be used for Time Machine?"
+    answer: "Yes. With Samba 4.18.8 and the hidden macos/timemachine UCI flags, the USB SSD share appears as a native Time Machine target."
+  - question: "Does this survive reboot?"
+    answer: "Yes. The settings are committed to /etc/config/samba4 using UCI."
+  - question: "Should I use Netatalk?"
+    answer: "No. Use SMB with Samba fruit support on current macOS."

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "How to Use a GL.iNet Flint 3 USB SSD as a Native Apple Time Machine Backup Target",
+  "description": "Turn your GL.iNet Flint 3 into a native Apple Time Machine backup server using a USB SSD and hidden built-in Samba Time Machine support.",
+  "author": {
+    "@type": "Person",
+    "name": "Nicholas Bennett"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechRelay"
+  },
+  "datePublished": "2026-06-03",
+  "dateModified": "2026-06-03",
+  "keywords": [
+    "GL.iNet Flint 3 Time Machine",
+    "GL-BE9300 Time Machine",
+    "OpenWrt Time Machine SMB",
+    "Samba fruit Time Machine"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/glinet-flint-3-time-machine-backup/"
+  }
+}

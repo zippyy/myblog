@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can the GL.iNet Flint 3 be used for Time Machine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Current firmware with Samba 4.18.8 can expose a USB SSD as a valid Apple Time Machine SMB target when the hidden macos and timemachine UCI options are enabled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this survive reboot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The settings are stored in /etc/config/samba4 through UCI and survive Samba restarts and router reboots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why not edit smb.conf directly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GL.iNet regenerates /var/etc/smb.conf whenever Samba restarts, so direct edits are overwritten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this require Netatalk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This setup uses SMB and Samba's Apple compatibility features."
+      }
+    }
+  ]
+}

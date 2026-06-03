@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#111827"/>
+  <rect x="80" y="80" width="1040" height="515" rx="32" fill="#1f2937" stroke="#3b82f6" stroke-width="6"/>
+  <text x="600" y="250" text-anchor="middle" fill="#ffffff" font-size="52" font-family="Arial, sans-serif" font-weight="700">Time Machine Disk Detected</text>
+  <text x="600" y="340" text-anchor="middle" fill="#cbd5e1" font-size="30" font-family="Arial, sans-serif">Replace this placeholder with a real screenshot before publishing.</text>
+  <text x="600" y="425" text-anchor="middle" fill="#93c5fd" font-size="26" font-family="Arial, sans-serif">/images/glinet-flint-3-time-machine-backup/timemachine-disk-detected.svg</text>
+</svg>
