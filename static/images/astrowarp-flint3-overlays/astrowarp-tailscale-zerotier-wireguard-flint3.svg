@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788">
+  <rect width="1400" height="788" fill="#101820"/>
+  <rect x="70" y="70" width="1260" height="648" rx="32" fill="#17232e" stroke="#33d17a" stroke-width="4"/>
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" font-weight="700">Flint 3 Overlay Stack</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="24" fill="#b8c7d1">AstroWarp + Tailscale + ZeroTier + WireGuard</text>
+
+  <rect x="115" y="260" width="300" height="150" rx="24" fill="#213444" stroke="#57c7ff" stroke-width="3"/>
+  <text x="160" y="325" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" font-weight="700">AstroWarp</text>
+  <text x="160" y="365" font-family="Arial, sans-serif" font-size="22" fill="#d7edf8">mptun0</text>
+
+  <rect x="550" y="260" width="300" height="150" rx="24" fill="#213444" stroke="#33d17a" stroke-width="3"/>
+  <text x="600" y="325" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" font-weight="700">Flint 3</text>
+  <text x="600" y="365" font-family="Arial, sans-serif" font-size="22" fill="#d7edf8">GL-BE9300</text>
+
+  <rect x="985" y="260" width="300" height="150" rx="24" fill="#213444" stroke="#ffcc00" stroke-width="3"/>
+  <text x="1035" y="325" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" font-weight="700">LAN</text>
+  <text x="1035" y="365" font-family="Arial, sans-serif" font-size="22" fill="#d7edf8">br-lan / VLANs</text>
+
+  <rect x="170" y="505" width="250" height="95" rx="18" fill="#24384a" stroke="#ffffff" stroke-width="2"/>
+  <text x="210" y="562" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">Tailscale</text>
+
+  <rect x="470" y="505" width="250" height="95" rx="18" fill="#24384a" stroke="#ffffff" stroke-width="2"/>
+  <text x="520" y="562" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">ZeroTier</text>
+
+  <rect x="770" y="505" width="250" height="95" rx="18" fill="#24384a" stroke="#ffffff" stroke-width="2"/>
+  <text x="815" y="562" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">WireGuard</text>
+
+  <line x1="415" y1="335" x2="550" y2="335" stroke="#57c7ff" stroke-width="5"/>
+  <line x1="850" y1="335" x2="985" y2="335" stroke="#33d17a" stroke-width="5"/>
+  <line x1="700" y1="410" x2="295" y2="505" stroke="#ffffff" stroke-width="3" opacity=".7"/>
+  <line x1="700" y1="410" x2="595" y2="505" stroke="#ffffff" stroke-width="3" opacity=".7"/>
+  <line x1="700" y1="410" x2="895" y2="505" stroke="#ffffff" stroke-width="3" opacity=".7"/>
+
+  <text x="100" y="680" font-family="Arial, sans-serif" font-size="22" fill="#b8c7d1">TechRelay.xyz · Field-tested OpenWrt networking notes</text>
+</svg>
