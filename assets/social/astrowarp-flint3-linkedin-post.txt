@@ -1,0 +1,7 @@
+I tested AstroWarp, Tailscale, ZeroTier, and WireGuard together on a GL.iNet Flint 3 running Mesh Alpha firmware.
+
+The interesting part: the services can coexist technically.
+
+The issue is that GL.iNet's management layer may disable Tailscale and ZeroTier when AstroWarp is enabled by flipping their UCI settings.
+
+I documented the full troubleshooting flow, the commands, and the recovery script.

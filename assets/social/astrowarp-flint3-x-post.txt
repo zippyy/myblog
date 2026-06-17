@@ -1,0 +1,7 @@
+AstroWarp + Tailscale + ZeroTier + WireGuard on a Flint 3?
+
+Technically yes.
+
+The problem is GL.iNet's management layer flipping Tailscale/ZeroTier UCI settings to disabled.
+
+Fix script included in the post.
