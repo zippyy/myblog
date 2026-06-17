@@ -4,7 +4,7 @@ slug: "astrowarp-tailscale-zerotier-wireguard-flint3"
 date: 2026-06-17T12:00:00-06:00
 lastmod: 2026-06-17T12:00:00-06:00
 draft: false
-author: "Nicholas"
+author: "Nicholas Bennett"
 description: "AstroWarp, Tailscale, ZeroTier, and WireGuard can run together on a GL.iNet Flint 3. The catch is that GL.iNet’s management layer may disable Tailscale and ZeroTier when AstroWarp is enabled. Here is the fix."
 summary: "A real-world Flint 3 Mesh Alpha firmware test showing how AstroWarp, Tailscale, ZeroTier, and WireGuard can coexist, why Tailscale and ZeroTier get disabled, and the exact recovery script to restore them."
 keywords:
