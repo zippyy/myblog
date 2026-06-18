@@ -12,7 +12,7 @@ title = 'Digital Nomad VPN Setup'
 weight = '10'
 categories = ['Digital Nomad','Pinned']
 toc = true
-pinnedrank = 1
+pinnedRank = 1
 +++
 
 <span style="color: red;"> **I will be doing an updated guide along with an updated hardware guide shortly, I now have access to flagship devices** </span>
