@@ -92,7 +92,7 @@
       </ul>
     {{ end }}
 
-    {{- $posts := where .Site.RegularPages "Type" "in" $s.mainSections }}
+    {{- $posts := sort (where .Site.RegularPages "Type" "in" $s.mainSections) "Date" "desc" }}
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
     {{- $manualPinned := sort (where $posts "Params.pinnedRank" "!=" nil) "Params.pinnedRank" "asc" -}}
 {{- $remainingSlots := sub $featured (len $manualPinned) -}}
