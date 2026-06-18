@@ -1,8 +1,12 @@
-{{ $count := .Get "count" | default 3 }}
+{{ $count := .Get "count" | default 8 }}
+{{ $posts := sort (where .Site.RegularPages "Section" "post") "Date" "desc" }}
+{{ $manualPinned := sort (where $posts "Params.pinnedRank" "!=" nil) "Params.pinnedRank" "asc" }}
+{{ $normalPosts := sort (where $posts "Params.pinnedRank" nil) "Date" "desc" }}
+{{ $featuredPosts := first $count ($manualPinned | append $normalPosts) }}
+
 <h3>Featured Posts</h3>
 <ul>
-  {{ range first $count .Site.Taxonomies.tags.featured }}
-      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-      </li>
+  {{ range $featuredPosts }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
