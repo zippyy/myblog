@@ -4,25 +4,23 @@
 {{ end }}
 
 {{ if eq site.Params.pinFeatured true }}
+
   {{ $featuredCount := default 8 site.Params.numberOfPinnedPosts }}
 
-  {{ $manualPinned := slice }}
-  {{ $autoPinned := slice }}
+  {{ $manualPinned := sort (where $pages "Params.pinnedRank" "!=" nil) "Params.pinnedRank" "asc" }}
 
-  {{ range where $pages "Params.featured" true }}
-    {{ if isset .Params "pinnedrank" }}
-      {{ $manualPinned = $manualPinned | append . }}
-    {{ else }}
-      {{ $autoPinned = $autoPinned | append . }}
-    {{ end }}
-  {{ end }}
+  {{ $remainingSlots := sub $featuredCount (len $manualPinned) }}
 
-  {{ $manualPinned = sort $manualPinned "Params.pinnedRank" "asc" }}
-  {{ $autoPinned = sort $autoPinned "Date" "desc" }}
+  {{ $normalCandidates := where $pages "Params.pinnedRank" nil }}
 
-  {{ $featuredPosts := first $featuredCount ($manualPinned | append $autoPinned) }}
+  {{ $autoPinned := first $remainingSlots $normalCandidates }}
+
+  {{ $featuredPosts := $manualPinned | append $autoPinned }}
+
   {{ $normalPosts := $pages | symdiff $featuredPosts }}
+
   {{ $pages = $featuredPosts | append $normalPosts }}
+
 {{ end }}
 <div class="grid-inverse wrap content">
   <div>
