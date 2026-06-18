@@ -29,9 +29,7 @@ keywords:
   - USB SSD Time Machine
   - Samba fruit Time Machine
   - GL.iNet network storage Mac backup
-featured: true
-pinned: true
-weight: 5
+pinnedRank: 2
 toc: true
 image: "/images/glinet-flint-3-time-machine-backup/hero.svg"
 images:
