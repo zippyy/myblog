@@ -96,7 +96,8 @@
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
     {{- $manualPinned := sort (where $posts "Params.pinnedRank" "!=" nil) "Params.pinnedRank" "asc" -}}
 {{- $remainingSlots := sub $featured (len $manualPinned) -}}
-{{- $autoPinned := first $remainingSlots (where $posts "Params.pinnedRank" nil) -}}
+{{- $normalPosts := sort (where $posts "Params.pinnedRank" nil) "Date" "desc" -}}
+{{- $autoPinned := first $remainingSlots $normalPosts -}}
 {{- $featuredPosts := $manualPinned | append $autoPinned -}}
     {{- with $featuredPosts }}
     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
@@ -111,7 +112,8 @@
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
     <ul class="flex-column">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
-      {{- range first $recent $posts | symdiff $featuredPosts }}
+      {{- $recentPosts := sort ($posts | symdiff $featuredPosts) "Date" "desc" -}}
+      {{- range first $recent $recentPosts }}
       <li>
         <a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
