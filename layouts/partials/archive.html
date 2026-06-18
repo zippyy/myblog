@@ -17,14 +17,13 @@
     {{ end }}
   {{ end }}
 
-  {{ $manualPinned = sort $manualPinned ".Params.pinnedrank" "asc" }}
-  {{ $autoPinned = first $featuredCount ($autoPinned.ByDate.Reverse) }}
+  {{ $manualPinned = sort $manualPinned "Params.pinnedRank" "asc" }}
+  {{ $autoPinned = sort $autoPinned "Date" "desc" }}
 
-  {{ $featuredPosts := $manualPinned | append $autoPinned }}
+  {{ $featuredPosts := first $featuredCount ($manualPinned | append $autoPinned) }}
   {{ $normalPosts := $pages | symdiff $featuredPosts }}
   {{ $pages = $featuredPosts | append $normalPosts }}
 {{ end }}
-
 <div class="grid-inverse wrap content">
   <div>
     <ul class="posts" id="posts">
