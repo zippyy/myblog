@@ -1,6 +1,6 @@
-{{ $pages := .Pages }}
+{{ $pages := .Pages.ByDate.Reverse }}
 {{ if .IsHome }}
-  {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ $pages = (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
 {{ end }}
 
 {{ if eq site.Params.pinFeatured true }}

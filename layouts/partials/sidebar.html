@@ -94,7 +94,10 @@
 
     {{- $posts := where .Site.RegularPages "Type" "in" $s.mainSections }}
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
-    {{- $featuredPosts := first $featured (where $posts "Params.featured" true)}}
+    {{- $manualPinned := sort (where $posts "Params.pinnedRank" "!=" nil) "Params.pinnedRank" "asc" -}}
+{{- $remainingSlots := sub $featured (len $manualPinned) -}}
+{{- $autoPinned := first $remainingSlots (where $posts "Params.pinnedRank" nil) -}}
+{{- $featuredPosts := $manualPinned | append $autoPinned -}}
     {{- with $featuredPosts }}
     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
     <ul>
