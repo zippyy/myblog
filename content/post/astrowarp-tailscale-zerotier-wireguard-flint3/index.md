@@ -532,6 +532,87 @@ Or add it to `/etc/rc.local` before `exit 0`:
 /root/watch-astrowarp-overlays.sh &
 ```
 
+## Basic OpenWRT procd Service 
+
+```sh
+cat >/etc/init.d/watch-astrowarp <<'EOF'
+#!/bin/sh /etc/rc.common
+
+START=99
+USE_PROCD=1
+
+start_service() {
+    procd_open_instance
+    procd_set_param command /bin/sh /root/watch-astrowarp-overlays.sh
+    procd_set_param respawn
+    procd_close_instance
+}
+EOF
+
+chmod +x /etc/init.d/watch-astrowarp
+/etc/init.d/watch-astrowarp enable
+/etc/init.d/watch-astrowarp start
+
+```
+
+## Dynamic procd Service
+
+```sh
+cat >/root/watch-astrowarp-overlays.sh <<'EOF'
+#!/bin/sh
+
+# Configuration
+TAILSCALE_IF="tailscale0"
+# ZeroTier interface names vary (e.g., zt0, zt8b2u6c4m). We check for anything starting with 'zt'
+ZEROTIER_PREFIX="zt"
+
+while true; do
+    fixed=0
+
+    # 1. Dynamically check Tailscale interface and operational state
+    # We verify the interface is 'UP' and has an assigned IP address
+    if ! ip addr show dev "$TAILSCALE_IF" 2>/dev/null | grep -q "inet "; then
+        logger -t astrowarp-overlay-watch "Tailscale interface down or missing IP. Restoring configuration..."
+        
+        # Enforce static configs just in case they were reverted
+        uci set tailscale.settings.enabled='1'
+        uci set tailscale.settings.lan_enabled='1'
+        uci set tailscale.settings.wan_enabled='1'
+        uci set tailscale.settings.masq='1'
+        uci commit tailscale
+        
+        /etc/init.d/tailscale restart
+        fixed=1
+    fi
+
+    # 2. Dynamically check ZeroTier interface operational state
+    # Finds any active network interface starting with 'zt' that possesses an IP address
+    ZT_INTERFACE=$(ip addr show | grep -E "^[0-9]+: ${ZEROTIER_PREFIX}" | awk -F': ' '{print $2}' | cut -d'@' -f1 | head -n 1)
+    
+    if [ -z "$ZT_INTERFACE" ] || ! ip addr show dev "$ZT_INTERFACE" 2>/dev/null | grep -q "inet "; then
+        logger -t astrowarp-overlay-watch "ZeroTier interface down or missing IP. Restoring configuration..."
+        
+        # Enforce static config
+        uci set zerotier.gl.enabled='1'
+        uci commit zerotier
+        
+        /etc/init.d/zerotier restart
+        fixed=1
+    fi
+
+    # Optional: If any service was restarted, give the router a brief window to re-initialize 
+    if [ "$fixed" = "1" ]; then
+        sleep 15
+    fi
+
+    sleep 30
+done
+EOF
+
+chmod +x /root/watch-astrowarp-overlays.sh
+
+```
+
 I prefer the manual recovery script unless AstroWarp keeps flipping the settings repeatedly.
 
 ---
