@@ -762,7 +762,7 @@ That is exactly what I wanted: AstroWarp enabled without sacrificing the existin
 
 The Flint 3 is flexible enough to run AstroWarp, Tailscale, ZeroTier, and WireGuard at the same time.
 
-The Mesh Alpha firmware may try to protect users from route conflicts by disabling Tailscale and ZeroTier when AstroWarp is enabled. But in this test, the underlying system handled all of them once the settings were restored.
+The GL firmware may try to protect users from route conflicts by disabling Tailscale and ZeroTier when AstroWarp is enabled. But in this test, the underlying system handled all of them once the settings were restored.
 
 For advanced users, the fix is simple:
 
@@ -802,7 +802,7 @@ Run the recovery command block or use `/root/fix-astrowarp-overlays.sh`.
 
 ### Is this officially supported?
 
-No. This is an advanced, unsupported configuration tested on Mesh Alpha firmware.
+No. This is an advanced, unsupported configuration.
 
 ### Should everyone do this?
 
