@@ -532,7 +532,7 @@ Or add it to `/etc/rc.local` before `exit 0`:
 /root/watch-astrowarp-overlays.sh &
 ```
 
-## Basic OpenWRT procd Service 
+<!--## Basic OpenWRT procd Service 
 
 ```sh
 cat >/etc/init.d/watch-astrowarp <<'EOF'
@@ -554,7 +554,7 @@ chmod +x /etc/init.d/watch-astrowarp
 /etc/init.d/watch-astrowarp start
 
 ```
-
+-->
 ## Dynamic procd Service
 
 ```sh
@@ -610,6 +610,35 @@ done
 EOF
 
 chmod +x /root/watch-astrowarp-overlays.sh
+
+```
+
+```sh
+
+cat >/etc/init.d/watch-astrowarp <<'EOF'
+#!/bin/sh /etc/rc.common
+
+START=99
+USE_PROCD=1
+
+start_service() {
+    procd_open_instance "watchdog"
+    procd_set_param command /bin/sh /root/watch-astrowarp-overlays.sh
+    procd_set_param respawn 3600 5 0  # Automatically revives your script if it crashes
+    procd_set_param stdout 1          # Routes script errors directly to system log
+    procd_set_param stderr 1
+    procd_close_instance
+}
+EOF
+
+
+```
+
+```sh
+
+chmod +x /etc/init.d/watch-astrowarp
+/etc/init.d/watch-astrowarp enable
+/etc/init.d/watch-astrowarp start
 
 ```
 
