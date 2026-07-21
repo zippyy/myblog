@@ -1,0 +1,19 @@
+{{- $posts := slice -}}
+{{- range (where site.RegularPages.ByDate.Reverse "Section" "post") -}}
+  {{- $posts = $posts | append (dict
+    "title" .Title
+    "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "lastmod" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "url" .Permalink
+    "path" .RelPermalink
+    "description" (default (.Summary | plainify) .Description)
+    "summary" (.Summary | plainify)
+    "content" .Plain
+    "categories" (default (slice) .Params.categories)
+    "tags" (default (slice) .Params.tags)
+    "featured" (default false .Params.featured)
+    "readingTime" .ReadingTime
+    "wordCount" .WordCount
+  ) -}}
+{{- end -}}
+{{- $posts | jsonify -}}
