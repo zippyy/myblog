@@ -1,0 +1,41 @@
+name: Terminal app CI
+
+on:
+  pull_request:
+    paths:
+      - "terminal/**"
+      - "layouts/index.json.json"
+      - ".github/workflows/terminal-ci.yml"
+  push:
+    branches:
+      - master
+    paths:
+      - "terminal/**"
+      - "layouts/index.json.json"
+      - ".github/workflows/terminal-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: terminal
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: terminal/go.mod
+          cache: false
+      - name: Format check
+        run: test -z "$(gofmt -l .)"
+      - name: Download modules
+        run: go mod download
+      - name: Vet
+        run: go vet ./...
+      - name: Build
+        run: go build ./cmd/techrelay-terminal
+      - name: Build container
+        run: docker build -t techrelay-terminal:test .
