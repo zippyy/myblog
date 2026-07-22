@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"html"
 	"io"
 	"log"
 	"net/http"
@@ -101,8 +102,10 @@ func fetchPosts(url string) ([]post, error) {
 		posts = envelope.Posts
 	}
 	for i := range posts {
-		posts[i].Title = strings.TrimSpace(posts[i].Title)
-		posts[i].Content = strings.TrimSpace(posts[i].Content)
+		posts[i].Title = strings.TrimSpace(html.UnescapeString(posts[i].Title))
+		posts[i].Description = strings.TrimSpace(html.UnescapeString(posts[i].Description))
+		posts[i].Summary = strings.TrimSpace(html.UnescapeString(posts[i].Summary))
+		posts[i].Content = strings.TrimSpace(html.UnescapeString(posts[i].Content))
 		if posts[i].URL == "" && posts[i].Path != "" {
 			posts[i].URL = strings.TrimRight(defaultSiteURL, "/") + "/" + strings.TrimLeft(posts[i].Path, "/")
 		}
