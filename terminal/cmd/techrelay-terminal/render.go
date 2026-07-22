@@ -15,8 +15,8 @@ var (
 	mutedStyle  = lipgloss.NewStyle().Foreground(lipgloss.Color("#7f8c8d"))
 	dateStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("#65d1ff"))
 	activeStyle = lipgloss.NewStyle().Bold(true).
-		Foreground(lipgloss.Color("#101014")).
-		Background(lipgloss.Color("#ff5fa2"))
+			Foreground(lipgloss.Color("#101014")).
+			Background(lipgloss.Color("#ff5fa2"))
 
 	markdownImagePattern = regexp.MustCompile(`!\[([^]]*)\]\([^)]+\)`)
 	markdownLinkPattern  = regexp.MustCompile(`\[([^]]+)\]\(([^)]+)\)`)
