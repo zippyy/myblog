@@ -15,7 +15,7 @@ on:
       - ".github/workflows/terminal-ci.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build:
@@ -25,27 +25,13 @@ jobs:
         working-directory: terminal
     steps:
       - uses: actions/checkout@v6
-        with:
-          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
       - uses: actions/setup-go@v6
         with:
           go-version-file: terminal/go.mod
           cache: true
           cache-dependency-path: terminal/go.sum
-      - name: Format source
-        run: gofmt -w .
-      - name: Commit formatting
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-        working-directory: .
-        run: |
-          if git diff --quiet -- terminal/cmd; then
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add terminal/cmd
-          git commit -m "Format terminal Go sources"
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
+      - name: Check formatting
+        run: test -z "$(gofmt -l .)"
       - name: Verify module files
         run: |
           go mod tidy
