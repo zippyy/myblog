@@ -31,22 +31,18 @@ jobs:
           cache: false
       - name: Normalize formatting
         run: gofmt -w .
-      - name: Download modules
-        run: go mod download
-      - name: Vet
-        run: |
-          set +e
-          go vet ./... > vet.txt 2>&1
-          status=$?
-          cat vet.txt
-          exit "$status"
-      - name: Upload vet diagnostics
-        if: failure()
+      - name: Resolve modules
+        run: go mod tidy
+      - name: Upload module lockfile
         uses: actions/upload-artifact@v4
         with:
-          name: terminal-vet-diagnostics
-          path: terminal/vet.txt
+          name: terminal-module-lockfile
+          path: |
+            terminal/go.mod
+            terminal/go.sum
           if-no-files-found: error
+      - name: Vet
+        run: go vet ./...
       - name: Build
         run: go build ./cmd/techrelay-terminal
       - name: Build container
