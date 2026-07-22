@@ -30,7 +30,12 @@ jobs:
           go-version-file: terminal/go.mod
           cache: false
       - name: Format check
-        run: test -z "$(gofmt -l .)"
+        run: |
+          diff="$(gofmt -d .)"
+          if [ -n "$diff" ]; then
+            printf '%s\n' "$diff"
+            exit 1
+          fi
       - name: Download modules
         run: go mod download
       - name: Vet
