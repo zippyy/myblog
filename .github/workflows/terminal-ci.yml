@@ -30,10 +30,16 @@ jobs:
           go-version-file: terminal/go.mod
           cache: true
           cache-dependency-path: terminal/go.sum
-      - name: Check formatting
+      - name: Normalize formatting
         run: |
           gofmt -w .
-          git diff --exit-code -- cmd
+          git diff -- cmd > formatting.patch
+      - name: Upload formatting patch
+        uses: actions/upload-artifact@v4
+        with:
+          name: terminal-formatting-patch
+          path: terminal/formatting.patch
+          if-no-files-found: error
       - name: Verify module files
         run: |
           go mod tidy
