@@ -8,7 +8,7 @@
     "path" .RelPermalink
     "description" (default (.Summary | plainify) .Description)
     "summary" (.Summary | plainify)
-    "content" .Plain
+    "content" .RawContent
     "categories" (default (slice) .Params.categories)
     "tags" (default (slice) .Params.tags)
     "featured" (default false .Params.featured)

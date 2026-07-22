@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 	"unicode/utf8"
 
@@ -16,6 +17,17 @@ var (
 	activeStyle = lipgloss.NewStyle().Bold(true).
 			Foreground(lipgloss.Color("#101014")).
 			Background(lipgloss.Color("#ff5fa2"))
+
+	markdownImagePattern = regexp.MustCompile(`!\[([^]]*)\]\([^)]+\)`)
+	markdownLinkPattern  = regexp.MustCompile(`\[([^]]+)\]\(([^)]+)\)`)
+)
+
+type articleLineStyle int
+
+const (
+	articleLineNormal articleLineStyle = iota
+	articleLineHeading
+	articleLineQuote
 )
 
 func (m model) View() tea.View {
@@ -182,19 +194,84 @@ func articleLines(item post, width int) []string {
 	if content == "" {
 		content = firstNonEmpty(item.Description, item.Summary, "This post has no terminal-readable body yet.")
 	}
-	paragraphs := strings.Split(strings.ReplaceAll(content, "\r\n", "\n"), "\n")
-	lines := make([]string, 0, len(paragraphs)*2)
-	for _, paragraph := range paragraphs {
-		paragraph = cleanSpace(paragraph)
-		if paragraph == "" {
-			if len(lines) == 0 || lines[len(lines)-1] != "" {
-				lines = append(lines, "")
+	content = strings.ReplaceAll(content, "\r\n", "\n")
+	content = strings.ReplaceAll(content, "\r", "\n")
+
+	sourceLines := strings.Split(content, "\n")
+	lines := make([]string, 0, len(sourceLines)*2)
+	inCode := false
+	fence := ""
+	inComment := false
+
+	appendBlank := func() {
+		if len(lines) == 0 || lines[len(lines)-1] != "" {
+			lines = append(lines, "")
+		}
+	}
+
+	for _, rawLine := range sourceLines {
+		trimmed := strings.TrimSpace(rawLine)
+
+		if inComment {
+			if strings.Contains(trimmed, "-->") {
+				inComment = false
 			}
 			continue
 		}
-		lines = append(lines, wrapWords(paragraph, width)...)
-		lines = append(lines, "")
+		if strings.HasPrefix(trimmed, "<!--") {
+			if !strings.Contains(trimmed, "-->") {
+				inComment = true
+			}
+			continue
+		}
+
+		if marker, ok := markdownFence(trimmed); ok {
+			if !inCode {
+				inCode = true
+				fence = marker
+				appendBlank()
+			} else if strings.HasPrefix(trimmed, fence) {
+				inCode = false
+				fence = ""
+				appendBlank()
+			}
+			continue
+		}
+
+		if inCode {
+			lines = append(lines, renderCodeLine(rawLine, width)...)
+			continue
+		}
+
+		if trimmed == "" {
+			appendBlank()
+			continue
+		}
+		if isMarkdownRule(trimmed) {
+			appendBlank()
+			lines = append(lines, rule(width))
+			appendBlank()
+			continue
+		}
+		if strings.HasPrefix(trimmed, "|") {
+			lines = append(lines, renderCodeLine(trimmed, width)...)
+			continue
+		}
+
+		display, style := markdownDisplayLine(rawLine)
+		wrapped := wrapWords(display, width)
+		for _, line := range wrapped {
+			switch style {
+			case articleLineHeading:
+				lines = append(lines, brandStyle.Render(line))
+			case articleLineQuote:
+				lines = append(lines, mutedStyle.Render(line))
+			default:
+				lines = append(lines, line)
+			}
+		}
 	}
+
 	for len(lines) > 0 && lines[len(lines)-1] == "" {
 		lines = lines[:len(lines)-1]
 	}
@@ -202,6 +279,91 @@ func articleLines(item post, width int) []string {
 		return []string{"No content available."}
 	}
 	return lines
+}
+
+func markdownFence(line string) (string, bool) {
+	if strings.HasPrefix(line, "```") {
+		return "```", true
+	}
+	if strings.HasPrefix(line, "~~~") {
+		return "~~~", true
+	}
+	return "", false
+}
+
+func markdownDisplayLine(value string) (string, articleLineStyle) {
+	trimmed := strings.TrimSpace(value)
+
+	headingLength := 0
+	for headingLength < len(trimmed) && trimmed[headingLength] == '#' {
+		headingLength++
+	}
+	if headingLength > 0 && headingLength < len(trimmed) && trimmed[headingLength] == ' ' {
+		return stripInlineMarkdown(strings.TrimSpace(trimmed[headingLength:])), articleLineHeading
+	}
+
+	if strings.HasPrefix(trimmed, ">") {
+		text := strings.TrimSpace(strings.TrimPrefix(trimmed, ">"))
+		return "│ " + stripInlineMarkdown(text), articleLineQuote
+	}
+
+	for _, marker := range []string{"- ", "* ", "+ "} {
+		if strings.HasPrefix(trimmed, marker) {
+			return "• " + stripInlineMarkdown(strings.TrimSpace(strings.TrimPrefix(trimmed, marker))), articleLineNormal
+		}
+	}
+
+	return stripInlineMarkdown(trimmed), articleLineNormal
+}
+
+func stripInlineMarkdown(value string) string {
+	value = markdownImagePattern.ReplaceAllString(value, "Image: $1")
+	value = markdownLinkPattern.ReplaceAllString(value, "$1 ($2)")
+	replacer := strings.NewReplacer(
+		"**", "",
+		"__", "",
+		"~~", "",
+		"`", "",
+	)
+	return replacer.Replace(value)
+}
+
+func renderCodeLine(value string, width int) []string {
+	value = strings.ReplaceAll(value, "\t", "    ")
+	prefix := "│ "
+	available := max(1, width-runeLen(prefix))
+	runes := []rune(value)
+	if len(runes) == 0 {
+		return []string{dateStyle.Render(prefix)}
+	}
+
+	lines := make([]string, 0, (len(runes)/available)+1)
+	for len(runes) > available {
+		lines = append(lines, dateStyle.Render(prefix)+string(runes[:available]))
+		runes = runes[available:]
+	}
+	lines = append(lines, dateStyle.Render(prefix)+string(runes))
+	return lines
+}
+
+func isMarkdownRule(value string) bool {
+	compact := strings.ReplaceAll(value, " ", "")
+	if len(compact) < 3 {
+		return false
+	}
+	for _, marker := range []rune{'-', '*', '_'} {
+		matched := true
+		for _, char := range compact {
+			if char != marker {
+				matched = false
+				break
+			}
+		}
+		if matched {
+			return true
+		}
+	}
+	return false
 }
 
 func renderHeader(width int) string {
