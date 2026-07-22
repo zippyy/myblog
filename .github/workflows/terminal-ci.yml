@@ -34,7 +34,19 @@ jobs:
       - name: Download modules
         run: go mod download
       - name: Vet
-        run: go vet ./...
+        run: |
+          set +e
+          go vet ./... > vet.txt 2>&1
+          status=$?
+          cat vet.txt
+          exit "$status"
+      - name: Upload vet diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: terminal-vet-diagnostics
+          path: terminal/vet.txt
+          if-no-files-found: error
       - name: Build
         run: go build ./cmd/techrelay-terminal
       - name: Build container
