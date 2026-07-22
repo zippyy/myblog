@@ -28,19 +28,16 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version-file: terminal/go.mod
-          cache: false
-      - name: Normalize formatting
-        run: gofmt -w .
-      - name: Resolve modules
-        run: go mod tidy
-      - name: Upload module lockfile
-        uses: actions/upload-artifact@v4
-        with:
-          name: terminal-module-lockfile
-          path: |
-            terminal/go.mod
-            terminal/go.sum
-          if-no-files-found: error
+          cache: true
+          cache-dependency-path: terminal/go.sum
+      - name: Check formatting
+        run: |
+          gofmt -w .
+          git diff --exit-code -- cmd
+      - name: Verify module files
+        run: |
+          go mod tidy
+          git diff --exit-code -- go.mod go.sum
       - name: Vet
         run: go vet ./...
       - name: Build
