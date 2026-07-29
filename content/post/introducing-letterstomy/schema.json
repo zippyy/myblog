@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Introducing LettersToMy: A Private Family Time Capsule Built for Apple Devices",
+      "description": "LettersToMy is a privacy-first family time capsule for letters, memories, collaboration, and future delivery.",
+      "datePublished": "2026-07-29T10:37:00-06:00",
+      "dateModified": "2026-07-29T10:37:00-06:00",
+      "author": {
+        "@type": "Person",
+        "name": "Nicholas Bennett"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tech Relay"
+      },
+      "mainEntityOfPage": "https://techrelay.xyz/post/introducing-letterstomy/",
+      "image": "https://techrelay.xyz/post/introducing-letterstomy/share.webp"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is LettersToMy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LettersToMy is a private family time-capsule app for writing letters, saving media and memories, collaborating with trusted relatives, and making content available to a recipient in the future."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which devices does LettersToMy support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The current app is being developed first for iPhone, iPad, and Mac. A CloudKit-integrated web app is planned, followed later by Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is family content stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Apple-first version stores content locally and synchronizes it through the archive owner's iCloud account using private and shared CloudKit databases."
+          }
+        }
+      ]
+    }
+  ]
+}
