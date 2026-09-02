@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Testing Now Open: GL.iNet Cross-Model Backup & Restore Utility",
+      "description": "Testing is now open for the GL.iNet Cross-Model Backup & Restore Utility, a LuCI and CLI tool for safer backup, migration, restore, and recovery across GL.iNet routers and OpenWrt generations.",
+      "datePublished": "2026-09-02T10:58:00-06:00",
+      "dateModified": "2026-09-02T10:58:00-06:00",
+      "mainEntityOfPage": "https://techrelay.xyz/post/testing-glinet-cross-model-backup-restore-utility/",
+      "image": "https://techrelay.xyz/post/testing-glinet-cross-model-backup-restore-utility/share.webp",
+      "author": {"@type": "Person", "name": "Nicholas Bennett"},
+      "publisher": {"@type": "Organization", "name": "Tech Relay", "url": "https://techrelay.xyz/"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the GL.iNet Cross-Model Backup & Restore Utility?",
+          "acceptedAnswer": {"@type": "Answer", "text": "It is an open-source LuCI application and CLI for creating, inspecting, validating, migrating, and restoring GL.iNet/OpenWrt router configuration locally or against another router over SSH."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I restore a backup to a different GL.iNet model?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes, with a Portable Profile when the destination has compatible capabilities. Clone and Remote-Safe Clone require the same model, while Device Snapshot is intended for the exact physical router."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work with OpenWrt 22 and OpenWrt 25?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Both are active testing targets. Release 17 includes legacy Lua 5.1/LuCI compatibility work and a signed apk package for OpenWrt 25.x firmware."}
+        },
+        {
+          "@type": "Question",
+          "name": "Will a restore change the destination router's IP address?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The LuCI restore workflow enables Preserve destination router LAN IP by default, keeping the target's current primary LAN management address unless the option is intentionally disabled."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I back up custom folders?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Explicit custom files and directories are supported, with recursive directory collection constrained by the tool's existing path, symlink, and size-safety rules."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to test on my main router?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Spare hardware is recommended first. The tool includes validation, pre-restore snapshots, rollback protection, and connectivity safeguards, but real-router testing is intended to uncover firmware-specific behavior."}
+        }
+      ]
+    }
+  ]
+}
